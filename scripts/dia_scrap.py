@@ -1,195 +1,198 @@
+"""
+Scraper de Dia con integración al esquema de categorías normalizadas.
+
+- Obtiene el árbol de categorías desde https://www.dia.es/api/v1/common-aggregator/menu-data
+- Registra mappings mercado↔taxonomía (pending si no existe master).
+- Descarga productos de cada subcategoría y los guarda en la BD.
+"""
+
+from __future__ import annotations
+
+import time
+from typing import Any, Dict, List, Optional, Tuple
+
 import requests
+
 import database
 
+MARKET = "dia"
+CATEGORIES_URL = "https://www.dia.es/api/v1/common-aggregator/menu-data"
+PLP_BASE_URL = "https://www.dia.es/api/v1/plp-back/reduced"
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/118.0.4472.124 Safari/537.36"
+    ),
+    "Accept": "application/json",
+}
+DELAY_SECONDS = 1
 
-def obtener_productos_dia(url, category_id):
-    """
-    Llama a la API de Dia y guarda los productos en la base de datos.
-    
-    Args:
-        url (str): URL de la API de Dia
-        category_id (int): ID de la categoría en la base de datos
-    
-    Returns:
-        int: Número de productos procesados exitosamente, None si hay error
-    """
+
+def obtener_categorias() -> List[Dict[str, Any]]:
     try:
-        # Hacer la petición GET a la API
-        print(f"Llamando a la API: {url}")
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-        }
-        
-        response = requests.get(url, headers=headers)
-        response.raise_for_status()  # Lanza una excepción si hay un error HTTP
-        
-        # Obtener los datos JSON de la respuesta
-        datos = response.json()
-        
-        # Extraer solo el array plp_items con los campos solicitados
-        plp_items = datos.get('plp_items', [])
-        productos_procesados = 0
-        
-        for item in plp_items:
-            display_name = item.get('display_name')
-            price = item.get('prices', {}).get('price')
-            price_per_unit = item.get('prices', {}).get('price_per_unit')
-            measure_unit = item.get('prices', {}).get('measure_unit')
-            brand = item.get('brand') if 'brand' in item else None
-            
-            # Guardar en la base de datos
-            product_id = database.insert_or_update_product(
-                display_name=display_name,
-                price=price,
-                price_per_unit=price_per_unit,
-                measure_unit=measure_unit,
-                category_id=category_id,
-                brand=brand
-            )
-            
-            if product_id:
-                productos_procesados += 1
-        
-        print(f"✓ Total de productos procesados: {productos_procesados}")
-        
-        return productos_procesados
-    
-    except requests.exceptions.RequestException as e:
-        print(f"✗ Error al hacer la petición: {e}")
-        return None
-    except Exception as e:
-        print(f"✗ Error inesperado: {e}")
-        import traceback
-        traceback.print_exc()
-        return None
-
-
-def obtener_categorias(url):
-    """
-    Llama a la API de Dia Categories y guarda todas las subcategorías en la base de datos.
-    
-    Args:
-        url (str): URL de la API de menu-data
-    
-    Returns:
-        list: Lista de subcategorías con id (de BD), nombre, link, categoría padre y external_id
-    """
-    try:
-        # Hacer la petición GET a la API
-        print(f"Llamando a la API: {url}")
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-        }
-        response = requests.get(url, headers=headers)
+        print(f"Llamando a la API de categorías: {CATEGORIES_URL}")
+        response = requests.get(CATEGORIES_URL, headers=HEADERS, timeout=30)
         response.raise_for_status()
-        
-        # Obtener los datos JSON
-        datos = response.json()
-        
-        # La respuesta tiene un array 'categories'
-        categorias_principales = datos.get('categories', [])
-        
-        if not categorias_principales:
-            print(f"⚠ No se encontraron categorías en la respuesta")
-            print(f"Claves disponibles: {list(datos.keys())}")
-            return []
-        
-        # Extraer todos los children de cada categoría principal y guardarlos en BD
-        subcategorias = []
-        for categoria_principal in categorias_principales:
-            nombre_padre = categoria_principal.get('name', 'Sin nombre')
-            children = categoria_principal.get('children', [])
-            
-            for child in children:
-                external_id = str(child.get('id', ''))
-                name = child.get('name', '')
-                link = child.get('link', '')
-                
-                # Solo procesar subcategorías que tengan nombre y link
-                if name and link:
-                    # Guardar en la base de datos
-                    category_id = database.insert_or_update_category(
-                        external_id=external_id,
-                        name=name,
-                        link=link,
-                        parent_category=nombre_padre
-                    )
-                    
-                    if category_id:
-                        subcat_info = {
-                            'id': category_id,  # ID de la base de datos
-                            'external_id': external_id,  # ID de la API
-                            'name': name,
-                            'link': link,
-                            'parent_category': nombre_padre
-                        }
-                        subcategorias.append(subcat_info)
-        
-        print(f"✓ Total de subcategorías guardadas: {len(subcategorias)}")
-        return subcategorias
-    
-    except requests.exceptions.RequestException as e:
-        print(f"✗ Error al hacer la petición: {e}")
+        data = response.json()
+    except requests.RequestException as exc:
+        print(f"✗ Error al obtener categorías: {exc}")
         return []
-    except Exception as e:
-        print(f"✗ Error inesperado: {e}")
-        import traceback
-        traceback.print_exc()
-        return []
+
+    categorias = []
+    for categoria_principal in data.get("categories", []):
+        parent_name = categoria_principal.get("name", "Sin nombre")
+        for child in categoria_principal.get("children", []):
+            external_id = child.get("id")
+            name = child.get("name")
+            link = child.get("link")
+            if not external_id or not name or not link:
+                continue
+            categorias.append(
+                {
+                    "id": str(external_id),
+                    "name": name,
+                    "parent_name": parent_name,
+                    "link": link,
+                }
+            )
+    print(f"✓ Total de subcategorías obtenidas: {len(categorias)}")
+    return categorias
+
+
+def resolver_master_category(external_id: str, name: str, parent_name: str):
+    mapping = database.ensure_market_category_mapping(
+        market=MARKET,
+        external_id=external_id,
+        external_name=name,
+        external_parent=parent_name,
+    )
+    return mapping.get("master_category_id") if mapping else None
+
+
+def descargar_productos(link: str) -> Optional[List[Dict[str, Any]]]:
+    url = f"{PLP_BASE_URL}{link}"
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+        return data.get("plp_items", [])
+    except requests.RequestException as exc:
+        print(f"✗ Error al obtener productos desde {url}: {exc}")
+        return None
+
+
+def procesar_producto(item: Dict[str, Any], category_db_id: int) -> Optional[int]:
+    display_name = item.get("display_name")
+    if not display_name:
+        return None
+
+    prices = item.get("prices", {}) or {}
+    price = prices.get("price")
+    price_per_unit = prices.get("price_per_unit")
+    measure_unit = prices.get("measure_unit")
+    brand = item.get("brand")
+
+    try:
+        return database.insert_or_update_product(
+            display_name=display_name,
+            price=price,
+            price_per_unit=price_per_unit,
+            measure_unit=measure_unit,
+            category_id=category_db_id,
+            brand=brand,
+        )
+    except Exception as exc:
+        print(f"✗ Error al registrar producto '{display_name}': {exc}")
+        return None
+
+
+def procesar_categoria(categoria: Dict[str, Any]) -> Tuple[bool, str]:
+    external_id = categoria["id"]
+    name = categoria["name"]
+    parent_name = categoria["parent_name"]
+    link = categoria["link"]
+
+    master_category_id = resolver_master_category(external_id, name, parent_name)
+    category_db_id = database.insert_or_update_category(
+        external_id=external_id,
+        name=name,
+        link=link,
+        parent_category=parent_name,
+        market=MARKET,
+        master_category_id=master_category_id,
+    )
+    if not category_db_id:
+        return False, "No se pudo registrar la categoría en BD"
+
+    productos = descargar_productos(link)
+    if productos is None:
+        return False, "Error al descargar productos"
+    if not productos:
+        return True, "Sin productos"
+
+    insertados = 0
+    for item in productos:
+        product_id = procesar_producto(item, category_db_id)
+        if product_id:
+            insertados += 1
+
+    return True, f"{insertados} productos procesados"
+
+
+def main():
+    print("Inicializando base de datos...")
+    if not database.init_database():
+        print("✗ Error al inicializar la base de datos.")
+        return
+
+    categorias = obtener_categorias()
+    if not categorias:
+        print("No hay categorías para procesar.")
+        return
+
+    total = len(categorias)
+    procesadas = 0
+    fallidas: List[str] = []
+    pendientes_mapping: List[str] = []
+
+    print(f"\nSe procesarán {total} subcategorías.\n")
+    for idx, categoria in enumerate(categorias, start=1):
+        print(f"[{idx}/{total}] {categoria['parent_name']} > {categoria['name']}")
+        exito, mensaje = procesar_categoria(categoria)
+        if exito:
+            procesadas += 1
+            print(f"  ✓ {mensaje}")
+            mapping = database.get_market_category_mapping(MARKET, categoria["id"])
+            if mapping and not mapping.get("master_category_id"):
+                pendientes_mapping.append(
+                    f"{categoria['parent_name']} > {categoria['name']}"
+                )
+        else:
+            fallidas.append(
+                f"{categoria['parent_name']} > {categoria['name']} ({mensaje})"
+            )
+            print(f"  ✗ {mensaje}")
+
+        time.sleep(DELAY_SECONDS)
+
+    print("\nResumen:")
+    print(f"  ✓ Categorías procesadas: {procesadas}")
+    print(f"  ✗ Categorías con error: {len(fallidas)}")
+    if fallidas:
+        print("  Detalle de errores:")
+        for entry in fallidas:
+            print(f"   - {entry}")
+
+    if pendientes_mapping:
+        print("\nCategorías pendientes de asignar master_category:")
+        for entry in pendientes_mapping:
+            print(f"   - {entry}")
+
+    database.close_connection()
+
 
 if __name__ == "__main__":
     try:
-        # Inicializar la base de datos
-        print("Inicializando base de datos...")
-        if not database.init_database():
-            print("✗ Error al inicializar la base de datos. Verifica la conexión y el esquema.")
-            exit(1)
-        
-        # URL de la API de Dia para categorías
-        categories_url = "https://www.dia.es/api/v1/common-aggregator/menu-data"
-
-        # Obtener las subcategorías (children) y guardarlas en BD
-        subcategorias = obtener_categorias(categories_url)
-        
-        if not subcategorias:
-            print("✗ No se pudieron obtener las categorías. Revisa los logs anteriores.")
-        else:
-            print(f"\n{'='*60}")
-            print(f"Procesando {len(subcategorias)} subcategorías...")
-            print(f"{'='*60}\n")
-            
-            productos_totales = 0
-            
-            # Obtener productos de cada subcategoría
-            for i, subcat in enumerate(subcategorias, 1):
-                print(f"\n[{i}/{len(subcategorias)}] {subcat['parent_category']} > {subcat['name']}")
-                
-                if not subcat.get('link'):
-                    print(f"  ⚠ Subcategoría sin link, saltando...")
-                    continue
-                
-                # Usar el ID de la base de datos (no el external_id)
-                category_id = subcat['id']
-                api_url = f"https://www.dia.es/api/v1/plp-back/reduced{subcat['link']}"
-                
-                resultado = obtener_productos_dia(api_url, category_id)
-                if resultado is not None:
-                    productos_totales += resultado
-                    print(f"  ✓ {resultado} productos procesados")
-                else:
-                    print(f"  ✗ Error al obtener productos")
-            
-            print(f"\n{'='*60}")
-            print(f"✓ Proceso completado")
-            print(f"✓ Total de productos procesados: {productos_totales}")
-            print(f"{'='*60}")
-    
+        main()
     except KeyboardInterrupt:
-        print("\n\n⚠ Proceso interrumpido por el usuario")
-    except Exception as e:
-        print(f"\n✗ Error crítico: {e}")
-        import traceback
-        traceback.print_exc()
-    finally:
-        # Cerrar la conexión a la base de datos
-        database.close_connection()
+        print("\n⚠ Proceso interrumpido por el usuario")
