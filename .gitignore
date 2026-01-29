@@ -1,5 +1,4 @@
 .cursor
 .env
-bruno
 requirements.txt
-__pycache__/
+__pycache__

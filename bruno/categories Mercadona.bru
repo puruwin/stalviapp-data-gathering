@@ -1,0 +1,21 @@
+meta {
+  name: categories Mercadona
+  type: http
+  seq: 5
+}
+
+get {
+  url: https://tienda.mercadona.es/api/categories/?lang=es&wh=alc1
+  body: none
+  auth: inherit
+}
+
+params:query {
+  lang: es
+  wh: alc1
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

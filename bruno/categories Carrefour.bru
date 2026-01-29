@@ -1,0 +1,25 @@
+meta {
+  name: categories Carrefour
+  type: http
+  seq: 4
+}
+
+get {
+  url: https://www.carrefour.es/cloud-api/categories-api/v1/categories/menu?sale_point=005290&depth=1&current_category=foodRootCategory&limit=3&lang=es&freelink=true
+  body: none
+  auth: inherit
+}
+
+params:query {
+  sale_point: 005290
+  depth: 1
+  current_category: foodRootCategory
+  limit: 3
+  lang: es
+  freelink: true
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

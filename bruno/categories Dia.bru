@@ -1,0 +1,16 @@
+meta {
+  name: categories Dia
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://www.dia.es/api/v1/common-aggregator/menu-data
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
