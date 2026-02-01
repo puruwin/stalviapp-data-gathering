@@ -34,7 +34,7 @@ FIREBASE_INGEST_URL = os.environ.get(
 )
 
 # Modo de prueba - limita categorías y productos para testing rápido
-TEST_MODE = False  # Cambiar a False para scrapeo completo
+TEST_MODE = True  # Cambiar a False para scrapeo completo
 MAX_CATEGORIES = 5  # Solo aplica si TEST_MODE = True
 MAX_PRODUCTS_PER_CATEGORY = 3  # Solo aplica si TEST_MODE = True
 
@@ -112,6 +112,7 @@ def obtener_categorias() -> List[Dict[str, Any]]:
 def descargar_productos(link: str) -> Optional[List[Dict[str, Any]]]:
     url = f"{PLP_BASE_URL}{link}"
     try:
+        print(f"  [FETCH] {url}")
         response = requests.get(url, headers=HEADERS, timeout=30)
         response.raise_for_status()
         data = response.json()
@@ -159,7 +160,7 @@ def procesar_producto(
         "id": unique_id,
         "name": display_name,
         "supermarket": MARKET,
-        "category_path": f"{categoria_info['parent_name']} > {categoria_info['name']}",
+        "category": f"{categoria_info['parent_name']} > {categoria_info['name']}",
         "price": price,
         "price_per_unit": price_per_unit,
         "unit": measure_unit,

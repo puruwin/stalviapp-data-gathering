@@ -1,0 +1,1748 @@
+{
+  "categories": [
+    {
+      "children": [
+        {
+          "id": "L125",
+          "level": 0,
+          "link": "/freidora-de-aire-airfryer/c/L125",
+          "name": "Todo freidora de aire - airfryer"
+        },
+        {
+          "id": "L2231",
+          "level": 0,
+          "link": "/freidora-de-aire-airfryer/patatas-airfryer/c/L2231",
+          "name": "Patatas Airfryer"
+        },
+        {
+          "id": "L2232",
+          "level": 0,
+          "link": "/freidora-de-aire-airfryer/rebozados-airfryer/c/L2232",
+          "name": "Rebozados Airfryer"
+        },
+        {
+          "id": "L2233",
+          "level": 0,
+          "link": "/freidora-de-aire-airfryer/verduras-airfryer/c/L2233",
+          "name": "Verduras Airfryer"
+        },
+        {
+          "id": "L2234",
+          "level": 0,
+          "link": "/freidora-de-aire-airfryer/pescados-y-mariscos-airfryer/c/L2234",
+          "name": "Pescados y mariscos Airfryer"
+        },
+        {
+          "id": "L2235",
+          "level": 0,
+          "link": "/freidora-de-aire-airfryer/carne-airfryer/c/L2235",
+          "name": "Carne Airfryer"
+        },
+        {
+          "id": "L2236",
+          "level": 0,
+          "link": "/freidora-de-aire-airfryer/comida-preparada-airfryer/c/L2236",
+          "name": "Comida preparada Airfryer"
+        },
+        {
+          "id": "L2237",
+          "level": 0,
+          "link": "/freidora-de-aire-airfryer/accesorios-airfryer/c/L2237",
+          "name": "Accesorios Airfryer"
+        }
+      ],
+      "icon": "/category_images/L125/L125_icon.png",
+      "id": "L125",
+      "level": 0,
+      "link": "/freidora-de-aire-airfryer/c/L125",
+      "name": "Freidora de aire - Airfryer"
+    },
+    {
+      "children": [
+        {
+          "id": "L126",
+          "level": 0,
+          "link": "/sin-gluten/c/L126",
+          "name": "Todo sin gluten"
+        },
+        {
+          "id": "L2240",
+          "level": 0,
+          "link": "/sin-gluten/desayunos-sin-gluten/c/L2240",
+          "name": "Desayunos sin gluten"
+        },
+        {
+          "id": "L2241",
+          "level": 0,
+          "link": "/sin-gluten/panaderia-sin-gluten/c/L2241",
+          "name": "Panadería sin gluten"
+        },
+        {
+          "id": "L2242",
+          "level": 0,
+          "link": "/sin-gluten/reposteria-sin-gluten/c/L2242",
+          "name": "Repostería sin gluten"
+        },
+        {
+          "id": "L2243",
+          "level": 0,
+          "link": "/sin-gluten/platos-sin-gluten/c/L2243",
+          "name": "Platos sin gluten"
+        },
+        {
+          "id": "L2244",
+          "level": 0,
+          "link": "/sin-gluten/bebidas-sin-gluten/c/L2244",
+          "name": "Bebidas sin gluten"
+        },
+        {
+          "id": "L2245",
+          "level": 0,
+          "link": "/sin-gluten/productos-infantiles-sin-gluten/c/L2245",
+          "name": "Productos infantiles sin gluten"
+        }
+      ],
+      "icon": "/category_images/L126/L126_icon.png",
+      "id": "L126",
+      "level": 0,
+      "link": "/sin-gluten/c/L126",
+      "name": "Sin gluten"
+    },
+    {
+      "children": [
+        {
+          "id": "L105",
+          "level": 0,
+          "link": "/frutas/c/L105",
+          "name": "Todo frutas"
+        },
+        {
+          "id": "L2033",
+          "level": 0,
+          "link": "/frutas/platanos-y-bananas/c/L2033",
+          "name": "Plátanos y bananas"
+        },
+        {
+          "id": "L2032",
+          "level": 0,
+          "link": "/frutas/manzanas-y-peras/c/L2032",
+          "name": "Manzanas y peras"
+        },
+        {
+          "id": "L2196",
+          "level": 0,
+          "link": "/frutas/naranjas-mandarinas-y-limones/c/L2196",
+          "name": "Naranjas, mandarinas y limones"
+        },
+        {
+          "id": "L2267",
+          "level": 0,
+          "link": "/frutas/melon-y-sandia/c/L2267",
+          "name": "Melón y sandía"
+        },
+        {
+          "id": "L2035",
+          "level": 0,
+          "link": "/frutas/uvas/c/L2035",
+          "name": "Uvas"
+        },
+        {
+          "id": "L2039",
+          "level": 0,
+          "link": "/frutas/frutas-tropicales/c/L2039",
+          "name": "Frutas tropicales"
+        },
+        {
+          "id": "L2038",
+          "level": 0,
+          "link": "/frutas/frutos-rojos-y-del-bosque/c/L2038",
+          "name": "Frutos rojos y del bosque"
+        },
+        {
+          "id": "L2268",
+          "level": 0,
+          "link": "/frutas/frutas-congeladas/c/L2268",
+          "name": "Frutas congeladas"
+        }
+      ],
+      "icon": "/category_images/L105/L105_icon.png",
+      "id": "L105",
+      "level": 0,
+      "link": "/frutas/c/L105",
+      "name": "Frutas"
+    },
+    {
+      "children": [
+        {
+          "id": "L104",
+          "level": 0,
+          "link": "/verduras/c/L104",
+          "name": "Todo verduras"
+        },
+        {
+          "id": "L2027",
+          "level": 0,
+          "link": "/verduras/lechugas-y-hojas-verdes/c/L2027",
+          "name": "Lechugas y hojas verdes"
+        },
+        {
+          "id": "L2023",
+          "level": 0,
+          "link": "/verduras/tomates-pimientos-y-pepinos/c/L2023",
+          "name": "Tomates, pimientos y pepinos"
+        },
+        {
+          "id": "L2022",
+          "level": 0,
+          "link": "/verduras/ajos-cebollas-y-puerros/c/L2022",
+          "name": "Ajos, cebollas y puerros"
+        },
+        {
+          "id": "L2181",
+          "level": 0,
+          "link": "/verduras/calabacin-calabaza-y-berenjena/c/L2181",
+          "name": "Calabacín, calabaza y berenjena"
+        },
+        {
+          "id": "L2028",
+          "level": 0,
+          "link": "/verduras/patatas-y-zanahorias/c/L2028",
+          "name": "Patatas y zanahorias"
+        },
+        {
+          "id": "L2024",
+          "level": 0,
+          "link": "/verduras/brocoli-coliflor-y-judias-verdes/c/L2024",
+          "name": "Brócoli, coliflor y judías verdes"
+        },
+        {
+          "id": "L2029",
+          "level": 0,
+          "link": "/verduras/setas-y-champinones/c/L2029",
+          "name": "Setas y champiñones"
+        },
+        {
+          "id": "L2031",
+          "level": 0,
+          "link": "/verduras/hierbas-aromaticas/c/L2031",
+          "name": "Hierbas aromáticas"
+        },
+        {
+          "id": "L2030",
+          "level": 0,
+          "link": "/verduras/ensaladas-y-verduras-preparadas/c/L2030",
+          "name": "Ensaladas y verduras preparadas"
+        },
+        {
+          "id": "L2025",
+          "level": 0,
+          "link": "/verduras/verduras-congeladas-y-al-vapor/c/L2025",
+          "name": "Verduras congeladas y al vapor"
+        },
+        {
+          "id": "L2026",
+          "level": 0,
+          "link": "/verduras/conservas-de-verduras/c/L2026",
+          "name": "Conservas de verduras"
+        }
+      ],
+      "icon": "/category_images/L104/L104_icon.png",
+      "id": "L104",
+      "level": 0,
+      "link": "/verduras/c/L104",
+      "name": "Verduras"
+    },
+    {
+      "children": [
+        {
+          "id": "L102",
+          "level": 0,
+          "link": "/carnes/c/L102",
+          "name": "Todo carnes"
+        },
+        {
+          "id": "L2202",
+          "level": 0,
+          "link": "/carnes/pollo/c/L2202",
+          "name": "Pollo"
+        },
+        {
+          "id": "L2013",
+          "level": 0,
+          "link": "/carnes/vacuno/c/L2013",
+          "name": "Vacuno"
+        },
+        {
+          "id": "L2014",
+          "level": 0,
+          "link": "/carnes/cerdo/c/L2014",
+          "name": "Cerdo"
+        },
+        {
+          "id": "L2015",
+          "level": 0,
+          "link": "/carnes/pavo/c/L2015",
+          "name": "Pavo"
+        },
+        {
+          "id": "L2016",
+          "level": 0,
+          "link": "/carnes/conejo/c/L2016",
+          "name": "Conejo"
+        },
+        {
+          "id": "L2017",
+          "level": 0,
+          "link": "/carnes/hamburguesas-carne-picada-y-albondigas/c/L2017",
+          "name": "Hamburguesas, carne picada y albóndigas"
+        },
+        {
+          "id": "L2265",
+          "level": 0,
+          "link": "/carnes/empanados-y-elaborados/c/L2265",
+          "name": "Empanados y elaborados"
+        },
+        {
+          "id": "L2266",
+          "level": 0,
+          "link": "/carnes/arreglos-y-despieces/c/L2266",
+          "name": "Arreglos y despieces"
+        }
+      ],
+      "icon": "/category_images/L102/L102_icon.png",
+      "id": "L102",
+      "level": 0,
+      "link": "/carnes/c/L102",
+      "name": "Carnes"
+    },
+    {
+      "children": [
+        {
+          "id": "L103",
+          "level": 0,
+          "link": "/pescados-y-mariscos/c/L103",
+          "name": "Todo pescados y mariscos"
+        },
+        {
+          "id": "L2019",
+          "level": 0,
+          "link": "/pescados-y-mariscos/pescados-y-mariscos-frescos/c/L2019",
+          "name": "Pescados y mariscos frescos"
+        },
+        {
+          "id": "L2249",
+          "level": 0,
+          "link": "/pescados-y-mariscos/merluza-y-bacalao-congelados/c/L2249",
+          "name": "Merluza y bacalao congelados"
+        },
+        {
+          "id": "L2250",
+          "level": 0,
+          "link": "/pescados-y-mariscos/salmon-atun-y-pescado-blanco-congelados/c/L2250",
+          "name": "Salmón, atún y pescado blanco congelados"
+        },
+        {
+          "id": "L2204",
+          "level": 0,
+          "link": "/pescados-y-mariscos/calamar-y-sepia-congelados/c/L2204",
+          "name": "Calamar y sepia congelados"
+        },
+        {
+          "id": "L2251",
+          "level": 0,
+          "link": "/pescados-y-mariscos/pescados-rebozados/c/L2251",
+          "name": "Pescados rebozados"
+        },
+        {
+          "id": "L2252",
+          "level": 0,
+          "link": "/pescados-y-mariscos/marisco-de-concha-congelado/c/L2252",
+          "name": "Marisco de concha congelado"
+        },
+        {
+          "id": "L2253",
+          "level": 0,
+          "link": "/pescados-y-mariscos/gambas-y-langostinos-congelados/c/L2253",
+          "name": "Gambas y langostinos congelados"
+        },
+        {
+          "id": "L2020",
+          "level": 0,
+          "link": "/pescados-y-mariscos/ahumados-y-salazones/c/L2020",
+          "name": "Ahumados y salazones"
+        },
+        {
+          "id": "L2021",
+          "level": 0,
+          "link": "/pescados-y-mariscos/surimi-y-otros-elaborados/c/L2021",
+          "name": "Surimi y otros elaborados"
+        }
+      ],
+      "icon": "/category_images/L103/L103_icon.png",
+      "id": "L103",
+      "level": 0,
+      "link": "/pescados-y-mariscos/c/L103",
+      "name": "Pescados y mariscos"
+    },
+    {
+      "children": [
+        {
+          "id": "L101",
+          "level": 0,
+          "link": "/charcuteria-y-quesos/c/L101",
+          "name": "Todo charcutería y quesos"
+        },
+        {
+          "id": "L2001",
+          "level": 0,
+          "link": "/charcuteria-y-quesos/jamon-cocido-pavo-y-pollo/c/L2001",
+          "name": "Jamón cocido, pavo y pollo"
+        },
+        {
+          "id": "L2004",
+          "level": 0,
+          "link": "/charcuteria-y-quesos/jamon-curado-y-paleta/c/L2004",
+          "name": "Jamón curado y paleta"
+        },
+        {
+          "id": "L2005",
+          "level": 0,
+          "link": "/charcuteria-y-quesos/lomo-chorizo-fuet-y-salchichon/c/L2005",
+          "name": "Lomo, chorizo, fuet y salchichón"
+        },
+        {
+          "id": "L2206",
+          "level": 0,
+          "link": "/charcuteria-y-quesos/salchichas-y-bacon/c/L2206",
+          "name": "Salchichas y bacon"
+        },
+        {
+          "id": "L2259",
+          "level": 0,
+          "link": "/charcuteria-y-quesos/chopped-y-mortadela/c/L2259",
+          "name": "Chopped y mortadela"
+        },
+        {
+          "id": "L2012",
+          "level": 0,
+          "link": "/charcuteria-y-quesos/pate-foie-y-sobrasada/c/L2012",
+          "name": "Paté, foie y sobrasada"
+        },
+        {
+          "id": "L2007",
+          "level": 0,
+          "link": "/charcuteria-y-quesos/queso-curado-semi-y-tierno/c/L2007",
+          "name": "Queso curado, semi y tierno"
+        },
+        {
+          "id": "L2205",
+          "level": 0,
+          "link": "/charcuteria-y-quesos/quesos-en-lonchas-y-rallado/c/L2205",
+          "name": "Quesos en lonchas y rallado"
+        },
+        {
+          "id": "L2010",
+          "level": 0,
+          "link": "/charcuteria-y-quesos/quesos-untables-y-fundidos/c/L2010",
+          "name": "Quesos untables y fundidos"
+        },
+        {
+          "id": "L2008",
+          "level": 0,
+          "link": "/charcuteria-y-quesos/queso-fresco/c/L2008",
+          "name": "Queso fresco"
+        },
+        {
+          "id": "L2009",
+          "level": 0,
+          "link": "/charcuteria-y-quesos/queso-azul-roquefort-y-cabra/c/L2009",
+          "name": "Queso azul, roquefort y cabra"
+        },
+        {
+          "id": "L2011",
+          "level": 0,
+          "link": "/charcuteria-y-quesos/quesos-internacionales/c/L2011",
+          "name": "Quesos internacionales"
+        },
+        {
+          "id": "L2260",
+          "level": 0,
+          "link": "/charcuteria-y-quesos/quesos-altos-en-proteinas/c/L2260",
+          "name": "Quesos altos en proteínas"
+        }
+      ],
+      "icon": "/category_images/L101/L101_icon.png",
+      "id": "L101",
+      "level": 0,
+      "link": "/charcuteria-y-quesos/c/L101",
+      "name": "Charcutería y quesos"
+    },
+    {
+      "children": [
+        {
+          "id": "L108",
+          "level": 0,
+          "link": "/huevos-leche-y-mantequilla/c/L108",
+          "name": "Todo huevos, leche y mantequilla"
+        },
+        {
+          "id": "L2055",
+          "level": 0,
+          "link": "/huevos-leche-y-mantequilla/huevos/c/L2055",
+          "name": "Huevos"
+        },
+        {
+          "id": "L2051",
+          "level": 0,
+          "link": "/huevos-leche-y-mantequilla/leche/c/L2051",
+          "name": "Leche"
+        },
+        {
+          "id": "L2261",
+          "level": 0,
+          "link": "/huevos-leche-y-mantequilla/leche-sin-lactosa-y-enriquecidas/c/L2261",
+          "name": "Leche sin lactosa y enriquecidas"
+        },
+        {
+          "id": "L2052",
+          "level": 0,
+          "link": "/huevos-leche-y-mantequilla/bebidas-vegetales/c/L2052",
+          "name": "Bebidas vegetales"
+        },
+        {
+          "id": "L2262",
+          "level": 0,
+          "link": "/huevos-leche-y-mantequilla/leche-infantil/c/L2262",
+          "name": "Leche infantil"
+        },
+        {
+          "id": "L2053",
+          "level": 0,
+          "link": "/huevos-leche-y-mantequilla/batidos-cafes-frios-y-horchatas/c/L2053",
+          "name": "Batidos, cafés fríos y horchatas"
+        },
+        {
+          "id": "L2263",
+          "level": 0,
+          "link": "/huevos-leche-y-mantequilla/batidos-altos-en-proteinas/c/L2263",
+          "name": "Batidos altos en proteínas"
+        },
+        {
+          "id": "L2264",
+          "level": 0,
+          "link": "/huevos-leche-y-mantequilla/leche-condensada-y-evaporada/c/L2264",
+          "name": "Leche condensada y evaporada"
+        },
+        {
+          "id": "L2056",
+          "level": 0,
+          "link": "/huevos-leche-y-mantequilla/mantequilla-y-margarina/c/L2056",
+          "name": "Mantequilla y margarina"
+        },
+        {
+          "id": "L2054",
+          "level": 0,
+          "link": "/huevos-leche-y-mantequilla/nata/c/L2054",
+          "name": "Nata"
+        }
+      ],
+      "icon": "/category_images/L108/L108_icon.png",
+      "id": "L108",
+      "level": 0,
+      "link": "/huevos-leche-y-mantequilla/c/L108",
+      "name": "Huevos, leche y mantequilla"
+    },
+    {
+      "children": [
+        {
+          "id": "L112",
+          "level": 0,
+          "link": "/panaderia/c/L112",
+          "name": "Todo panadería"
+        },
+        {
+          "id": "L2070",
+          "level": 0,
+          "link": "/panaderia/pan-recien-horneado/c/L2070",
+          "name": "Pan recién horneado"
+        },
+        {
+          "id": "L2069",
+          "level": 0,
+          "link": "/panaderia/pan-de-molde-y-especiales/c/L2069",
+          "name": "Pan de molde y especiales"
+        },
+        {
+          "id": "L2073",
+          "level": 0,
+          "link": "/panaderia/pan-para-hamburguesas-y-perritos/c/L2073",
+          "name": "Pan para hamburguesas y perritos"
+        },
+        {
+          "id": "L2074",
+          "level": 0,
+          "link": "/panaderia/tortillas-de-trigo-y-pitas/c/L2074",
+          "name": "Tortillas de trigo y pitas"
+        },
+        {
+          "id": "L2200",
+          "level": 0,
+          "link": "/panaderia/pan-sin-gluten/c/L2200",
+          "name": "Pan sin gluten"
+        },
+        {
+          "id": "L2072",
+          "level": 0,
+          "link": "/panaderia/pan-tostado-rallado-y-picatostes/c/L2072",
+          "name": "Pan tostado, rallado y picatostes"
+        },
+        {
+          "id": "L2071",
+          "level": 0,
+          "link": "/panaderia/picos-y-crackers/c/L2071",
+          "name": "Picos y crackers"
+        },
+        {
+          "id": "L2076",
+          "level": 0,
+          "link": "/panaderia/masas-y-hojaldres/c/L2076",
+          "name": "Masas y hojaldres"
+        },
+        {
+          "id": "L2075",
+          "level": 0,
+          "link": "/panaderia/harinas-y-levaduras/c/L2075",
+          "name": "Harinas y levaduras"
+        }
+      ],
+      "icon": "/category_images/L112/L112_icon.png",
+      "id": "L112",
+      "level": 0,
+      "link": "/panaderia/c/L112",
+      "name": "Panadería"
+    },
+    {
+      "children": [
+        {
+          "id": "L113",
+          "level": 0,
+          "link": "/yogures-y-postres/c/L113",
+          "name": "Todo yogures y postres"
+        },
+        {
+          "id": "L2079",
+          "level": 0,
+          "link": "/yogures-y-postres/yogures-naturales-y-desnatados/c/L2079",
+          "name": "Yogures naturales y desnatados"
+        },
+        {
+          "id": "L2081",
+          "level": 0,
+          "link": "/yogures-y-postres/yogures-de-sabores-y-frutas/c/L2081",
+          "name": "Yogures de sabores y frutas"
+        },
+        {
+          "id": "L2082",
+          "level": 0,
+          "link": "/yogures-y-postres/yogures-griegos/c/L2082",
+          "name": "Yogures griegos"
+        },
+        {
+          "id": "L2248",
+          "level": 0,
+          "link": "/yogures-y-postres/yogures-liquidos/c/L2248",
+          "name": "Yogures líquidos"
+        },
+        {
+          "id": "L2078",
+          "level": 0,
+          "link": "/yogures-y-postres/yogures-bifidus-y-colesterol/c/L2078",
+          "name": "Yogures bífidus y colesterol"
+        },
+        {
+          "id": "L2085",
+          "level": 0,
+          "link": "/yogures-y-postres/kefir-y-fermentados/c/L2085",
+          "name": "Kéfir y fermentados"
+        },
+        {
+          "id": "L2229",
+          "level": 0,
+          "link": "/yogures-y-postres/postres-proteicos-y-vegetales/c/L2229",
+          "name": "Postres proteicos y vegetales"
+        },
+        {
+          "id": "L2083",
+          "level": 0,
+          "link": "/yogures-y-postres/yogures-y-postres-infantiles/c/L2083",
+          "name": "Yogures y postres infantiles"
+        },
+        {
+          "id": "L2087",
+          "level": 0,
+          "link": "/yogures-y-postres/postres-tradicionales/c/L2087",
+          "name": "Postres tradicionales"
+        },
+        {
+          "id": "L2088",
+          "level": 0,
+          "link": "/yogures-y-postres/natillas-flan-y-arroz-con-leche/c/L2088",
+          "name": "Natillas, flan y arroz con leche"
+        },
+        {
+          "id": "L2089",
+          "level": 0,
+          "link": "/yogures-y-postres/gelatinas-y-cuajadas/c/L2089",
+          "name": "Gelatinas y cuajadas"
+        }
+      ],
+      "icon": "/category_images/L113/L113_icon.png",
+      "id": "L113",
+      "level": 0,
+      "link": "/yogures-y-postres/c/L113",
+      "name": "Yogures y postres"
+    },
+    {
+      "children": [
+        {
+          "id": "L119",
+          "level": 0,
+          "link": "/congelados/c/L119",
+          "name": "Todo congelados"
+        },
+        {
+          "id": "L2130",
+          "level": 0,
+          "link": "/congelados/helados-y-hielo/c/L2130",
+          "name": "Helados y hielo"
+        },
+        {
+          "id": "L2131",
+          "level": 0,
+          "link": "/congelados/pizzas-bases-y-masas/c/L2131",
+          "name": "Pizzas, bases y masas"
+        },
+        {
+          "id": "L2132",
+          "level": 0,
+          "link": "/congelados/pescado-y-marisco/c/L2132",
+          "name": "Pescado y marisco"
+        },
+        {
+          "id": "L2133",
+          "level": 0,
+          "link": "/congelados/carne-y-pollo/c/L2133",
+          "name": "Carne y pollo"
+        },
+        {
+          "id": "L2210",
+          "level": 0,
+          "link": "/congelados/verduras-hortalizas-y-salteados/c/L2210",
+          "name": "Verduras, hortalizas y salteados"
+        },
+        {
+          "id": "L2213",
+          "level": 0,
+          "link": "/congelados/patatas-fritas/c/L2213",
+          "name": "Patatas fritas"
+        },
+        {
+          "id": "L2135",
+          "level": 0,
+          "link": "/congelados/croquetas-y-rebozados/c/L2135",
+          "name": "Croquetas y rebozados"
+        },
+        {
+          "id": "L2136",
+          "level": 0,
+          "link": "/congelados/churros-y-postres/c/L2136",
+          "name": "Churros y postres"
+        },
+        {
+          "id": "L2137",
+          "level": 0,
+          "link": "/congelados/lasanas-y-pasta/c/L2137",
+          "name": "Lasañas y pasta"
+        }
+      ],
+      "icon": "/category_images/L119/L119_icon.png",
+      "id": "L119",
+      "level": 0,
+      "link": "/congelados/c/L119",
+      "name": "Congelados"
+    },
+    {
+      "children": [
+        {
+          "id": "L106",
+          "level": 0,
+          "link": "/arroz-pastas-y-legumbres/c/L106",
+          "name": "Todo arroz, pastas y legumbres"
+        },
+        {
+          "id": "L2042",
+          "level": 0,
+          "link": "/arroz-pastas-y-legumbres/arroz/c/L2042",
+          "name": "Arroz"
+        },
+        {
+          "id": "L2270",
+          "level": 0,
+          "link": "/arroz-pastas-y-legumbres/fideos/c/L2270",
+          "name": "Fideos"
+        },
+        {
+          "id": "L2044",
+          "level": 0,
+          "link": "/arroz-pastas-y-legumbres/macarrones-espaguetis-y-pastas-secas/c/L2044",
+          "name": "Macarrones, espaguetis y pastas secas"
+        },
+        {
+          "id": "L2271",
+          "level": 0,
+          "link": "/arroz-pastas-y-legumbres/pastas-rellenas/c/L2271",
+          "name": "Pastas rellenas"
+        },
+        {
+          "id": "L2272",
+          "level": 0,
+          "link": "/arroz-pastas-y-legumbres/lasana-y-canelones/c/L2272",
+          "name": "Lasaña y canelones"
+        },
+        {
+          "id": "L2273",
+          "level": 0,
+          "link": "/arroz-pastas-y-legumbres/noodles/c/L2273",
+          "name": "Noodles"
+        },
+        {
+          "id": "L2274",
+          "level": 0,
+          "link": "/arroz-pastas-y-legumbres/pastas-sin-gluten/c/L2274",
+          "name": "Pastas sin gluten"
+        },
+        {
+          "id": "L2191",
+          "level": 0,
+          "link": "/arroz-pastas-y-legumbres/garbanzos-y-alubias/c/L2191",
+          "name": "Garbanzos y alubias"
+        },
+        {
+          "id": "L2193",
+          "level": 0,
+          "link": "/arroz-pastas-y-legumbres/lentejas/c/L2193",
+          "name": "Lentejas"
+        },
+        {
+          "id": "L2043",
+          "level": 0,
+          "link": "/arroz-pastas-y-legumbres/quinoa-couscous-y-soja/c/L2043",
+          "name": "Quinoa, couscous y soja"
+        }
+      ],
+      "icon": "/category_images/L106/L106_icon.png",
+      "id": "L106",
+      "level": 0,
+      "link": "/arroz-pastas-y-legumbres/c/L106",
+      "name": "Arroz, pastas y legumbres"
+    },
+    {
+      "children": [
+        {
+          "id": "L107",
+          "level": 0,
+          "link": "/aceites-salsas-y-especias/c/L107",
+          "name": "Todo aceites, salsas y especias"
+        },
+        {
+          "id": "L2046",
+          "level": 0,
+          "link": "/aceites-salsas-y-especias/aceites/c/L2046",
+          "name": "Aceites"
+        },
+        {
+          "id": "L2047",
+          "level": 0,
+          "link": "/aceites-salsas-y-especias/vinagres-y-alinos/c/L2047",
+          "name": "Vinagres y aliños"
+        },
+        {
+          "id": "L2208",
+          "level": 0,
+          "link": "/aceites-salsas-y-especias/tomate/c/L2208",
+          "name": "Tomate"
+        },
+        {
+          "id": "L2050",
+          "level": 0,
+          "link": "/aceites-salsas-y-especias/mayonesa-ketchup-y-otras-salsas/c/L2050",
+          "name": "Mayonesa, ketchup y otras salsas"
+        },
+        {
+          "id": "L2048",
+          "level": 0,
+          "link": "/aceites-salsas-y-especias/sal-y-especias/c/L2048",
+          "name": "Sal y especias"
+        }
+      ],
+      "icon": "/category_images/L107/L107_icon.png",
+      "id": "L107",
+      "level": 0,
+      "link": "/aceites-salsas-y-especias/c/L107",
+      "name": "Aceites, salsas y especias"
+    },
+    {
+      "children": [
+        {
+          "id": "L114",
+          "level": 0,
+          "link": "/conservas-caldos-y-cremas/c/L114",
+          "name": "Todo conservas, caldos y cremas"
+        },
+        {
+          "id": "L2179",
+          "level": 0,
+          "link": "/conservas-caldos-y-cremas/atun-bonito-y-caballa/c/L2179",
+          "name": "Atún, bonito y caballa"
+        },
+        {
+          "id": "L2180",
+          "level": 0,
+          "link": "/conservas-caldos-y-cremas/berberechos/c/L2180",
+          "name": "Berberechos"
+        },
+        {
+          "id": "L2195",
+          "level": 0,
+          "link": "/conservas-caldos-y-cremas/mejillones/c/L2195",
+          "name": "Mejillones"
+        },
+        {
+          "id": "L2207",
+          "level": 0,
+          "link": "/conservas-caldos-y-cremas/sardinas-y-sardinillas/c/L2207",
+          "name": "Sardinas y sardinillas"
+        },
+        {
+          "id": "L2197",
+          "level": 0,
+          "link": "/conservas-caldos-y-cremas/otras-conservas-de-pescado/c/L2197",
+          "name": "Otras conservas de pescado"
+        },
+        {
+          "id": "L2092",
+          "level": 0,
+          "link": "/conservas-caldos-y-cremas/conservas-vegetales/c/L2092",
+          "name": "Conservas vegetales"
+        },
+        {
+          "id": "L2093",
+          "level": 0,
+          "link": "/conservas-caldos-y-cremas/sopas-caldos-y-pures-deshidratados/c/L2093",
+          "name": "Sopas, caldos y purés deshidratados"
+        },
+        {
+          "id": "L2094",
+          "level": 0,
+          "link": "/conservas-caldos-y-cremas/cremas-y-caldos-liquidos/c/L2094",
+          "name": "Cremas y caldos líquidos"
+        }
+      ],
+      "icon": "/category_images/L114/L114_icon.png",
+      "id": "L114",
+      "level": 0,
+      "link": "/conservas-caldos-y-cremas/c/L114",
+      "name": "Conservas, caldos y cremas"
+    },
+    {
+      "children": [
+        {
+          "id": "L110",
+          "level": 0,
+          "link": "/azucar-chocolates-y-caramelos/c/L110",
+          "name": "Todo azúcar, chocolates y caramelos"
+        },
+        {
+          "id": "L2060",
+          "level": 0,
+          "link": "/azucar-chocolates-y-caramelos/azucar-y-edulcorantes/c/L2060",
+          "name": "Azúcar y edulcorantes"
+        },
+        {
+          "id": "L2061",
+          "level": 0,
+          "link": "/azucar-chocolates-y-caramelos/miel/c/L2061",
+          "name": "Miel"
+        },
+        {
+          "id": "L2062",
+          "level": 0,
+          "link": "/azucar-chocolates-y-caramelos/mermeladas-y-frutas-en-almibar/c/L2062",
+          "name": "Mermeladas y frutas en almibar"
+        },
+        {
+          "id": "L2228",
+          "level": 0,
+          "link": "/azucar-chocolates-y-caramelos/cremas-de-cacao/c/L2228",
+          "name": "Cremas de cacao"
+        },
+        {
+          "id": "L2077",
+          "level": 0,
+          "link": "/azucar-chocolates-y-caramelos/preparados-para-postres/c/L2077",
+          "name": "Preparados para postres"
+        },
+        {
+          "id": "L2063",
+          "level": 0,
+          "link": "/azucar-chocolates-y-caramelos/chocolates-y-bombones/c/L2063",
+          "name": "Chocolates y bombones"
+        },
+        {
+          "id": "L2064",
+          "level": 0,
+          "link": "/azucar-chocolates-y-caramelos/caramelos-chicles-y-golosinas/c/L2064",
+          "name": "Caramelos, chicles y golosinas"
+        },
+        {
+          "id": "L2189",
+          "level": 0,
+          "link": "/azucar-chocolates-y-caramelos/dulces-de-navidad/c/L2189",
+          "name": "Dulces de Navidad"
+        }
+      ],
+      "icon": "/category_images/L110/L110_icon.png",
+      "id": "L110",
+      "level": 0,
+      "link": "/azucar-chocolates-y-caramelos/c/L110",
+      "name": "Azúcar, chocolates y caramelos"
+    },
+    {
+      "children": [
+        {
+          "id": "L109",
+          "level": 0,
+          "link": "/cafe-cacao-e-infusiones/c/L109",
+          "name": "Todo café, cacao e infusiones"
+        },
+        {
+          "id": "L2057",
+          "level": 0,
+          "link": "/cafe-cacao-e-infusiones/capsulas-compatibles-nespresso/c/L2057",
+          "name": "Cápsulas compatibles Nespresso"
+        },
+        {
+          "id": "L2275",
+          "level": 0,
+          "link": "/cafe-cacao-e-infusiones/capsulas-compatibles-dolce-gusto/c/L2275",
+          "name": "Cápsulas compatibles Dolce Gusto"
+        },
+        {
+          "id": "L2276",
+          "level": 0,
+          "link": "/cafe-cacao-e-infusiones/otras-capsulas-compatibles/c/L2276",
+          "name": "Otras cápsulas compatibles"
+        },
+        {
+          "id": "L2277",
+          "level": 0,
+          "link": "/cafe-cacao-e-infusiones/cafe-molido/c/L2277",
+          "name": "Café molido"
+        },
+        {
+          "id": "L2278",
+          "level": 0,
+          "link": "/cafe-cacao-e-infusiones/cafe-soluble-y-bebidas-instantaneas/c/L2278",
+          "name": "Café soluble y bebidas instantáneas"
+        },
+        {
+          "id": "L2279",
+          "level": 0,
+          "link": "/cafe-cacao-e-infusiones/cafe-en-grano/c/L2279",
+          "name": "Café en grano"
+        },
+        {
+          "id": "L2280",
+          "level": 0,
+          "link": "/cafe-cacao-e-infusiones/cafes-frios/c/L2280",
+          "name": "Cafés fríos"
+        },
+        {
+          "id": "L2058",
+          "level": 0,
+          "link": "/cafe-cacao-e-infusiones/cacao-y-chocolate-a-la-taza/c/L2058",
+          "name": "Cacao y chocolate a la taza"
+        },
+        {
+          "id": "L2059",
+          "level": 0,
+          "link": "/cafe-cacao-e-infusiones/infusiones/c/L2059",
+          "name": "Infusiones"
+        },
+        {
+          "id": "L2281",
+          "level": 0,
+          "link": "/cafe-cacao-e-infusiones/te/c/L2281",
+          "name": "Té"
+        }
+      ],
+      "icon": "/category_images/L109/L109_icon.png",
+      "id": "L109",
+      "level": 0,
+      "link": "/cafe-cacao-e-infusiones/c/L109",
+      "name": "Café, cacao e infusiones"
+    },
+    {
+      "children": [
+        {
+          "id": "L111",
+          "level": 0,
+          "link": "/galletas-bollos-y-cereales/c/L111",
+          "name": "Todo galletas, bollos y cereales"
+        },
+        {
+          "id": "L2065",
+          "level": 0,
+          "link": "/galletas-bollos-y-cereales/galletas/c/L2065",
+          "name": "Galletas"
+        },
+        {
+          "id": "L2066",
+          "level": 0,
+          "link": "/galletas-bollos-y-cereales/galletas-saladas/c/L2066",
+          "name": "Galletas saladas"
+        },
+        {
+          "id": "L2067",
+          "level": 0,
+          "link": "/galletas-bollos-y-cereales/bolleria/c/L2067",
+          "name": "Bollería"
+        },
+        {
+          "id": "L2068",
+          "level": 0,
+          "link": "/galletas-bollos-y-cereales/cereales/c/L2068",
+          "name": "Cereales"
+        },
+        {
+          "id": "L2216",
+          "level": 0,
+          "link": "/galletas-bollos-y-cereales/tortitas/c/L2216",
+          "name": "Tortitas"
+        }
+      ],
+      "icon": "/category_images/L111/L111_icon.png",
+      "id": "L111",
+      "level": 0,
+      "link": "/galletas-bollos-y-cereales/c/L111",
+      "name": "Galletas, bollos y cereales"
+    },
+    {
+      "children": [
+        {
+          "id": "L116",
+          "level": 0,
+          "link": "/platos-preparados-y-pizzas/c/L116",
+          "name": "Todo platos preparados y pizzas"
+        },
+        {
+          "id": "L2102",
+          "level": 0,
+          "link": "/platos-preparados-y-pizzas/listos-para-comer/c/L2102",
+          "name": "Listos para comer"
+        },
+        {
+          "id": "L2105",
+          "level": 0,
+          "link": "/platos-preparados-y-pizzas/tortillas-y-empanadas/c/L2105",
+          "name": "Tortillas y empanadas"
+        },
+        {
+          "id": "L2101",
+          "level": 0,
+          "link": "/platos-preparados-y-pizzas/pizzas-refrigeradas/c/L2101",
+          "name": "Pizzas refrigeradas"
+        },
+        {
+          "id": "L2246",
+          "level": 0,
+          "link": "/platos-preparados-y-pizzas/pizzas-congeladas/c/L2246",
+          "name": "Pizzas congeladas"
+        },
+        {
+          "id": "L2104",
+          "level": 0,
+          "link": "/platos-preparados-y-pizzas/sandwiches-hamburguesas-y-horno/c/L2104",
+          "name": "Sándwiches, hamburguesas y horno"
+        },
+        {
+          "id": "L2247",
+          "level": 0,
+          "link": "/platos-preparados-y-pizzas/platos-precocinados/c/L2247",
+          "name": "Platos precocinados"
+        },
+        {
+          "id": "L2103",
+          "level": 0,
+          "link": "/platos-preparados-y-pizzas/comida-internacional/c/L2103",
+          "name": "Comida internacional"
+        },
+        {
+          "id": "L2106",
+          "level": 0,
+          "link": "/platos-preparados-y-pizzas/gazpachos-y-salmorejos/c/L2106",
+          "name": "Gazpachos y salmorejos"
+        },
+        {
+          "id": "L2269",
+          "level": 0,
+          "link": "/platos-preparados-y-pizzas/hummus-y-guacamoles/c/L2269",
+          "name": "Hummus y guacamoles"
+        }
+      ],
+      "icon": "/category_images/L116/L116_icon.png",
+      "id": "L116",
+      "level": 0,
+      "link": "/platos-preparados-y-pizzas/c/L116",
+      "name": "Platos preparados y pizzas"
+    },
+    {
+      "children": [
+        {
+          "id": "L115",
+          "level": 0,
+          "link": "/patatas-fritas-encurtidos-y-frutos-secos/c/L115",
+          "name": "Todo patatas fritas, encurtidos y frutos secos"
+        },
+        {
+          "id": "L2098",
+          "level": 0,
+          "link": "/patatas-fritas-encurtidos-y-frutos-secos/patatas-fritas-y-aperitivos/c/L2098",
+          "name": "Patatas fritas y aperitivos"
+        },
+        {
+          "id": "L2096",
+          "level": 0,
+          "link": "/patatas-fritas-encurtidos-y-frutos-secos/aceitunas-y-encurtidos/c/L2096",
+          "name": "Aceitunas y encurtidos"
+        },
+        {
+          "id": "L2097",
+          "level": 0,
+          "link": "/patatas-fritas-encurtidos-y-frutos-secos/frutos-secos/c/L2097",
+          "name": "Frutos secos"
+        },
+        {
+          "id": "L2041",
+          "level": 0,
+          "link": "/patatas-fritas-encurtidos-y-frutos-secos/frutas-deshidratadas/c/L2041",
+          "name": "Frutas deshidratadas"
+        }
+      ],
+      "icon": "/category_images/L115/L115_icon.png",
+      "id": "L115",
+      "level": 0,
+      "link": "/patatas-fritas-encurtidos-y-frutos-secos/c/L115",
+      "name": "Patatas fritas, encurtidos y frutos secos"
+    },
+    {
+      "children": [
+        {
+          "id": "L117",
+          "level": 0,
+          "link": "/agua-refrescos-y-zumos/c/L117",
+          "name": "Todo agua, refrescos y zumos"
+        },
+        {
+          "id": "L2107",
+          "level": 0,
+          "link": "/agua-refrescos-y-zumos/agua/c/L2107",
+          "name": "Agua"
+        },
+        {
+          "id": "L2108",
+          "level": 0,
+          "link": "/agua-refrescos-y-zumos/cola/c/L2108",
+          "name": "Cola"
+        },
+        {
+          "id": "L2212",
+          "level": 0,
+          "link": "/agua-refrescos-y-zumos/naranja/c/L2212",
+          "name": "Naranja"
+        },
+        {
+          "id": "L2109",
+          "level": 0,
+          "link": "/agua-refrescos-y-zumos/limon-lima-limon/c/L2109",
+          "name": "Limón, lima limón"
+        },
+        {
+          "id": "L2111",
+          "level": 0,
+          "link": "/agua-refrescos-y-zumos/tes-frios-cafes-frios/c/L2111",
+          "name": "Tés fríos, cafés frios"
+        },
+        {
+          "id": "L2112",
+          "level": 0,
+          "link": "/agua-refrescos-y-zumos/tonicas/c/L2112",
+          "name": "Tónicas"
+        },
+        {
+          "id": "L2192",
+          "level": 0,
+          "link": "/agua-refrescos-y-zumos/gaseosa/c/L2192",
+          "name": "Gaseosa"
+        },
+        {
+          "id": "L2217",
+          "level": 0,
+          "link": "/agua-refrescos-y-zumos/bebidas-energeticas/c/L2217",
+          "name": "Bebidas energéticas"
+        },
+        {
+          "id": "L2114",
+          "level": 0,
+          "link": "/agua-refrescos-y-zumos/bebidas-isotonicas/c/L2114",
+          "name": "Bebidas isotónicas"
+        },
+        {
+          "id": "L2113",
+          "level": 0,
+          "link": "/agua-refrescos-y-zumos/zumos/c/L2113",
+          "name": "Zumos"
+        },
+        {
+          "id": "L2110",
+          "level": 0,
+          "link": "/agua-refrescos-y-zumos/otras-bebidas/c/L2110",
+          "name": "Otras bebidas"
+        }
+      ],
+      "icon": "/category_images/L117/L117_icon.png",
+      "id": "L117",
+      "level": 0,
+      "link": "/agua-refrescos-y-zumos/c/L117",
+      "name": "Agua, refrescos y zumos"
+    },
+    {
+      "children": [
+        {
+          "id": "L118",
+          "level": 0,
+          "link": "/cervezas-vinos-y-bebidas-con-alcohol/c/L118",
+          "name": "Todo cervezas, vinos y bebidas con alcohol"
+        },
+        {
+          "id": "L2115",
+          "level": 0,
+          "link": "/cervezas-vinos-y-bebidas-con-alcohol/cervezas/c/L2115",
+          "name": "Cervezas"
+        },
+        {
+          "id": "L2117",
+          "level": 0,
+          "link": "/cervezas-vinos-y-bebidas-con-alcohol/cervezas-especiales/c/L2117",
+          "name": "Cervezas especiales"
+        },
+        {
+          "id": "L2182",
+          "level": 0,
+          "link": "/cervezas-vinos-y-bebidas-con-alcohol/cervezas-con-limon/c/L2182",
+          "name": "Cervezas con limón"
+        },
+        {
+          "id": "L2118",
+          "level": 0,
+          "link": "/cervezas-vinos-y-bebidas-con-alcohol/cervezas-sin-alcohol/c/L2118",
+          "name": "Cervezas sin alcohol"
+        },
+        {
+          "id": "L2119",
+          "level": 0,
+          "link": "/cervezas-vinos-y-bebidas-con-alcohol/tinto-de-verano-y-sangria/c/L2119",
+          "name": "Tinto de verano y sangría"
+        },
+        {
+          "id": "L2120",
+          "level": 0,
+          "link": "/cervezas-vinos-y-bebidas-con-alcohol/vino-tinto/c/L2120",
+          "name": "Vino tinto"
+        },
+        {
+          "id": "L2121",
+          "level": 0,
+          "link": "/cervezas-vinos-y-bebidas-con-alcohol/vino-blanco/c/L2121",
+          "name": "Vino blanco"
+        },
+        {
+          "id": "L2124",
+          "level": 0,
+          "link": "/cervezas-vinos-y-bebidas-con-alcohol/vino-rosado/c/L2124",
+          "name": "Vino rosado"
+        },
+        {
+          "id": "L2122",
+          "level": 0,
+          "link": "/cervezas-vinos-y-bebidas-con-alcohol/cavas-y-sidra/c/L2122",
+          "name": "Cavas y sidra"
+        },
+        {
+          "id": "L2125",
+          "level": 0,
+          "link": "/cervezas-vinos-y-bebidas-con-alcohol/ginebra-y-vodka/c/L2125",
+          "name": "Ginebra y vodka"
+        },
+        {
+          "id": "L2128",
+          "level": 0,
+          "link": "/cervezas-vinos-y-bebidas-con-alcohol/ron-y-whisky/c/L2128",
+          "name": "Ron y whisky"
+        },
+        {
+          "id": "L2127",
+          "level": 0,
+          "link": "/cervezas-vinos-y-bebidas-con-alcohol/vermouth/c/L2127",
+          "name": "Vermouth"
+        },
+        {
+          "id": "L2129",
+          "level": 0,
+          "link": "/cervezas-vinos-y-bebidas-con-alcohol/cremas-y-licores/c/L2129",
+          "name": "Cremas y licores"
+        },
+        {
+          "id": "L2126",
+          "level": 0,
+          "link": "/cervezas-vinos-y-bebidas-con-alcohol/brandy/c/L2126",
+          "name": "Brandy"
+        }
+      ],
+      "icon": "/category_images/L118/L118_icon.png",
+      "id": "L118",
+      "level": 0,
+      "link": "/cervezas-vinos-y-bebidas-con-alcohol/c/L118",
+      "name": "Cervezas, vinos y bebidas con alcohol"
+    },
+    {
+      "children": [
+        {
+          "id": "L122",
+          "level": 0,
+          "link": "/limpieza-y-hogar/c/L122",
+          "name": "Todo limpieza y hogar"
+        },
+        {
+          "id": "L2170",
+          "level": 0,
+          "link": "/limpieza-y-hogar/cuidado-de-la-ropa/c/L2170",
+          "name": "Cuidado de la ropa"
+        },
+        {
+          "id": "L2167",
+          "level": 0,
+          "link": "/limpieza-y-hogar/lavavajillas/c/L2167",
+          "name": "Lavavajillas"
+        },
+        {
+          "id": "L2168",
+          "level": 0,
+          "link": "/limpieza-y-hogar/papel-higienico-de-cocina-servilletas/c/L2168",
+          "name": "Papel higiénico, de cocina, servilletas"
+        },
+        {
+          "id": "L2159",
+          "level": 0,
+          "link": "/limpieza-y-hogar/utensilios-de-limpieza/c/L2159",
+          "name": "Utensilios de limpieza"
+        },
+        {
+          "id": "L2160",
+          "level": 0,
+          "link": "/limpieza-y-hogar/bolsas-de-basura/c/L2160",
+          "name": "Bolsas de basura"
+        },
+        {
+          "id": "L2161",
+          "level": 0,
+          "link": "/limpieza-y-hogar/lejia-y-otros-quimicos/c/L2161",
+          "name": "Lejía y otros químicos"
+        },
+        {
+          "id": "L2162",
+          "level": 0,
+          "link": "/limpieza-y-hogar/cristales-y-suelos/c/L2162",
+          "name": "Cristales y suelos"
+        },
+        {
+          "id": "L2163",
+          "level": 0,
+          "link": "/limpieza-y-hogar/limpia-muebles-y-multiusos/c/L2163",
+          "name": "Limpia muebles y multiusos"
+        },
+        {
+          "id": "L2164",
+          "level": 0,
+          "link": "/limpieza-y-hogar/limpieza-bano-y-wc/c/L2164",
+          "name": "Limpieza baño y WC"
+        },
+        {
+          "id": "L2166",
+          "level": 0,
+          "link": "/limpieza-y-hogar/limpieza-cocina-y-vitroceramica/c/L2166",
+          "name": "Limpieza cocina y vitrocerámica"
+        },
+        {
+          "id": "L2169",
+          "level": 0,
+          "link": "/limpieza-y-hogar/papel-de-aluminio-horno-y-film/c/L2169",
+          "name": "Papel de aluminio, horno y film"
+        },
+        {
+          "id": "L2173",
+          "level": 0,
+          "link": "/limpieza-y-hogar/insecticidas/c/L2173",
+          "name": "Insecticidas"
+        },
+        {
+          "id": "L2226",
+          "level": 0,
+          "link": "/limpieza-y-hogar/ambientadores/c/L2226",
+          "name": "Ambientadores"
+        },
+        {
+          "id": "L2171",
+          "level": 0,
+          "link": "/limpieza-y-hogar/calzado/c/L2171",
+          "name": "Calzado"
+        },
+        {
+          "id": "L2209",
+          "level": 0,
+          "link": "/limpieza-y-hogar/utiles-del-hogar-pilas-bombillas/c/L2209",
+          "name": "Útiles del hogar, pilas, bombillas"
+        }
+      ],
+      "icon": "/category_images/L122/L122_icon.png",
+      "id": "L122",
+      "level": 0,
+      "link": "/limpieza-y-hogar/c/L122",
+      "name": "Limpieza y hogar"
+    },
+    {
+      "children": [
+        {
+          "id": "L121",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/c/L121",
+          "name": "Todo perfumería, higiene, salud"
+        },
+        {
+          "id": "L2153",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/hidratacion-corporal/c/L2153",
+          "name": "Hidratación corporal"
+        },
+        {
+          "id": "L2211",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/gel-de-ducha-y-esponjas/c/L2211",
+          "name": "Gel de ducha y esponjas"
+        },
+        {
+          "id": "L2151",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/cuidado-bucal/c/L2151",
+          "name": "Cuidado bucal"
+        },
+        {
+          "id": "L2154",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/desodorantes/c/L2154",
+          "name": "Desodorantes"
+        },
+        {
+          "id": "L2144",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/champu/c/L2144",
+          "name": "Champú"
+        },
+        {
+          "id": "L2145",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/acondicionadores-y-mascarillas/c/L2145",
+          "name": "Acondicionadores y mascarillas"
+        },
+        {
+          "id": "L2146",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/espumas-y-fijadores/c/L2146",
+          "name": "Espumas y fijadores"
+        },
+        {
+          "id": "L2147",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/tintes/c/L2147",
+          "name": "Tintes"
+        },
+        {
+          "id": "L2148",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/limpieza-facial-crema-facial/c/L2148",
+          "name": "Limpieza facial, crema facial"
+        },
+        {
+          "id": "L2186",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/quitaesmalte/c/L2186",
+          "name": "Quitaesmalte"
+        },
+        {
+          "id": "L2150",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/afeitado/c/L2150",
+          "name": "Afeitado"
+        },
+        {
+          "id": "L2188",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/depilacion/c/L2188",
+          "name": "Depilación"
+        },
+        {
+          "id": "L2155",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/colonias/c/L2155",
+          "name": "Colonias"
+        },
+        {
+          "id": "L2156",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/jabon-de-manos/c/L2156",
+          "name": "Jabón de manos"
+        },
+        {
+          "id": "L2227",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/cremas-solares/c/L2227",
+          "name": "Cremas solares"
+        },
+        {
+          "id": "L2158",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/compresas-y-cuidado-intimo/c/L2158",
+          "name": "Compresas y cuidado íntimo"
+        },
+        {
+          "id": "L2183",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/complementos-nutricionales/c/L2183",
+          "name": "Complementos nutricionales"
+        },
+        {
+          "id": "L2184",
+          "level": 0,
+          "link": "/perfumeria-higiene-salud/parafarmacia/c/L2184",
+          "name": "Parafarmacia"
+        }
+      ],
+      "icon": "/category_images/L121/L121_icon.png",
+      "id": "L121",
+      "level": 0,
+      "link": "/perfumeria-higiene-salud/c/L121",
+      "name": "Perfumería, higiene, salud"
+    },
+    {
+      "children": [
+        {
+          "id": "L120",
+          "level": 0,
+          "link": "/bebe/c/L120",
+          "name": "Todo bebé"
+        },
+        {
+          "id": "L2138",
+          "level": 0,
+          "link": "/bebe/papilla/c/L2138",
+          "name": "Papilla"
+        },
+        {
+          "id": "L2139",
+          "level": 0,
+          "link": "/bebe/leche-para-bebes/c/L2139",
+          "name": "Leche para bebés"
+        },
+        {
+          "id": "L2141",
+          "level": 0,
+          "link": "/bebe/potitos-y-tarritos/c/L2141",
+          "name": "Potitos y tarritos"
+        },
+        {
+          "id": "L2140",
+          "level": 0,
+          "link": "/bebe/yogures-bolsitas-de-frutas-y-snacks/c/L2140",
+          "name": "Yogures, bolsitas de frutas y snacks"
+        },
+        {
+          "id": "L2142",
+          "level": 0,
+          "link": "/bebe/panales-y-toallitas/c/L2142",
+          "name": "Pañales y toallitas"
+        },
+        {
+          "id": "L2143",
+          "level": 0,
+          "link": "/bebe/cuidado-del-bebe/c/L2143",
+          "name": "Cuidado del bebé"
+        }
+      ],
+      "icon": "/category_images/L120/L120_icon.png",
+      "id": "L120",
+      "level": 0,
+      "link": "/bebe/c/L120",
+      "name": "Bebé"
+    },
+    {
+      "children": [
+        {
+          "id": "L123",
+          "level": 0,
+          "link": "/mascotas/c/L123",
+          "name": "Todo mascotas"
+        },
+        {
+          "id": "L2174",
+          "level": 0,
+          "link": "/mascotas/perros/c/L2174",
+          "name": "Perros"
+        },
+        {
+          "id": "L2175",
+          "level": 0,
+          "link": "/mascotas/gatos/c/L2175",
+          "name": "Gatos"
+        },
+        {
+          "id": "L2176",
+          "level": 0,
+          "link": "/mascotas/otros-animales/c/L2176",
+          "name": "Otros animales"
+        }
+      ],
+      "icon": "/category_images/L123/L123_icon.png",
+      "id": "L123",
+      "level": 0,
+      "link": "/mascotas/c/L123",
+      "name": "Mascotas"
+    }
+  ],
+  "offer_category": {
+    "icon": "/category_images/L150/L150_icon.png",
+    "id": "L150",
+    "level": 0,
+    "link": "/ofertas",
+    "name": "Ofertas"
+  }
+}

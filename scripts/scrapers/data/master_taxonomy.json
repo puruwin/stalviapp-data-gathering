@@ -1,0 +1,409 @@
+{
+  "version": "2.1",
+  "description": "Taxonomía maestra basada en categorías reales de DIA y Mercadona",
+  "categories": [
+    {
+      "id": "frutas",
+      "name": "Frutas",
+      "keywords": ["fruta", "frutas"],
+      "children": [
+        {"id": "frutas.platanos", "name": "Plátanos y Bananas", "keywords": ["platano", "banana"]},
+        {"id": "frutas.manzanas_peras", "name": "Manzanas y Peras", "keywords": ["manzana", "pera"]},
+        {"id": "frutas.citricos", "name": "Cítricos", "keywords": ["naranja", "mandarina", "limon", "citrico"]},
+        {"id": "frutas.melon_sandia", "name": "Melón y Sandía", "keywords": ["melon", "sandia"]},
+        {"id": "frutas.uvas", "name": "Uvas", "keywords": ["uva", "uvas"]},
+        {"id": "frutas.tropicales", "name": "Frutas Tropicales", "keywords": ["tropical", "mango", "piña", "papaya"]},
+        {"id": "frutas.frutos_rojos", "name": "Frutos Rojos y del Bosque", "keywords": ["fresa", "frambuesa", "arandano", "mora"]},
+        {"id": "frutas.congeladas", "name": "Frutas Congeladas", "keywords": ["fruta congelada"]},
+        {"id": "frutas.deshidratadas", "name": "Frutas Deshidratadas", "keywords": ["fruta deshidratada", "pasas", "datil"]}
+      ]
+    },
+    {
+      "id": "verduras",
+      "name": "Verduras y Hortalizas",
+      "keywords": ["verdura", "hortaliza", "vegetal"],
+      "children": [
+        {"id": "verduras.lechugas", "name": "Lechugas y Hojas Verdes", "keywords": ["lechuga", "espinaca", "rucula"]},
+        {"id": "verduras.tomates_pimientos", "name": "Tomates, Pimientos y Pepinos", "keywords": ["tomate", "pimiento", "pepino"]},
+        {"id": "verduras.ajos_cebollas", "name": "Ajos, Cebollas y Puerros", "keywords": ["ajo", "cebolla", "puerro"]},
+        {"id": "verduras.calabacin_berenjena", "name": "Calabacín, Calabaza y Berenjena", "keywords": ["calabacin", "calabaza", "berenjena"]},
+        {"id": "verduras.patatas_zanahorias", "name": "Patatas y Zanahorias", "keywords": ["patata", "zanahoria"]},
+        {"id": "verduras.brocoli_coliflor", "name": "Brócoli, Coliflor y Judías Verdes", "keywords": ["brocoli", "coliflor", "judia verde"]},
+        {"id": "verduras.setas_champinones", "name": "Setas y Champiñones", "keywords": ["seta", "champiñon"]},
+        {"id": "verduras.hierbas", "name": "Hierbas Aromáticas", "keywords": ["hierba", "perejil", "cilantro", "albahaca"]},
+        {"id": "verduras.ensaladas_preparadas", "name": "Ensaladas y Verduras Preparadas", "keywords": ["ensalada", "preparada"]},
+        {"id": "verduras.congeladas", "name": "Verduras Congeladas", "keywords": ["verdura congelada", "menestra"]},
+        {"id": "verduras.conservas", "name": "Conservas de Verduras", "keywords": ["conserva vegetal"]}
+      ]
+    },
+    {
+      "id": "carnes",
+      "name": "Carnes",
+      "keywords": ["carne", "carnes"],
+      "children": [
+        {"id": "carnes.pollo", "name": "Pollo", "keywords": ["pollo"]},
+        {"id": "carnes.vacuno", "name": "Vacuno", "keywords": ["vacuno", "ternera", "buey"]},
+        {"id": "carnes.cerdo", "name": "Cerdo", "keywords": ["cerdo", "lomo", "costilla"]},
+        {"id": "carnes.pavo", "name": "Pavo", "keywords": ["pavo"]},
+        {"id": "carnes.conejo", "name": "Conejo", "keywords": ["conejo"]},
+        {"id": "carnes.picada_hamburguesa", "name": "Hamburguesas y Carne Picada", "keywords": ["hamburguesa", "picada", "albondiga"]},
+        {"id": "carnes.empanados", "name": "Empanados y Elaborados", "keywords": ["empanado", "rebozado"]},
+        {"id": "carnes.arreglos", "name": "Arreglos y Despieces", "keywords": ["arreglo", "despiece"]}
+      ]
+    },
+    {
+      "id": "pescados",
+      "name": "Pescados y Mariscos",
+      "keywords": ["pescado", "marisco"],
+      "children": [
+        {"id": "pescados.frescos", "name": "Pescados y Mariscos Frescos", "keywords": ["pescado fresco", "marisco fresco"]},
+        {"id": "pescados.merluza_bacalao", "name": "Merluza y Bacalao Congelados", "keywords": ["merluza", "bacalao"]},
+        {"id": "pescados.salmon_atun", "name": "Salmón, Atún y Pescado Blanco Congelados", "keywords": ["salmon", "atun congelado"]},
+        {"id": "pescados.calamar_sepia", "name": "Calamar y Sepia Congelados", "keywords": ["calamar", "sepia"]},
+        {"id": "pescados.rebozados", "name": "Pescados Rebozados", "keywords": ["pescado rebozado", "varitas"]},
+        {"id": "pescados.marisco_concha", "name": "Marisco de Concha Congelado", "keywords": ["mejillon", "almeja"]},
+        {"id": "pescados.gambas_langostinos", "name": "Gambas y Langostinos Congelados", "keywords": ["gamba", "langostino"]},
+        {"id": "pescados.ahumados", "name": "Ahumados y Salazones", "keywords": ["ahumado", "salmon ahumado", "bacalao salado"]},
+        {"id": "pescados.surimi", "name": "Surimi y Elaborados", "keywords": ["surimi", "palitos cangrejo"]}
+      ]
+    },
+    {
+      "id": "charcuteria",
+      "name": "Charcutería y Quesos",
+      "keywords": ["charcuteria", "embutido", "queso"],
+      "children": [
+        {"id": "charcuteria.jamon_cocido", "name": "Jamón Cocido, Pavo y Pollo", "keywords": ["jamon cocido", "pechuga pavo"]},
+        {"id": "charcuteria.jamon_curado", "name": "Jamón Curado y Paleta", "keywords": ["jamon curado", "paleta", "iberico"]},
+        {"id": "charcuteria.embutidos", "name": "Lomo, Chorizo, Fuet y Salchichón", "keywords": ["lomo", "chorizo", "fuet", "salchichon"]},
+        {"id": "charcuteria.salchichas_bacon", "name": "Salchichas y Bacon", "keywords": ["salchicha", "bacon", "frankfurt"]},
+        {"id": "charcuteria.chopped_mortadela", "name": "Chopped y Mortadela", "keywords": ["chopped", "mortadela"]},
+        {"id": "charcuteria.pate", "name": "Paté, Foie y Sobrasada", "keywords": ["pate", "foie", "sobrasada"]},
+        {"id": "charcuteria.queso_curado", "name": "Queso Curado, Semi y Tierno", "keywords": ["queso curado", "queso semicurado", "queso tierno"]},
+        {"id": "charcuteria.queso_lonchas", "name": "Quesos en Lonchas y Rallado", "keywords": ["queso lonchas", "queso rallado"]},
+        {"id": "charcuteria.queso_untable", "name": "Quesos Untables y Fundidos", "keywords": ["queso untable", "queso fundido", "philadelphia"]},
+        {"id": "charcuteria.queso_fresco", "name": "Queso Fresco", "keywords": ["queso fresco", "burgos"]},
+        {"id": "charcuteria.queso_azul", "name": "Queso Azul, Roquefort y Cabra", "keywords": ["queso azul", "roquefort", "queso cabra"]},
+        {"id": "charcuteria.queso_internacional", "name": "Quesos Internacionales", "keywords": ["brie", "camembert", "parmesano"]},
+        {"id": "charcuteria.queso_proteico", "name": "Quesos Altos en Proteínas", "keywords": ["queso proteina", "skyr"]}
+      ]
+    },
+    {
+      "id": "lacteos",
+      "name": "Huevos, Leche y Mantequilla",
+      "keywords": ["lacteo", "leche", "huevo"],
+      "children": [
+        {"id": "lacteos.huevos", "name": "Huevos", "keywords": ["huevo"]},
+        {"id": "lacteos.leche", "name": "Leche", "keywords": ["leche entera", "leche semi", "leche desnatada"]},
+        {"id": "lacteos.leche_sin_lactosa", "name": "Leche Sin Lactosa y Enriquecidas", "keywords": ["sin lactosa", "leche calcio"]},
+        {"id": "lacteos.bebidas_vegetales", "name": "Bebidas Vegetales", "keywords": ["avena", "soja", "almendra", "vegetal"]},
+        {"id": "lacteos.leche_infantil", "name": "Leche Infantil", "keywords": ["leche infantil", "leche crecimiento"]},
+        {"id": "lacteos.batidos", "name": "Batidos, Cafés Fríos y Horchatas", "keywords": ["batido", "horchata", "cafe frio"]},
+        {"id": "lacteos.batidos_proteicos", "name": "Batidos Altos en Proteínas", "keywords": ["batido proteina", "batido proteico"]},
+        {"id": "lacteos.leche_condensada", "name": "Leche Condensada y Evaporada", "keywords": ["condensada", "evaporada"]},
+        {"id": "lacteos.mantequilla", "name": "Mantequilla y Margarina", "keywords": ["mantequilla", "margarina"]},
+        {"id": "lacteos.nata", "name": "Nata", "keywords": ["nata", "nata montar"]}
+      ]
+    },
+    {
+      "id": "yogures",
+      "name": "Yogures y Postres",
+      "keywords": ["yogur", "postre"],
+      "children": [
+        {"id": "yogures.naturales", "name": "Yogures Naturales y Desnatados", "keywords": ["yogur natural", "yogur desnatado"]},
+        {"id": "yogures.sabores", "name": "Yogures de Sabores y Frutas", "keywords": ["yogur fresa", "yogur frutas"]},
+        {"id": "yogures.griegos", "name": "Yogures Griegos", "keywords": ["yogur griego"]},
+        {"id": "yogures.liquidos", "name": "Yogures Líquidos", "keywords": ["yogur liquido", "actimel"]},
+        {"id": "yogures.bifidus", "name": "Yogures Bífidus y Colesterol", "keywords": ["bifidus", "activia", "danacol"]},
+        {"id": "yogures.kefir", "name": "Kéfir y Fermentados", "keywords": ["kefir", "fermentado"]},
+        {"id": "yogures.proteicos", "name": "Postres Proteicos y Vegetales", "keywords": ["postre proteico", "postre vegetal"]},
+        {"id": "yogures.infantiles", "name": "Yogures y Postres Infantiles", "keywords": ["petit suisse", "danonino"]},
+        {"id": "yogures.tradicionales", "name": "Postres Tradicionales", "keywords": ["postre tradicional"]},
+        {"id": "yogures.natillas", "name": "Natillas, Flan y Arroz con Leche", "keywords": ["natilla", "flan", "arroz con leche"]},
+        {"id": "yogures.gelatinas", "name": "Gelatinas y Cuajadas", "keywords": ["gelatina", "cuajada"]}
+      ]
+    },
+    {
+      "id": "panaderia",
+      "name": "Panadería",
+      "keywords": ["pan", "panaderia"],
+      "children": [
+        {"id": "panaderia.pan_fresco", "name": "Pan Recién Horneado", "keywords": ["pan fresco", "barra", "hogaza"]},
+        {"id": "panaderia.pan_molde", "name": "Pan de Molde y Especiales", "keywords": ["pan molde", "pan integral"]},
+        {"id": "panaderia.pan_hamburguesa", "name": "Pan para Hamburguesas y Perritos", "keywords": ["pan hamburguesa", "pan perrito"]},
+        {"id": "panaderia.tortillas_pitas", "name": "Tortillas de Trigo y Pitas", "keywords": ["tortilla trigo", "pita"]},
+        {"id": "panaderia.pan_sin_gluten", "name": "Pan Sin Gluten", "keywords": ["pan sin gluten"]},
+        {"id": "panaderia.pan_tostado", "name": "Pan Tostado, Rallado y Picatostes", "keywords": ["pan tostado", "pan rallado", "picatoste"]},
+        {"id": "panaderia.picos_crackers", "name": "Picos y Crackers", "keywords": ["pico", "cracker", "regaña"]},
+        {"id": "panaderia.masas", "name": "Masas y Hojaldres", "keywords": ["masa", "hojaldre"]},
+        {"id": "panaderia.harinas", "name": "Harinas y Levaduras", "keywords": ["harina", "levadura"]},
+        {"id": "panaderia.tartas", "name": "Tartas y Pasteles", "keywords": ["tarta", "pastel", "bizcocho"]},
+        {"id": "panaderia.velas", "name": "Velas y Decoración", "keywords": ["vela", "decoracion tarta"]}
+      ]
+    },
+    {
+      "id": "despensa",
+      "name": "Arroz, Pastas y Legumbres",
+      "keywords": ["arroz", "pasta", "legumbre"],
+      "children": [
+        {"id": "despensa.arroz", "name": "Arroz", "keywords": ["arroz"]},
+        {"id": "despensa.fideos", "name": "Fideos", "keywords": ["fideo"]},
+        {"id": "despensa.pasta_seca", "name": "Macarrones, Espaguetis y Pastas Secas", "keywords": ["macarron", "espagueti", "pasta seca"]},
+        {"id": "despensa.pasta_rellena", "name": "Pastas Rellenas", "keywords": ["ravioli", "tortellini"]},
+        {"id": "despensa.lasana", "name": "Lasaña y Canelones", "keywords": ["lasaña", "canelon"]},
+        {"id": "despensa.noodles", "name": "Noodles", "keywords": ["noodle", "ramen"]},
+        {"id": "despensa.pasta_sin_gluten", "name": "Pastas Sin Gluten", "keywords": ["pasta sin gluten"]},
+        {"id": "despensa.garbanzos", "name": "Garbanzos y Alubias", "keywords": ["garbanzo", "alubia", "judia"]},
+        {"id": "despensa.lentejas", "name": "Lentejas", "keywords": ["lenteja"]},
+        {"id": "despensa.quinoa", "name": "Quinoa, Couscous y Soja", "keywords": ["quinoa", "cuscus", "soja"]}
+      ]
+    },
+    {
+      "id": "aceites",
+      "name": "Aceites, Salsas y Especias",
+      "keywords": ["aceite", "salsa", "especia"],
+      "children": [
+        {"id": "aceites.aceites", "name": "Aceites", "keywords": ["aceite oliva", "aceite girasol"]},
+        {"id": "aceites.vinagres", "name": "Vinagres y Aliños", "keywords": ["vinagre", "aliño"]},
+        {"id": "aceites.tomate", "name": "Tomate", "keywords": ["tomate frito", "tomate triturado"]},
+        {"id": "aceites.salsas", "name": "Mayonesa, Ketchup y Otras Salsas", "keywords": ["mayonesa", "ketchup", "mostaza"]},
+        {"id": "aceites.especias", "name": "Sal y Especias", "keywords": ["sal", "pimienta", "oregano"]}
+      ]
+    },
+    {
+      "id": "conservas",
+      "name": "Conservas, Caldos y Cremas",
+      "keywords": ["conserva", "caldo", "crema"],
+      "children": [
+        {"id": "conservas.atun", "name": "Atún, Bonito y Caballa", "keywords": ["atun", "bonito", "caballa"]},
+        {"id": "conservas.berberechos", "name": "Berberechos", "keywords": ["berberecho"]},
+        {"id": "conservas.mejillones", "name": "Mejillones", "keywords": ["mejillon"]},
+        {"id": "conservas.sardinas", "name": "Sardinas y Sardinillas", "keywords": ["sardina"]},
+        {"id": "conservas.otras_pescado", "name": "Otras Conservas de Pescado", "keywords": ["conserva pescado"]},
+        {"id": "conservas.vegetales", "name": "Conservas Vegetales", "keywords": ["conserva vegetal", "esparrago", "pimiento"]},
+        {"id": "conservas.sopas", "name": "Sopas, Caldos y Purés Deshidratados", "keywords": ["sopa", "caldo deshidratado", "pure"]},
+        {"id": "conservas.cremas_caldos", "name": "Cremas y Caldos Líquidos", "keywords": ["caldo liquido", "crema"]}
+      ]
+    },
+    {
+      "id": "dulces",
+      "name": "Azúcar, Chocolates y Caramelos",
+      "keywords": ["azucar", "chocolate", "caramelo", "dulce"],
+      "children": [
+        {"id": "dulces.azucar", "name": "Azúcar y Edulcorantes", "keywords": ["azucar", "edulcorante", "stevia"]},
+        {"id": "dulces.miel", "name": "Miel", "keywords": ["miel"]},
+        {"id": "dulces.mermeladas", "name": "Mermeladas y Frutas en Almíbar", "keywords": ["mermelada", "confitura", "almibar"]},
+        {"id": "dulces.cremas_cacao", "name": "Cremas de Cacao", "keywords": ["nocilla", "nutella", "crema cacao"]},
+        {"id": "dulces.preparados_postres", "name": "Preparados para Postres", "keywords": ["preparado postre", "bizcocho"]},
+        {"id": "dulces.chocolates", "name": "Chocolates y Bombones", "keywords": ["chocolate", "bombon", "tableta"]},
+        {"id": "dulces.caramelos", "name": "Caramelos, Chicles y Golosinas", "keywords": ["caramelo", "chicle", "golosina"]},
+        {"id": "dulces.navidad", "name": "Dulces de Navidad", "keywords": ["turron", "polvoron", "mazapan"]}
+      ]
+    },
+    {
+      "id": "cafe",
+      "name": "Café, Cacao e Infusiones",
+      "keywords": ["cafe", "cacao", "infusion", "te"],
+      "children": [
+        {"id": "cafe.capsulas_nespresso", "name": "Cápsulas Compatibles Nespresso", "keywords": ["nespresso", "capsula"]},
+        {"id": "cafe.capsulas_dolce", "name": "Cápsulas Compatibles Dolce Gusto", "keywords": ["dolce gusto"]},
+        {"id": "cafe.otras_capsulas", "name": "Otras Cápsulas Compatibles", "keywords": ["tassimo", "senseo"]},
+        {"id": "cafe.molido", "name": "Café Molido", "keywords": ["cafe molido"]},
+        {"id": "cafe.soluble", "name": "Café Soluble y Bebidas Instantáneas", "keywords": ["cafe soluble", "nescafe"]},
+        {"id": "cafe.grano", "name": "Café en Grano", "keywords": ["cafe grano"]},
+        {"id": "cafe.frio", "name": "Cafés Fríos", "keywords": ["cafe frio", "ice coffee"]},
+        {"id": "cafe.cacao", "name": "Cacao y Chocolate a la Taza", "keywords": ["colacao", "nesquik", "chocolate taza"]},
+        {"id": "cafe.infusiones", "name": "Infusiones", "keywords": ["infusion", "manzanilla", "tila"]},
+        {"id": "cafe.te", "name": "Té", "keywords": ["te verde", "te negro"]}
+      ]
+    },
+    {
+      "id": "galletas",
+      "name": "Galletas, Bollos y Cereales",
+      "keywords": ["galleta", "bollo", "cereal"],
+      "children": [
+        {"id": "galletas.galletas", "name": "Galletas", "keywords": ["galleta", "maria", "digestive"]},
+        {"id": "galletas.saladas", "name": "Galletas Saladas", "keywords": ["galleta salada"]},
+        {"id": "galletas.bolleria", "name": "Bollería", "keywords": ["bolleria", "croissant", "magdalena"]},
+        {"id": "galletas.cereales", "name": "Cereales", "keywords": ["cereal", "muesli", "corn flakes"]},
+        {"id": "galletas.tortitas", "name": "Tortitas", "keywords": ["tortita", "tortita arroz"]}
+      ]
+    },
+    {
+      "id": "preparados",
+      "name": "Platos Preparados y Pizzas",
+      "keywords": ["preparado", "pizza", "precocinado"],
+      "children": [
+        {"id": "preparados.listos", "name": "Listos para Comer", "keywords": ["listo para comer"]},
+        {"id": "preparados.tortillas", "name": "Tortillas y Empanadas", "keywords": ["tortilla", "empanada"]},
+        {"id": "preparados.pizza_refri", "name": "Pizzas Refrigeradas", "keywords": ["pizza refrigerada"]},
+        {"id": "preparados.pizza_congelada", "name": "Pizzas Congeladas", "keywords": ["pizza congelada"]},
+        {"id": "preparados.sandwiches", "name": "Sándwiches, Hamburguesas y Horno", "keywords": ["sandwich", "hamburguesa preparada"]},
+        {"id": "preparados.precocinados", "name": "Platos Precocinados", "keywords": ["precocinado", "paella"]},
+        {"id": "preparados.internacional", "name": "Comida Internacional", "keywords": ["sushi", "mexicano", "asiatico"]},
+        {"id": "preparados.gazpacho", "name": "Gazpachos y Salmorejos", "keywords": ["gazpacho", "salmorejo"]},
+        {"id": "preparados.hummus", "name": "Hummus y Guacamoles", "keywords": ["hummus", "guacamole"]}
+      ]
+    },
+    {
+      "id": "aperitivos",
+      "name": "Patatas Fritas, Encurtidos y Frutos Secos",
+      "keywords": ["patata frita", "aperitivo", "fruto seco"],
+      "children": [
+        {"id": "aperitivos.patatas", "name": "Patatas Fritas y Aperitivos", "keywords": ["patata frita", "snack"]},
+        {"id": "aperitivos.aceitunas", "name": "Aceitunas y Encurtidos", "keywords": ["aceituna", "pepinillo", "encurtido"]},
+        {"id": "aperitivos.frutos_secos", "name": "Frutos Secos", "keywords": ["almendra", "nuez", "cacahuete"]}
+      ]
+    },
+    {
+      "id": "bebidas",
+      "name": "Agua, Refrescos y Zumos",
+      "keywords": ["agua", "refresco", "zumo"],
+      "children": [
+        {"id": "bebidas.agua", "name": "Agua", "keywords": ["agua mineral", "agua con gas"]},
+        {"id": "bebidas.cola", "name": "Cola", "keywords": ["coca cola", "pepsi"]},
+        {"id": "bebidas.naranja", "name": "Naranja", "keywords": ["fanta", "naranja"]},
+        {"id": "bebidas.limon", "name": "Limón y Lima-Limón", "keywords": ["limon", "sprite", "7up"]},
+        {"id": "bebidas.te_frio", "name": "Tés Fríos y Cafés Fríos", "keywords": ["nestea", "te frio"]},
+        {"id": "bebidas.tonica", "name": "Tónicas", "keywords": ["tonica", "schweppes"]},
+        {"id": "bebidas.gaseosa", "name": "Gaseosa", "keywords": ["gaseosa", "casera"]},
+        {"id": "bebidas.energeticas", "name": "Bebidas Energéticas", "keywords": ["red bull", "monster", "energetica"]},
+        {"id": "bebidas.isotonicas", "name": "Bebidas Isotónicas", "keywords": ["aquarius", "isotonica"]},
+        {"id": "bebidas.zumos", "name": "Zumos", "keywords": ["zumo", "nectar"]},
+        {"id": "bebidas.otras", "name": "Otras Bebidas", "keywords": ["bebida"]}
+      ]
+    },
+    {
+      "id": "alcohol",
+      "name": "Cervezas, Vinos y Bebidas con Alcohol",
+      "keywords": ["cerveza", "vino", "alcohol"],
+      "children": [
+        {"id": "alcohol.cervezas", "name": "Cervezas", "keywords": ["cerveza", "lager"]},
+        {"id": "alcohol.cervezas_especiales", "name": "Cervezas Especiales", "keywords": ["cerveza artesana", "ipa"]},
+        {"id": "alcohol.cervezas_limon", "name": "Cervezas con Limón", "keywords": ["cerveza limon", "radler"]},
+        {"id": "alcohol.cervezas_sin", "name": "Cervezas Sin Alcohol", "keywords": ["cerveza sin alcohol", "0,0"]},
+        {"id": "alcohol.tinto_verano", "name": "Tinto de Verano y Sangría", "keywords": ["tinto verano", "sangria"]},
+        {"id": "alcohol.vino_tinto", "name": "Vino Tinto", "keywords": ["vino tinto", "rioja", "ribera"]},
+        {"id": "alcohol.vino_blanco", "name": "Vino Blanco", "keywords": ["vino blanco", "verdejo", "albarino"]},
+        {"id": "alcohol.vino_rosado", "name": "Vino Rosado", "keywords": ["vino rosado"]},
+        {"id": "alcohol.cava_sidra", "name": "Cavas y Sidra", "keywords": ["cava", "champan", "sidra"]},
+        {"id": "alcohol.espumoso", "name": "Vino Lambrusco y Espumoso", "keywords": ["lambrusco", "espumoso"]},
+        {"id": "alcohol.ginebra_vodka", "name": "Ginebra y Vodka", "keywords": ["ginebra", "vodka", "gin"]},
+        {"id": "alcohol.ron_whisky", "name": "Ron y Whisky", "keywords": ["ron", "whisky", "bourbon"]},
+        {"id": "alcohol.vermouth", "name": "Vermouth", "keywords": ["vermut", "vermouth"]},
+        {"id": "alcohol.licores", "name": "Cremas y Licores", "keywords": ["licor", "crema", "baileys"]},
+        {"id": "alcohol.brandy", "name": "Brandy", "keywords": ["brandy", "coñac"]}
+      ]
+    },
+    {
+      "id": "congelados",
+      "name": "Congelados",
+      "keywords": ["congelado"],
+      "children": [
+        {"id": "congelados.helados", "name": "Helados y Hielo", "keywords": ["helado", "hielo", "polo"]},
+        {"id": "congelados.pizzas", "name": "Pizzas, Bases y Masas", "keywords": ["pizza congelada", "masa congelada"]},
+        {"id": "congelados.pescado", "name": "Pescado y Marisco", "keywords": ["pescado congelado", "marisco congelado"]},
+        {"id": "congelados.carne", "name": "Carne y Pollo", "keywords": ["carne congelada", "pollo congelado"]},
+        {"id": "congelados.verduras", "name": "Verduras, Hortalizas y Salteados", "keywords": ["verdura congelada", "salteado"]},
+        {"id": "congelados.patatas", "name": "Patatas Fritas", "keywords": ["patata congelada"]},
+        {"id": "congelados.croquetas", "name": "Croquetas y Rebozados", "keywords": ["croqueta", "nugget"]},
+        {"id": "congelados.postres", "name": "Churros y Postres", "keywords": ["churro", "postre congelado"]},
+        {"id": "congelados.pasta", "name": "Lasañas y Pasta", "keywords": ["lasaña congelada"]}
+      ]
+    },
+    {
+      "id": "limpieza",
+      "name": "Limpieza y Hogar",
+      "keywords": ["limpieza", "hogar"],
+      "children": [
+        {"id": "limpieza.ropa", "name": "Cuidado de la Ropa", "keywords": ["detergente", "suavizante"]},
+        {"id": "limpieza.lavavajillas", "name": "Lavavajillas", "keywords": ["lavavajillas", "fairy"]},
+        {"id": "limpieza.papel", "name": "Papel Higiénico, de Cocina y Servilletas", "keywords": ["papel higienico", "servilleta"]},
+        {"id": "limpieza.utensilios", "name": "Utensilios de Limpieza", "keywords": ["fregona", "escoba", "bayeta"]},
+        {"id": "limpieza.basura", "name": "Bolsas de Basura", "keywords": ["bolsa basura"]},
+        {"id": "limpieza.lejia", "name": "Lejía y Otros Químicos", "keywords": ["lejia", "amoniaco"]},
+        {"id": "limpieza.suelos", "name": "Cristales y Suelos", "keywords": ["limpiacristales", "friegasuelos"]},
+        {"id": "limpieza.multiusos", "name": "Limpia Muebles y Multiusos", "keywords": ["multiusos", "limpiamuebles"]},
+        {"id": "limpieza.bano", "name": "Limpieza Baño y WC", "keywords": ["limpiador baño", "wc"]},
+        {"id": "limpieza.cocina", "name": "Limpieza Cocina y Vitrocerámica", "keywords": ["desengrasante", "vitroceramica"]},
+        {"id": "limpieza.film", "name": "Papel de Aluminio, Horno y Film", "keywords": ["film", "papel aluminio"]},
+        {"id": "limpieza.insecticidas", "name": "Insecticidas", "keywords": ["insecticida", "antimosquitos"]},
+        {"id": "limpieza.ambientadores", "name": "Ambientadores", "keywords": ["ambientador"]},
+        {"id": "limpieza.calzado", "name": "Calzado", "keywords": ["betun", "crema zapatos"]},
+        {"id": "limpieza.utiles", "name": "Útiles del Hogar, Pilas y Bombillas", "keywords": ["pila", "bombilla"]},
+        {"id": "limpieza.menaje", "name": "Menaje y Conservación de Alimentos", "keywords": ["tupper", "fiambrera", "menaje"]}
+      ]
+    },
+    {
+      "id": "higiene",
+      "name": "Perfumería, Higiene y Salud",
+      "keywords": ["higiene", "perfumeria", "salud"],
+      "children": [
+        {"id": "higiene.hidratacion", "name": "Hidratación Corporal", "keywords": ["crema corporal", "body milk"]},
+        {"id": "higiene.gel", "name": "Gel de Ducha y Esponjas", "keywords": ["gel ducha", "esponja"]},
+        {"id": "higiene.bucal", "name": "Cuidado Bucal", "keywords": ["pasta dientes", "cepillo dientes", "enjuague"]},
+        {"id": "higiene.desodorante", "name": "Desodorantes", "keywords": ["desodorante", "antitranspirante"]},
+        {"id": "higiene.champu", "name": "Champú", "keywords": ["champu"]},
+        {"id": "higiene.acondicionador", "name": "Acondicionadores y Mascarillas", "keywords": ["acondicionador", "mascarilla pelo"]},
+        {"id": "higiene.fijador", "name": "Espumas y Fijadores", "keywords": ["espuma pelo", "fijador", "gomina"]},
+        {"id": "higiene.tintes", "name": "Tintes", "keywords": ["tinte pelo"]},
+        {"id": "higiene.facial", "name": "Limpieza Facial y Crema Facial", "keywords": ["crema facial", "limpiador facial"]},
+        {"id": "higiene.unas", "name": "Quitaesmalte", "keywords": ["quitaesmalte", "acetona"]},
+        {"id": "higiene.afeitado", "name": "Afeitado", "keywords": ["cuchilla", "espuma afeitar"]},
+        {"id": "higiene.depilacion", "name": "Depilación", "keywords": ["cera", "depilacion"]},
+        {"id": "higiene.colonias", "name": "Colonias", "keywords": ["colonia", "perfume"]},
+        {"id": "higiene.jabon_manos", "name": "Jabón de Manos", "keywords": ["jabon manos"]},
+        {"id": "higiene.solar", "name": "Cremas Solares", "keywords": ["protector solar", "crema solar"]},
+        {"id": "higiene.intimo", "name": "Compresas y Cuidado Íntimo", "keywords": ["compresa", "tampon", "higiene intima"]},
+        {"id": "higiene.complementos", "name": "Complementos Nutricionales", "keywords": ["vitamina", "complemento"]},
+        {"id": "higiene.parafarmacia", "name": "Parafarmacia", "keywords": ["tiritas", "termometro"]},
+        {"id": "higiene.fitoterapia", "name": "Fitoterapia", "keywords": ["fitoterapia", "hierba medicinal"]},
+        {"id": "higiene.manicura", "name": "Manicura y Pedicura", "keywords": ["manicura", "pedicura", "lima"]}
+      ]
+    },
+    {
+      "id": "bebe",
+      "name": "Bebé",
+      "keywords": ["bebe", "infantil"],
+      "children": [
+        {"id": "bebe.papilla", "name": "Papilla", "keywords": ["papilla", "cereales bebe"]},
+        {"id": "bebe.leche", "name": "Leche para Bebés", "keywords": ["leche bebe", "leche inicio"]},
+        {"id": "bebe.potitos", "name": "Potitos y Tarritos", "keywords": ["potito", "tarrito"]},
+        {"id": "bebe.snacks", "name": "Yogures, Bolsitas de Frutas y Snacks", "keywords": ["bolsita fruta", "snack bebe"]},
+        {"id": "bebe.panales", "name": "Pañales y Toallitas", "keywords": ["panal", "toallita"]},
+        {"id": "bebe.cuidado", "name": "Cuidado del Bebé", "keywords": ["colonia bebe", "crema bebe"]},
+        {"id": "bebe.biberon", "name": "Biberón y Chupete", "keywords": ["biberon", "chupete"]}
+      ]
+    },
+    {
+      "id": "maquillaje",
+      "name": "Maquillaje",
+      "keywords": ["maquillaje", "cosmética"],
+      "children": [
+        {"id": "maquillaje.bases", "name": "Bases de Maquillaje y Corrector", "keywords": ["base maquillaje", "corrector"]},
+        {"id": "maquillaje.colorete", "name": "Colorete y Polvos", "keywords": ["colorete", "polvos"]},
+        {"id": "maquillaje.labios", "name": "Labios", "keywords": ["pintalabios", "barra labios", "gloss"]},
+        {"id": "maquillaje.ojos", "name": "Ojos", "keywords": ["sombra ojos", "rimel", "eyeliner"]},
+        {"id": "maquillaje.pinceles", "name": "Pinceles y Brochas", "keywords": ["brocha", "pincel maquillaje"]}
+      ]
+    },
+    {
+      "id": "mascotas",
+      "name": "Mascotas",
+      "keywords": ["mascota", "animal"],
+      "children": [
+        {"id": "mascotas.perros", "name": "Perros", "keywords": ["perro", "pienso perro"]},
+        {"id": "mascotas.gatos", "name": "Gatos", "keywords": ["gato", "pienso gato"]},
+        {"id": "mascotas.otros", "name": "Otros Animales", "keywords": ["pajaro", "pez", "roedor"]}
+      ]
+    },
+    {
+      "id": "especial",
+      "name": "Productos Especiales",
+      "keywords": ["especial"],
+      "children": [
+        {"id": "especial.airfryer", "name": "Freidora de Aire - Airfryer", "keywords": ["airfryer", "freidora aire"]},
+        {"id": "especial.sin_gluten", "name": "Sin Gluten", "keywords": ["sin gluten", "celiaco"]}
+      ]
+    }
+  ]
+}

@@ -19,21 +19,78 @@ function priceChanged(oldVal, newVal) {
   return Number(oldVal) !== Number(newVal);
 }
 
+/**
+ * Firestore doc IDs cannot contain /. Replace to avoid invalid ID.
+ * @param {*} id - Raw document ID.
+ * @return {string|null} Safe ID or null.
+ */
+function safeDocId(id) {
+  if (id == null || id === "") return null;
+  const s = String(id);
+  return s.includes("/") ? s.replace(/\//g, "_") : s;
+}
+
+/**
+ * Coerce to number or null; Firestore rejects NaN.
+ * @param {*} val - Value to convert.
+ * @return {number|null} Finite number or null.
+ */
+function toNumber(val) {
+  if (val === undefined || val === null || val === "") return null;
+  const n = Number(val);
+  return Number.isFinite(n) ? n : null;
+}
+
+/**
+ * Build product data for Firestore (no undefined, no NaN).
+ * @param {Object} p - Product from request body.
+ * @return {Object} Data object for Firestore.
+ */
+function buildProductData(p) {
+  const def = function(v, fallback) {
+    return v != null ? v : fallback;
+  };
+  return {
+    name: def(p.name, ""),
+    supermarket: def(p.supermarket, ""),
+    category: def(p.category, def(p.category_path, "")),
+    master_category_id: def(p.master_category_id, null),
+    price: toNumber(p.price),
+    price_per_unit: toNumber(p.price_per_unit),
+    unit: def(p.unit, null),
+    brand: def(p.brand, null),
+    url: def(p.url, ""),
+    image_url: def(p.image_url, ""),
+    last_seen: admin.firestore.FieldValue.serverTimestamp(),
+  };
+}
+
 exports.ingestProducts = functions.https.onRequest(async (req, res) => {
   try {
-    const products = req.body.products;
+    if (req.method !== "POST") {
+      return res.status(405).send("Method Not Allowed");
+    }
+    const body = req.body;
+    if (!body || typeof body !== "object") {
+      return res.status(400).send("body must be JSON with products array");
+    }
+    const products = body.products;
 
     if (!Array.isArray(products)) {
       return res.status(400).send("products must be an array");
     }
 
-    const validProducts = products.filter((p) => p.id);
+    const validProducts = products
+        .filter((p) => p && (p.id != null && p.id !== ""))
+        .map((p) => ({...p, _docId: safeDocId(p.id)}))
+        .filter((p) => p._docId);
+
     const stats = {new: 0, updated: 0, unchanged: 0};
 
     for (let offset = 0; offset < validProducts.length; offset += BATCH_SIZE) {
       const chunk = validProducts.slice(offset, offset + BATCH_SIZE);
       const refs = chunk.map((p) =>
-        db.collection("products").doc(String(p.id)),
+        db.collection("products").doc(p._docId),
       );
       const docs = await db.getAll(...refs);
       const batch = db.batch();
@@ -41,18 +98,7 @@ exports.ingestProducts = functions.https.onRequest(async (req, res) => {
       chunk.forEach((p, index) => {
         const ref = refs[index];
         const existingDoc = docs[index];
-        const data = {
-          name: p.name,
-          supermarket: p.supermarket,
-          category_path: p.category_path,
-          price: p.price,
-          price_per_unit: p.price_per_unit,
-          unit: p.unit,
-          brand: p.brand || null,
-          url: p.url,
-          image_url: p.image_url,
-          last_seen: admin.firestore.FieldValue.serverTimestamp(),
-        };
+        const data = buildProductData(p);
 
         if (!existingDoc.exists) {
           data.created_at = admin.firestore.FieldValue.serverTimestamp();
@@ -62,13 +108,13 @@ exports.ingestProducts = functions.https.onRequest(async (req, res) => {
           const existing = existingDoc.data();
           const oldPrice = existing.price;
 
-          if (priceChanged(oldPrice, p.price)) {
+          if (priceChanged(oldPrice, data.price)) {
             batch.set(ref, data, {merge: true});
             const historyRef = ref
                 .collection("price_history")
                 .doc();
             batch.set(historyRef, {
-              price: oldPrice,
+              price: oldPrice != null ? oldPrice : null,
               changed_at: admin.firestore.FieldValue.serverTimestamp(),
             });
             stats.updated++;
@@ -92,6 +138,10 @@ exports.ingestProducts = functions.https.onRequest(async (req, res) => {
       unchanged: stats.unchanged,
     });
   } catch (e) {
-    res.status(500).send(e.toString());
+    console.error("ingestProducts error:", e);
+    res.status(500).json({
+      error: e.message || String(e),
+      stack: e.stack,
+    });
   }
 });
