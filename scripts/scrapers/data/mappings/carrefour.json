@@ -1,0 +1,48 @@
+{
+  "market": "carrefour",
+  "version": "1.0",
+  "updated_at": "2026-02-02T18:57:53.545932",
+  "mappings": [
+    {
+      "source_id": "cat20968591",
+      "source_path": "Supermercado > Ofertas",
+      "status": "pending",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "source_id": "cat20002",
+      "source_path": "Supermercado > Frescos",
+      "status": "pending",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "source_id": "cat20001",
+      "source_path": "Supermercado > La Despensa",
+      "status": "pending",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "source_id": "cat20003",
+      "source_path": "Supermercado > Bebidas",
+      "master_id": "bebidas.otras",
+      "status": "auto",
+      "confidence": 0.7,
+      "suggestions": [
+        "bebidas.otras"
+      ]
+    },
+    {
+      "source_id": "cat20005",
+      "source_path": "Supermercado > Droguería y limpieza",
+      "master_id": "limpieza",
+      "status": "auto",
+      "confidence": 0.7,
+      "suggestions": [
+        "limpieza"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3163 @@
+{
+    "url": "https://tienda.consum.es/api/rest/V1.0/catalog/product?page=1&offset=0&orderById=5&showProducts=true&originProduct=undefined&showRecommendations=false&categories=1970",
+    "result": {
+        "totalCount": 299,
+        "totalRecipeCount": 0,
+        "hasMore": true,
+        "products": [
+          {
+            "id": 5210,
+            "productType": 1,
+            "code": "1414812",
+            "ean": "8410667001104",
+            "type": "product",
+            "productData": {
+              "name": "Aceitunas Manzanilla sin Hueso  Bolsa",
+              "brand": {
+                "id": "JOLCA",
+                "name": "JOLCA"
+              },
+              "url": "https://tienda.consum.es/es/p/aceitunas-manzanilla-sin-hueso-bolsa/1414812",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/1414812.jpg?t=20260108131432",
+              "description": "Aceitunas Manzanilla sin Hueso  Bolsa 75 Gr",
+              "seo": "aceitunas-manzanilla-sin-hueso-bolsa",
+              "seoTitle": "",
+              "seoDescription": "aceitunas-manzanilla-sin-hueso-bolsa",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/1414812_001.jpg?t=20210225083002",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/1414812_002.jpg?t=20210225083002",
+                "order": 2,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 0.95000,
+                    "centUnitAmount": 12.67
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 0.85000,
+                    "centUnitAmount": 11.34
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 49.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 2502,
+                "name": "Aceitunas con hueso",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11037927,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 356536804,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 0.85000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 5443,
+            "productType": 1,
+            "code": "7020142",
+            "ean": "8422114711863",
+            "type": "product",
+            "productData": {
+              "name": "Apetinas Kétchup Bolsa",
+              "brand": {
+                "id": "TOSFRIT",
+                "name": "TOSFRIT"
+              },
+              "url": "https://tienda.consum.es/es/p/apetinas-ketchup-bolsa/7020142",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7020142.jpg?t=20260110080046",
+              "description": "Apetinas Kétchup Bolsa 90 Gr",
+              "seo": "apetinas-ketchup-bolsa",
+              "seoTitle": "",
+              "seoDescription": "apetinas-ketchup-bolsa",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7020142_001.jpg?t=20240801130001",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7020142_002.jpg?t=20240801130001",
+                "order": 2,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.29000,
+                    "centUnitAmount": 14.33
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.00000,
+                    "centUnitAmount": 11.11
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 49.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 1998,
+                "name": "Snacks y otros aperitivos",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11136657,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 358559327,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 1.00000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 5708,
+            "productType": 1,
+            "code": "7055150",
+            "ean": "8410667020549",
+            "type": "product",
+            "productData": {
+              "name": "Aceitunas Rellenas de Anchoas Pack de 3",
+              "brand": {
+                "id": "JOLCA",
+                "name": "JOLCA"
+              },
+              "url": "https://tienda.consum.es/es/p/aceitunas-rellenas-de-anchoas-pack-de-3/7055150",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7055150.jpg?t=20260110080103",
+              "description": "Aceitunas Rellenas de Anchoas Pack de 3 3 x 50 Gr",
+              "seo": "aceitunas-rellenas-de-anchoas-pack-de-3",
+              "seoTitle": "",
+              "seoDescription": "aceitunas-rellenas-de-anchoas-pack-de-3",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7055150_001.jpg?t=20210225083002",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7055150_002.jpg?t=20210225083002",
+                "order": 2,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7055150_003.jpg?t=20210225083002",
+                "order": 3,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 3.35000,
+                    "centUnitAmount": 22.33
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 3.00000,
+                    "centUnitAmount": 20.00
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 49.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 2502,
+                "name": "Aceitunas con hueso",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11136831,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 358559501,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 3.00000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 43193,
+            "productType": 1,
+            "code": "7455012",
+            "ean": "8410199026828",
+            "type": "product",
+            "productData": {
+              "name": "Patatas Fritas Lisas al Punto de Sal",
+              "brand": {
+                "id": "LAY'S",
+                "name": "LAY'S"
+              },
+              "url": "https://tienda.consum.es/es/p/patatas-fritas-lisas-al-punto-de-sal/7455012",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7455012.jpg?t=20251223080917",
+              "description": "Patatas Fritas Lisas al Punto de Sal 248 Gr",
+              "seo": "patatas-fritas-lisas-al-punto-de-sal",
+              "seoTitle": "",
+              "seoDescription": "patatas-fritas-lisas-al-punto-de-sal",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": true,
+              "actions": [
+                {
+                  "key": "adbutler_eligible_url",
+                  "value": "https://servedbyadbutler.com/adserve/;MID=185979;type=e959fb862;placementID=3428250;setID=724474;channelID=0;CID=1650866;BID=524256393;TAID=0;place=0;rnd=3442440265;psrtype=api;_abdk_json=%7B%22Category%22%3A%222811%2C1970%22%7D;referrer=;request_uuid=1d10e8bc-7e19-4098-b0a4-63d71937e692;mt=1770056961295917;hc=90d9785969a5f520da4095efd2241e3b481b7847"
+                },
+                {
+                  "key": "adbutler_redirect_url",
+                  "value": "https://servedbyadbutler.com/redirect.spark?MID=185979&plid=3428250&setID=724474&channelID=0&CID=1650866&scheduleID=3600899&banID=524256393&PID=0&textadID=0&tc=1&type=tclickcb&data_keys=%7B%22Category%22%3A%222811%2C1970%22%7D&spr=1&request_uuid=1d10e8bc-7e19-4098-b0a4-63d71937e692&mt=1&hc=79f0eac5e0323b7765dc8b6bba1bfc0df9b794f3&location=1"
+                },
+                {
+                  "key": "adbutler_viewable_url",
+                  "value": "https://servedbyadbutler.com/adserve/;MID=185979;type=v959fb862;placementID=3428250;setID=724474;channelID=0;CID=1650866;BID=524256393;TAID=0;place=0;rnd=3442440265;psrtype=api;_abdk_json=%7B%22Category%22%3A%222811%2C1970%22%7D;referrer=;request_uuid=1d10e8bc-7e19-4098-b0a4-63d71937e692;mt=1770056961295912;hc=ce76aad25d7b981c37dad110eb5be70fea2e5c2a"
+                },
+                {
+                  "key": "adbutler_accupixel_url",
+                  "value": "https://servedbyadbutler.com/adserve/;ID=185979;size=1x1;type=p959fb862;setID=724474;plid=3428250;BID=524256393;place=0;rnd=3442440265;psrtype=json;v=0;metadata=%5B%5D;_abdk_json=%7B%22Category%22%3A%222811%2C1970%22%7D;request_uuid=1d10e8bc-7e19-4098-b0a4-63d71937e692;mt=1770056961295943;hc=63e5322811af6a099c3c1173db3ce3f30114884c;rnd=1992209"
+                },
+                {
+                  "key": "adbutler_track_url",
+                  "value": "https://servedbyadbutler.com/convtrack.spark?MID=185979&ad_item_id=524256393&placement_id=3428250&timestamp=0&zone_id=724474&conversion_type=single-ad&productID=7455012"
+                }
+              ],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7455012_001.jpg?t=20250412091505",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7455012_002.jpg?t=20250412091505",
+                "order": 2,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 2.30000,
+                    "centUnitAmount": 9.27
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 49.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 2530,
+                "name": "Patatas fritas",
+                "type": 0
+              }
+            ],
+            "offers": [],
+            "coupons": []
+          },
+          {
+            "id": 5997,
+            "productType": 1,
+            "code": "7087211",
+            "ean": "8414807515247",
+            "type": "product",
+            "productData": {
+              "name": "Avellanas Tostadas Bolsa",
+              "brand": {
+                "id": "CONSUM",
+                "name": "CONSUM"
+              },
+              "url": "https://tienda.consum.es/es/p/avellanas-tostadas-bolsa/7087211",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7087211.jpg?t=20260127080030",
+              "description": "Avellanas Tostadas Bolsa 200 Gr",
+              "seo": "avellanas-tostadas-bolsa",
+              "seoTitle": "",
+              "seoDescription": "avellanas-tostadas-bolsa",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7087211_001.jpg?t=20250625170003",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7087211_002.jpg?t=20250625170003",
+                "order": 2,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 5.65000,
+                    "centUnitAmount": 28.25
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 5.30000,
+                    "centUnitAmount": 26.50
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 10.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 5220,
+                "name": "Avellanas y anacardos",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11170782,
+                "from": "2026-01-26T23:00:00.000Z",
+                "to": "2026-02-09T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 363497370,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 5.30000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 8260,
+            "productType": 1,
+            "code": "1414820",
+            "ean": "8410667001005",
+            "type": "product",
+            "productData": {
+              "name": "Aceitunas Manzanilla con Hueso Bolsa",
+              "brand": {
+                "id": "JOLCA",
+                "name": "JOLCA"
+              },
+              "url": "https://tienda.consum.es/es/p/aceitunas-manzanilla-con-hueso-bolsa/1414820",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/1414820.jpg?t=20260108131436",
+              "description": "Aceitunas Manzanilla con Hueso Bolsa 100 Gr",
+              "seo": "aceitunas-manzanilla-con-hueso-bolsa",
+              "seoTitle": "",
+              "seoDescription": "aceitunas-manzanilla-con-hueso-bolsa",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/1414820_001.jpg?t=20210225083002",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/1414820_002.jpg?t=20210225083002",
+                "order": 2,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 0.95000,
+                    "centUnitAmount": 9.50
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 0.85000,
+                    "centUnitAmount": 8.50
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 49.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 2502,
+                "name": "Aceitunas con hueso",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11038015,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 356537091,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 0.85000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 8272,
+            "productType": 1,
+            "code": "7000052",
+            "ean": "8410071100585",
+            "type": "product",
+            "productData": {
+              "name": "Patatas Fritas Lisas Caseras Bolsa Papel",
+              "brand": {
+                "id": "VIDAL",
+                "name": "VIDAL"
+              },
+              "url": "https://tienda.consum.es/es/p/patatas-fritas-lisas-caseras-bolsa-papel/7000052",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7000052.jpg?t=20260113075946",
+              "description": "Patatas Fritas Lisas Caseras Bolsa Papel 250 Gr",
+              "seo": "patatas-fritas-lisas-caseras-bolsa-papel",
+              "seoTitle": "",
+              "seoDescription": "patatas-fritas-lisas-caseras-bolsa-papel",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7000052_001.jpg?t=20240924091500",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7000052_002.jpg?t=20240924091500",
+                "order": 2,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 2.75000,
+                    "centUnitAmount": 11.00
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 2.20000,
+                    "centUnitAmount": 8.80
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 49.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 2530,
+                "name": "Patatas fritas",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11146317,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 360190722,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 2.20000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 9256,
+            "productType": 1,
+            "code": "7064835",
+            "ean": "8410573103688",
+            "type": "product",
+            "productData": {
+              "name": "Palomitas Microondas Saladas Pack de 3",
+              "brand": {
+                "id": "POPITAS",
+                "name": "POPITAS"
+              },
+              "url": "https://tienda.consum.es/es/p/palomitas-microondas-saladas-pack-de-3/7064835",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7064835.jpg?t=20260108132330",
+              "description": "Palomitas Microondas Saladas Pack de 3 3 x 100 Gr",
+              "seo": "palomitas-microondas-saladas-pack-de-3",
+              "seoTitle": "",
+              "seoDescription": "palomitas-microondas-saladas-pack-de-3",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7064835_001.jpg?t=20230525040002",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7064835_002.jpg?t=20230525040002",
+                "order": 2,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7064835_003.jpg?t=20230525040002",
+                "order": 3,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 2.49000,
+                    "centUnitAmount": 8.30
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 2.00000,
+                    "centUnitAmount": 6.67
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 10.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 1996,
+                "name": "Maíz tostado y cocktail",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11044291,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 356551943,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 2.00000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 9963,
+            "productType": 1,
+            "code": "7243731",
+            "ean": "8410667021270",
+            "type": "product",
+            "productData": {
+              "name": "Cocktail Aceituna Verde Negra-Cebollita-Pepinillo",
+              "brand": {
+                "id": "JOLCA",
+                "name": "JOLCA"
+              },
+              "url": "https://tienda.consum.es/es/p/cocktail-aceituna-verde-negra-cebollita-pepinillo/7243731",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7243731.jpg?t=20260108135023",
+              "description": "Cocktail Aceituna Verde Negra-Cebollita-Pepinillo 185 Gr",
+              "seo": "cocktail-aceituna-verde-negra-cebollita-pepinillo",
+              "seoTitle": "",
+              "seoDescription": "cocktail-aceituna-verde-negra-cebollita-pepinillo",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7243731_001.jpg?t=20251002091502",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7243731_002.jpg?t=20251002091502",
+                "order": 2,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.99000,
+                    "centUnitAmount": 10.76
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.78000,
+                    "centUnitAmount": 9.62
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 49.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 1974,
+                "name": "Banderillas y cocktails",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11059887,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 356589997,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 1.78000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 15925,
+            "productType": 1,
+            "code": "7289994",
+            "ean": "8410667021010",
+            "type": "product",
+            "productData": {
+              "name": "Aceitunas Rellenas de Anchoa Suaves",
+              "brand": {
+                "id": "JOLCA",
+                "name": "JOLCA"
+              },
+              "url": "https://tienda.consum.es/es/p/aceitunas-rellenas-de-anchoa-suaves/7289994",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7289994.jpg?t=20260110080633",
+              "description": "Aceitunas Rellenas de Anchoa Suaves 130 Gr",
+              "seo": "aceitunas-rellenas-de-anchoa-suaves",
+              "seoTitle": "",
+              "seoDescription": "aceitunas-rellenas-de-anchoa-suaves",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7289994_001.jpg?t=20210225083004",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7289994_002.jpg?t=20210225083004",
+                "order": 2,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7289994_003.jpg?t=20210225083004",
+                "order": 3,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.99000,
+                    "centUnitAmount": 15.31
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.69000,
+                    "centUnitAmount": 13.00
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 49.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 2502,
+                "name": "Aceitunas con hueso",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11138396,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 358561274,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 1.69000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 16772,
+            "productType": 1,
+            "code": "7207186",
+            "ean": "8410564012159",
+            "type": "product",
+            "productData": {
+              "name": "Cocktail Frutos Secos Top 5",
+              "brand": {
+                "id": "FRIT RAVICH",
+                "name": "FRIT RAVICH"
+              },
+              "url": "https://tienda.consum.es/es/p/cocktail-frutos-secos-top-5/7207186",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7207186.jpg?t=20260110080422",
+              "description": "Cocktail Frutos Secos Top 5 170 Gr",
+              "seo": "cocktail-frutos-secos-top-5",
+              "seoTitle": "",
+              "seoDescription": "cocktail-frutos-secos-top-5",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7207186_001.jpg?t=20231108040002",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7207186_002.jpg?t=20231108040002",
+                "order": 2,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 2.75000,
+                    "centUnitAmount": 16.18
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 2.35000,
+                    "centUnitAmount": 13.83
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 10.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 1996,
+                "name": "Maíz tostado y cocktail",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11137744,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 358560561,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 2.35000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 17377,
+            "productType": 1,
+            "code": "7301810",
+            "ean": "8410199015679",
+            "type": "product",
+            "productData": {
+              "name": "Snack Multicereales al Toque de Sal Marina",
+              "brand": {
+                "id": "SUNBITES",
+                "name": "SUNBITES"
+              },
+              "url": "https://tienda.consum.es/es/p/snack-multicereales-al-toque-de-sal-marina/7301810",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7301810.jpg?t=20260110080659",
+              "description": "Snack Multicereales al Toque de Sal Marina 95 Gr",
+              "seo": "snack-multicereales-al-toque-de-sal-marina",
+              "seoTitle": "",
+              "seoDescription": "snack-multicereales-al-toque-de-sal-marina",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7301810_001.jpg?t=20241118091501",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7301810_002.jpg?t=20220621040009",
+                "order": 2,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 2.19000,
+                    "centUnitAmount": 23.05
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.85000,
+                    "centUnitAmount": 19.47
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 49.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 1998,
+                "name": "Snacks y otros aperitivos",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11138811,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 358561787,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 1.85000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 20865,
+            "productType": 1,
+            "code": "7293707",
+            "ean": "5905187300125",
+            "type": "product",
+            "productData": {
+              "name": "Saltletts Classic Palitos Pretzel",
+              "brand": {
+                "id": "LORENZ",
+                "name": "LORENZ"
+              },
+              "url": "https://tienda.consum.es/es/p/saltletts-classic-palitos-pretzel/7293707",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7293707.jpg?t=20260108140220",
+              "description": "Saltletts Classic Palitos Pretzel 75 Gr",
+              "seo": "saltletts-classic-palitos-pretzel",
+              "seoTitle": "",
+              "seoDescription": "saltletts-classic-palitos-pretzel",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7293707_001.jpg?t=20240106040002",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7293707_002.jpg?t=20240106040002",
+                "order": 2,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.35000,
+                    "centUnitAmount": 18.00
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.00000,
+                    "centUnitAmount": 13.33
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 49.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 1997,
+                "name": "Galletas saladas",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11067818,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 356613209,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 1.00000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 21136,
+            "productType": 1,
+            "code": "7331184",
+            "ean": "5410041401707",
+            "type": "product",
+            "productData": {
+              "name": "Tuc Crackers Pack de 2 Unidades",
+              "brand": {
+                "id": "LU",
+                "name": "LU"
+              },
+              "url": "https://tienda.consum.es/es/p/tuc-crackers-pack-de-2-unidades/7331184",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7331184.jpg?t=20260108141204",
+              "description": "Tuc Crackers Pack de 2 Unidades 2 x 100 Gr",
+              "seo": "tuc-crackers-pack-de-2-unidades",
+              "seoTitle": "",
+              "seoDescription": "tuc-crackers-pack-de-2-unidades",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7331184_001.jpg?t=20250722170003",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7331184_002.jpg?t=20250722170003",
+                "order": 2,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 2.25000,
+                    "centUnitAmount": 11.25
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.90000,
+                    "centUnitAmount": 9.50
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 49.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 1997,
+                "name": "Galletas saladas",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11075202,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 356634663,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 1.90000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 21396,
+            "productType": 1,
+            "code": "7333094",
+            "ean": "8410667021669",
+            "type": "product",
+            "productData": {
+              "name": "Aceituna Verde Partida Aliño Cortijerol Lata",
+              "brand": {
+                "id": "JOLCA",
+                "name": "JOLCA"
+              },
+              "url": "https://tienda.consum.es/es/p/aceituna-verde-partida-alino-cortijerol-lata/7333094",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7333094.jpg?t=20260110080756",
+              "description": "Aceituna Verde Partida Aliño Cortijerol Lata 185 Gr",
+              "seo": "aceituna-verde-partida-alino-cortijerol-lata",
+              "seoTitle": "",
+              "seoDescription": "aceituna-verde-partida-alino-cortijerol-lata",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7333094_001.jpg?t=20251002091502",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7333094_002.jpg?t=20251002091502",
+                "order": 2,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.99000,
+                    "centUnitAmount": 10.76
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.78000,
+                    "centUnitAmount": 9.62
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 49.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 2502,
+                "name": "Aceitunas con hueso",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11139419,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 358562524,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 1.78000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 21947,
+            "productType": 1,
+            "code": "7338940",
+            "ean": "8410199002402",
+            "type": "product",
+            "productData": {
+              "name": "Patatas Fritas Sal al Horno",
+              "brand": {
+                "id": "LAY'S",
+                "name": "LAY'S"
+              },
+              "url": "https://tienda.consum.es/es/p/patatas-fritas-sal-al-horno/7338940",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7338940.jpg?t=20260120081115",
+              "description": "Patatas Fritas Sal al Horno 150 Gr",
+              "seo": "patatas-fritas-sal-al-horno",
+              "seoTitle": "",
+              "seoDescription": "patatas-fritas-sal-al-horno",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7338940_001.jpg?t=20241105170005",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7338940_002.jpg?t=20230818040002",
+                "order": 2,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 2.39000,
+                    "centUnitAmount": 15.93
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 49.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 2530,
+                "name": "Patatas fritas",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11161847,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Acumul",
+                "shortDescription": "Acumulas en tu cheque regalo",
+                "longDescription": "Acumulas en tu cheque regalo",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-diferido.png",
+                "promotionId": 362680573,
+                "promotionType": 2,
+                "inmediate": false,
+                "applicationTargetType": 1,
+                "applicationActionType": 1,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 0.40000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 24537,
+            "productType": 1,
+            "code": "7359060",
+            "ean": "8413664644381",
+            "type": "product",
+            "productData": {
+              "name": "Patata Delicatessen Bolsa",
+              "brand": {
+                "id": "ARGENTE",
+                "name": "ARGENTE"
+              },
+              "url": "https://tienda.consum.es/es/p/patata-delicatessen-bolsa/7359060",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7359060.jpg?t=20260117080203",
+              "description": "Patata Delicatessen Bolsa 120 Gr",
+              "seo": "patata-delicatessen-bolsa",
+              "seoTitle": "",
+              "seoDescription": "patata-delicatessen-bolsa",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7359060_001.jpg?t=20210212083002",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7359060_002.jpg?t=20210212083002",
+                "order": 2,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.45000,
+                    "centUnitAmount": 12.08
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.30000,
+                    "centUnitAmount": 10.83
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 49.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 2530,
+                "name": "Patatas fritas",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11157767,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 362123026,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 1.30000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 25223,
+            "productType": 1,
+            "code": "7364628",
+            "ean": "8413164016978",
+            "type": "product",
+            "productData": {
+              "name": "Pipas Piponazo Original Bolsa",
+              "brand": {
+                "id": "GREFUSA",
+                "name": "GREFUSA"
+              },
+              "url": "https://tienda.consum.es/es/p/pipas-piponazo-original-bolsa/7364628",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7364628.jpg?t=20260108142040",
+              "description": "Pipas Piponazo Original Bolsa 119 Gr",
+              "seo": "pipas-piponazo-original-bolsa",
+              "seoTitle": "",
+              "seoDescription": "pipas-piponazo-original-bolsa",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7364628_001.jpg?t=20210220083003",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7364628_002.jpg?t=20210220083003",
+                "order": 2,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.85000,
+                    "centUnitAmount": 15.55
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.65000,
+                    "centUnitAmount": 13.87
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 10.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 1994,
+                "name": "Pipas",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11080206,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 356649395,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 1.65000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 26203,
+            "productType": 1,
+            "code": "7371862",
+            "ean": "8410199021168",
+            "type": "product",
+            "productData": {
+              "name": "Triángulos de Maíz Sabor Chili Bolsa",
+              "brand": {
+                "id": "DORITOS",
+                "name": "DORITOS"
+              },
+              "url": "https://tienda.consum.es/es/p/triangulos-de-maiz-sabor-chili-bolsa/7371862",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7371862.jpg?t=20260110080913",
+              "description": "Triángulos de Maíz Sabor Chili Bolsa 140 Gr",
+              "seo": "triangulos-de-maiz-sabor-chili-bolsa",
+              "seoTitle": "",
+              "seoDescription": "triangulos-de-maiz-sabor-chili-bolsa",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7371862_001.jpg?t=20251021091502",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7371862_002.jpg?t=20251021091502",
+                "order": 2,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.99000,
+                    "centUnitAmount": 14.21
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.50000,
+                    "centUnitAmount": 10.71
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 49.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 1998,
+                "name": "Snacks y otros aperitivos",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11139846,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 358563067,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 1.50000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          },
+          {
+            "id": 26204,
+            "productType": 1,
+            "code": "7371867",
+            "ean": "8410199021045",
+            "type": "product",
+            "productData": {
+              "name": "Triángulos de Maíz Sabor Tex-Mex Bolsa",
+              "brand": {
+                "id": "DORITOS",
+                "name": "DORITOS"
+              },
+              "url": "https://tienda.consum.es/es/p/triangulos-de-maiz-sabor-tex-mex-bolsa/7371867",
+              "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7371867.jpg?t=20260108142223",
+              "description": "Triángulos de Maíz Sabor Tex-Mex Bolsa 140 Gr",
+              "seo": "triangulos-de-maiz-sabor-tex-mex-bolsa",
+              "seoTitle": "",
+              "seoDescription": "triangulos-de-maiz-sabor-tex-mex-bolsa",
+              "attributeGroups": [
+                {
+                  "code": "group.attribute.default",
+                  "name": "Información del producto",
+                  "tooltip": "",
+                  "visibility": true,
+                  "infoProduct": true,
+                  "attributes": [
+                    {
+                      "code": "hidden.midiadia",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "code": "filter.id.brand.distributor",
+                      "languages": [
+                        {
+                          "lang": "00",
+                          "values": [
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attributes": [
+                {
+                  "code": "hidden.midiadia",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "code": "filter.id.brand.distributor",
+                  "languages": [
+                    {
+                      "lang": "00",
+                      "values": [
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "format": "",
+              "novelty": false,
+              "featured": false,
+              "sponsored": false,
+              "actions": [],
+              "containAllergensIntolernacies": false,
+              "availability": "1"
+            },
+            "media": [
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7371867_001.jpg?t=20250228170003",
+                "order": 1,
+                "type": "P"
+              },
+              {
+                "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7371867_002.jpg?t=20210220083003",
+                "order": 2,
+                "type": "P"
+              }
+            ],
+            "priceData": {
+              "prices": [
+                {
+                  "id": "PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.99000,
+                    "centUnitAmount": 14.21
+                  }
+                },
+                {
+                  "id": "OFFER_PRICE",
+                  "toDate": "2099-12-31T22:59:59Z",
+                  "value": {
+                    "centAmount": 1.50000,
+                    "centUnitAmount": 10.71
+                  }
+                }
+              ],
+              "taxPercentage": 10.00,
+              "priceUnitType": "",
+              "unitPriceUnitType": "1 Kg",
+              "minimumUnit": 1.00,
+              "maximumUnit": 49.00,
+              "intervalUnit": 1.00
+            },
+            "purchaseData": {
+              "allowComments": false
+            },
+            "categories": [
+              {
+                "id": 1998,
+                "name": "Snacks y otros aperitivos",
+                "type": 0
+              },
+              {
+                "id": 999992811,
+                "name": "Ofertas en despensa",
+                "type": 1
+              }
+            ],
+            "offers": [
+              {
+                "id": 11081346,
+                "from": "2026-01-07T23:00:00.000Z",
+                "to": "2026-02-04T22:59:00.000Z",
+                "minDescription": "Ahora ",
+                "shortDescription": "Ahora más barato",
+                "longDescription": "Ahora más barato",
+                "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+                "promotionId": 356652718,
+                "promotionType": 1,
+                "inmediate": true,
+                "applicationTargetType": 1,
+                "applicationActionType": 2,
+                "visiblePromotionWidget": false,
+                "visibleValidate": false,
+                "visibleProductWidget": true,
+                "amount": 1.50000,
+                "pictoType": "default"
+              }
+            ],
+            "coupons": []
+          }
+        ]
+      }
+}

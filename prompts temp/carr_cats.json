@@ -1,0 +1,443 @@
+{
+    "url": "https://www.carrefour.es/cloud-api/categories-api/v1/categories/menu?sale_point=005290&depth=1&current_category=foodRootCategory&limit=3&lang=es&freelink=true",
+    "result": {
+        "generic_menu": false,
+        "menu": [
+          {
+            "analytics": {
+              "data_bu": "nonFood",
+              "data_section": "menuLinks",
+              "data_type": "category",
+              "title": "commerce-root"
+            },
+            "childs": [
+              {
+                "analytics": {
+                  "data_bu": "food",
+                  "data_position": "1",
+                  "data_section": "menuLinks",
+                  "data_type": "category",
+                  "title": "supermercado"
+                },
+                "childs": [
+                  {
+                    "analytics": {
+                      "data_bu": "food",
+                      "data_position": "1.1",
+                      "data_section": "menuLinks",
+                      "data_type": "category",
+                      "title": "ofertas"
+                    },
+                    "childs": [],
+                    "current_category": false,
+                    "custom_link": false,
+                    "featured_category": true,
+                    "food": true,
+                    "free_links": null,
+                    "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/cat20968591_icono.png",
+                    "id": "cat20968591",
+                    "language": "es",
+                    "name": "Ofertas",
+                    "sale_point_default": "005290",
+                    "show_next_level": false,
+                    "url": "https://carrefour.es/supermercado/ofertas/cat20968591/c",
+                    "url_rel": "/supermercado/ofertas/cat20968591/c",
+                    "web_view": false
+                  },
+                  {
+                    "analytics": {
+                      "data_bu": "food",
+                      "data_position": "1.2",
+                      "data_section": "menuLinks",
+                      "data_type": "category",
+                      "title": "frescos"
+                    },
+                    "childs": [],
+                    "current_category": false,
+                    "custom_link": false,
+                    "featured_category": false,
+                    "food": true,
+                    "free_links": null,
+                    "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/cat20002_icono.png",
+                    "id": "cat20002",
+                    "language": "es",
+                    "name": "Frescos",
+                    "sale_point_default": "005290",
+                    "show_next_level": true,
+                    "url": "https://carrefour.es/supermercado/frescos/cat20002/c",
+                    "url_rel": "/supermercado/frescos/cat20002/c",
+                    "web_view": false
+                  },
+                  {
+                    "analytics": {
+                      "data_bu": "food",
+                      "data_position": "1.3",
+                      "data_section": "menuLinks",
+                      "data_type": "category",
+                      "title": "la-despensa"
+                    },
+                    "childs": [],
+                    "current_category": false,
+                    "custom_link": false,
+                    "featured_category": false,
+                    "food": true,
+                    "free_links": null,
+                    "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/cat20001_icono.png",
+                    "id": "cat20001",
+                    "language": "es",
+                    "name": "La Despensa",
+                    "sale_point_default": "005290",
+                    "show_next_level": true,
+                    "url": "https://carrefour.es/supermercado/la-despensa/cat20001/c",
+                    "url_rel": "/supermercado/la-despensa/cat20001/c",
+                    "web_view": false
+                  },
+                  {
+                    "analytics": {
+                      "data_bu": "food",
+                      "data_position": "1.4",
+                      "data_section": "menuLinks",
+                      "data_type": "category",
+                      "title": "bebidas"
+                    },
+                    "childs": [],
+                    "current_category": false,
+                    "custom_link": false,
+                    "featured_category": false,
+                    "food": true,
+                    "free_links": null,
+                    "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/cat20003_icono.png",
+                    "id": "cat20003",
+                    "language": "es",
+                    "name": "Bebidas",
+                    "sale_point_default": "005290",
+                    "show_next_level": true,
+                    "url": "https://carrefour.es/supermercado/bebidas/cat20003/c",
+                    "url_rel": "/supermercado/bebidas/cat20003/c",
+                    "web_view": false
+                  },
+                  {
+                    "analytics": {
+                      "data_bu": "food",
+                      "data_position": "1.5",
+                      "data_section": "menuLinks",
+                      "data_type": "category",
+                      "title": "drogueria-y-limpieza"
+                    },
+                    "childs": [],
+                    "current_category": false,
+                    "custom_link": false,
+                    "featured_category": false,
+                    "food": true,
+                    "free_links": null,
+                    "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/cat20005_icono.png",
+                    "id": "cat20005",
+                    "language": "es",
+                    "name": "Droguería y limpieza",
+                    "sale_point_default": "005290",
+                    "show_next_level": true,
+                    "url": "https://carrefour.es/supermercado/drogueria-y-limpieza/cat20005/c",
+                    "url_rel": "/supermercado/drogueria-y-limpieza/cat20005/c",
+                    "web_view": false
+                  },
+                  {
+                    "analytics": {
+                      "data_bu": "food",
+                      "data_position": "1.6",
+                      "data_section": "menuLinks",
+                      "data_type": "category",
+                      "title": "perfumeria-e-higiene"
+                    },
+                    "childs": [],
+                    "current_category": false,
+                    "custom_link": false,
+                    "featured_category": false,
+                    "food": true,
+                    "free_links": null,
+                    "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/cat20004_icono.png",
+                    "id": "cat20004",
+                    "language": "es",
+                    "name": "Perfumería e Higiene",
+                    "sale_point_default": "005290",
+                    "show_next_level": true,
+                    "url": "https://carrefour.es/supermercado/perfumeria-e-higiene/cat20004/c",
+                    "url_rel": "/supermercado/perfumeria-e-higiene/cat20004/c",
+                    "web_view": false
+                  },
+                  {
+                    "analytics": {
+                      "data_bu": "food",
+                      "data_position": "1.7",
+                      "data_section": "menuLinks",
+                      "data_type": "category",
+                      "title": "congelados"
+                    },
+                    "childs": [],
+                    "current_category": false,
+                    "custom_link": false,
+                    "featured_category": false,
+                    "food": true,
+                    "free_links": null,
+                    "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/cat21449123_icono.png",
+                    "id": "cat21449123",
+                    "language": "es",
+                    "name": "Congelados",
+                    "sale_point_default": "005290",
+                    "show_next_level": true,
+                    "url": "https://carrefour.es/supermercado/congelados/cat21449123/c",
+                    "url_rel": "/supermercado/congelados/cat21449123/c",
+                    "web_view": false
+                  },
+                  {
+                    "analytics": {
+                      "data_bu": "food",
+                      "data_position": "1.8",
+                      "data_section": "menuLinks",
+                      "data_type": "category",
+                      "title": "bebe"
+                    },
+                    "childs": [],
+                    "current_category": false,
+                    "custom_link": false,
+                    "featured_category": false,
+                    "food": true,
+                    "free_links": null,
+                    "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/cat20006_icono.png",
+                    "id": "cat20006",
+                    "language": "es",
+                    "name": "Bebé",
+                    "sale_point_default": "005290",
+                    "show_next_level": true,
+                    "url": "https://carrefour.es/supermercado/bebe/cat20006/c",
+                    "url_rel": "/supermercado/bebe/cat20006/c",
+                    "web_view": false
+                  },
+                  {
+                    "analytics": {
+                      "data_bu": "food",
+                      "data_position": "1.9",
+                      "data_section": "menuLinks",
+                      "data_type": "category",
+                      "title": "mascotas"
+                    },
+                    "childs": [],
+                    "current_category": false,
+                    "custom_link": false,
+                    "featured_category": false,
+                    "food": true,
+                    "free_links": null,
+                    "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/cat20007_icono.png",
+                    "id": "cat20007",
+                    "language": "es",
+                    "name": "Mascotas",
+                    "sale_point_default": "005290",
+                    "show_next_level": true,
+                    "url": "https://carrefour.es/supermercado/mascotas/cat20007/c",
+                    "url_rel": "/supermercado/mascotas/cat20007/c",
+                    "web_view": false
+                  },
+                  {
+                    "analytics": {
+                      "data_bu": "food",
+                      "data_position": "1.10",
+                      "data_section": "menuLinks",
+                      "data_type": "category",
+                      "title": "parafarmacia"
+                    },
+                    "childs": [],
+                    "current_category": false,
+                    "custom_link": false,
+                    "featured_category": false,
+                    "food": true,
+                    "free_links": null,
+                    "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/cat20008_icono.png",
+                    "id": "cat20008",
+                    "language": "es",
+                    "name": "Parafarmacia",
+                    "sale_point_default": "005290",
+                    "show_next_level": true,
+                    "url": "https://carrefour.es/supermercado/parafarmacia/cat20008/c",
+                    "url_rel": "/supermercado/parafarmacia/cat20008/c",
+                    "web_view": false
+                  }
+                ],
+                "current_category": true,
+                "custom_link": false,
+                "featured_category": false,
+                "food": true,
+                "free_links": [
+                  {
+                    "ancestor_category_id": "foodRootCategory",
+                    "ancestor_category_name": "Supermercado",
+                    "icon_class": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/productos_carrefour_logo.svg",
+                    "name": "Nuestras Marcas",
+                    "position": 7,
+                    "type": "free_links",
+                    "url": "https://www.carrefour.es/supermercado/tenemos-para-ti/marcas-carrefour.e"
+                  },
+                  {
+                    "ancestor_category_id": "foodRootCategory",
+                    "ancestor_category_name": "Supermercado",
+                    "icon_class": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/zeroazucares.svg",
+                    "name": "0% Azúcares",
+                    "position": 8,
+                    "type": "free_links",
+                    "url": "https://www.carrefour.es/supermercado/ofertas/sin-azucar.e"
+                  },
+                  {
+                    "ancestor_category_id": "foodRootCategory",
+                    "ancestor_category_name": "Supermercado",
+                    "icon_class": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/actforfoodlogo.svg",
+                    "name": "Act For Food",
+                    "position": 9,
+                    "type": "free_links",
+                    "url": "https://www.carrefour.es/supermercado/tenemos-para-ti/act-for-food.e"
+                  },
+                  {
+                    "ancestor_category_id": "foodRootCategory",
+                    "ancestor_category_name": "Supermercado",
+                    "icon_class": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/recetas_icon.svg",
+                    "name": "Recetas",
+                    "position": 10,
+                    "type": "free_links",
+                    "url": "https://www.carrefour.es/supermercado/recetas.e"
+                  },
+                  {
+                    "ancestor_category_id": "foodRootCategory",
+                    "ancestor_category_name": "Supermercado",
+                    "icon_class": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/no-lactose.svg",
+                    "name": "Sin Lactosa",
+                    "position": 12,
+                    "type": "free_links",
+                    "url": "https://www.carrefour.es/supermercado/tenemos-para-ti/tienda-sin-lactosa.e"
+                  },
+                  {
+                    "ancestor_category_id": "foodRootCategory",
+                    "ancestor_category_name": "Supermercado",
+                    "icon_class": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/no-gluten.svg",
+                    "name": "Sin gluten",
+                    "position": 13,
+                    "type": "free_links",
+                    "url": "https://www.carrefour.es/supermercado/tenemos-para-ti/tienda-sin-gluten.e"
+                  },
+                  {
+                    "ancestor_category_id": "foodRootCategory",
+                    "ancestor_category_name": "Supermercado",
+                    "icon_class": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/Alternativa_Vegetal.svg",
+                    "name": "Alt. Vegetal",
+                    "position": 14,
+                    "type": "free_links",
+                    "url": "https://www.carrefour.es/supermercado/tenemos-para-ti/alternativa-vegetal.e"
+                  },
+                  {
+                    "ancestor_category_id": "foodRootCategory",
+                    "ancestor_category_name": "Supermercado",
+                    "icon_class": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/carre4bio.svg",
+                    "name": "BIO",
+                    "position": 15,
+                    "type": "free_links",
+                    "url": "https://www.carrefour.es/supermercado/tenemos-para-ti/tienda-bio.e"
+                  },
+                  {
+                    "ancestor_category_id": "foodRootCategory",
+                    "ancestor_category_name": "Supermercado",
+                    "icon_class": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/congelados.svg",
+                    "name": "Congelados",
+                    "position": 16,
+                    "type": "free_links",
+                    "url": "https://www.carrefour.es/supermercado/tenemos-para-ti/especial-congelados.e"
+                  }
+                ],
+                "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/rootCategory_food_icono.png",
+                "id": "foodRootCategory",
+                "language": "es",
+                "name": "Supermercado",
+                "sale_point_default": "005290",
+                "show_next_level": true,
+                "url": "https://carrefour.es/supermercado",
+                "url_rel": "/supermercado",
+                "web_view": false
+              }
+            ],
+            "current_category": false,
+            "custom_link": false,
+            "featured_category": false,
+            "food": false,
+            "free_links": [
+              {
+                "ancestor_category_id": "rootCategory",
+                "ancestor_category_name": "Commerce Root",
+                "icon_class": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/ventajas-club-pill_icon32.svg",
+                "name": " ",
+                "position": 1,
+                "type": "free_links",
+                "url": "https://www.carrefour.es/clubcarrefour/"
+              },
+              {
+                "ancestor_category_id": "rootCategory",
+                "ancestor_category_name": "Commerce Root",
+                "icon_class": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/store-icon.svg",
+                "name": "Tiendas",
+                "position": 2,
+                "type": "free_links",
+                "url": "https://www.carrefour.es/tiendas-carrefour/buscador-de-tiendas/"
+              },
+              {
+                "ancestor_category_id": "rootCategory",
+                "ancestor_category_name": "Commerce Root",
+                "icon_class": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/icon-new-club-pass.svg",
+                "name": "Club PASS",
+                "position": 3,
+                "type": "free_links",
+                "url": "https://www.pass.carrefour.es/solicitar-tarjeta?utm_source=menu&utm_medium=enlace_web&utm_campaign=carrefoures"
+              },
+              {
+                "ancestor_category_id": "rootCategory",
+                "ancestor_category_name": "Commerce Root",
+                "icon_class": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/catalog-icon.svg",
+                "name": "Folletos",
+                "position": 4,
+                "type": "free_links",
+                "url": "https://www.carrefour.es/folletos.e"
+              },
+              {
+                "ancestor_category_id": "rootCategory",
+                "ancestor_category_name": "Commerce Root",
+                "icon_class": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/icon-viajes.svg",
+                "name": "Viajes",
+                "position": 5,
+                "type": "free_links",
+                "url": "https://www.viajes.carrefour.es/"
+              },
+              {
+                "ancestor_category_id": "rootCategory",
+                "ancestor_category_name": "Commerce Root",
+                "icon_class": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/icon-entradas.svg",
+                "name": "Entradas",
+                "position": 6,
+                "type": "free_links",
+                "url": "https://entradas.carrefour.es/"
+              }
+            ],
+            "icon_path": "https://static.carrefour.es/crs/cdn_static/CatNavImages/Icons/rootCategory_icono.png",
+            "id": "rootCategory",
+            "language": "es",
+            "name": "Commerce Root",
+            "sale_point_default": "005290",
+            "show_next_level": true,
+            "url": "https://carrefour.es/commerce-root/rootCategory/c",
+            "url_rel": "/commerce-root/rootCategory/c",
+            "web_view": false
+          }
+        ],
+        "translates": {
+          "brochures": "Folletos",
+          "contact": "Contacto",
+          "menu": "Menú",
+          "orders": "Pedidos",
+          "sections": "Todas las secciones",
+          "stores": "Nuestras Tiendas",
+          "viewAll": "Ver todo"
+        }
+      }
+}

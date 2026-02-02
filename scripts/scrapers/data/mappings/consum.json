@@ -1,0 +1,59 @@
+{
+  "market": "consum",
+  "version": "1.0",
+  "updated_at": "2026-02-02T19:34:46.646297",
+  "mappings": [
+    {
+      "source_id": "1986",
+      "source_path": "Frutos secos > Almendras",
+      "master_id": "aperitivos.frutos_secos",
+      "status": "auto",
+      "confidence": 0.8,
+      "suggestions": [
+        "aperitivos.frutos_secos",
+        "lacteos.bebidas_vegetales"
+      ]
+    },
+    {
+      "source_id": "1988",
+      "source_path": "Frutos secos > Cacahuetes",
+      "master_id": "cafe.te",
+      "status": "auto",
+      "confidence": 0.8,
+      "suggestions": [
+        "cafe.te",
+        "aperitivos.frutos_secos"
+      ]
+    },
+    {
+      "source_id": "1991",
+      "source_path": "Frutos secos > Nueces",
+      "master_id": "aperitivos.frutos_secos",
+      "status": "auto",
+      "confidence": 0.8,
+      "suggestions": [
+        "aperitivos.frutos_secos"
+      ]
+    },
+    {
+      "source_id": "1994",
+      "source_path": "Frutos secos > Pipas",
+      "master_id": "aperitivos.frutos_secos",
+      "status": "auto",
+      "confidence": 0.8,
+      "suggestions": [
+        "aperitivos.frutos_secos"
+      ]
+    },
+    {
+      "source_id": "5219",
+      "source_path": "Frutos secos > Pistachos",
+      "master_id": "aperitivos.frutos_secos",
+      "status": "auto",
+      "confidence": 0.8,
+      "suggestions": [
+        "aperitivos.frutos_secos"
+      ]
+    }
+  ]
+}

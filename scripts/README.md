@@ -1,13 +1,17 @@
 # Scraping de supermercados
 
-Scraping de productos de supermercados (DIA, Mercadona) con normalización de categorías e ingestión en Firebase.
+Scraping de productos de supermercados (DIA, Mercadona, Carrefour) con normalización de categorías e ingestión en Firebase.
 
 ## Requisitos
 
 - Python 3.8 o superior
 - Dependencias: `pip install -r requirements.txt` (desde `scripts/`)
+- **Carrefour**: para evitar 403 por fingerprint TLS, `requirements.txt` incluye `curl_cffi`; si no lo instalas, el scraper usará `requests` (puede seguir devolviendo 403).
 
-## Documentación de uso
+## Documentación
+
+- **Uso del CLI**: [USAGE.md](USAGE.md) – Comandos, opciones, gestión de categorías y variables de entorno.
+- **Funcionamiento de los scrapers**: [docs/SCRAPERS.md](docs/SCRAPERS.md) – Arquitectura común, modelos de datos y particularidades de DIA, Mercadona y Carrefour.
 
 **Ver [USAGE.md](USAGE.md)** para:
 
@@ -37,7 +41,8 @@ python main.py categories taxonomy
 ## Estructura
 
 - **main.py** – CLI unificado (scrape + categories)
-- **scrapers/** – Scrapers por supermercado (DIA, Mercadona), modelos, HTTP, validación, ingestión
+- **scrapers/** – Scrapers por supermercado (DIA, Mercadona, Carrefour), modelos, HTTP, validación, ingestión
+- **scrapers/docs/** – Documentación técnica de scrapers ([SCRAPERS.md](docs/SCRAPERS.md))
 - **scrapers/data/** – Taxonomía maestra y mapeos de categorías (JSON)
 - **Firebase** – Colección `products` con historial de precios (`price_history`)
 

@@ -1,0 +1,46 @@
+meta {
+  name: products Consum
+  type: http
+  seq: 8
+}
+
+get {
+  url: https://tienda.consum.es/api/rest/V1.0/catalog/product?page=1&offset=0&orderById=5&showProducts=true&originProduct=undefined&showRecommendations=false&categories=1970
+  body: none
+  auth: inherit
+}
+
+params:query {
+  page: 1
+  offset: 0
+  orderById: 5
+  showProducts: true
+  originProduct: undefined
+  showRecommendations: false
+  categories: 1970
+  ~limit: 20
+}
+
+headers {
+  Accept-Encoding: gzip, deflate, br, zstd
+  User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0
+  Accept: application/json, text/plain, */*
+  Accept-Language: es-ES,es;q=0.9,en-US;q=0.8,en;q=0.7
+  Referer: https://tienda.consum.es/es/c/despensa/aperitivos-frutos-secos/frutos-secos/1985?orderById=5&page=1&showProducts=true
+  X-TOL-LOCALE: es
+  X-TOL-ZONE: 0
+  X-TOL-CHANNEL: 1
+  X-TOL-CURRENCY: EUR
+  X-TOL-SHIPPING-ZONE: 0D
+  X-TOL-APP: shop-front
+  Sec-Fetch-Dest: empty
+  Sec-Fetch-Mode: cors
+  Sec-Fetch-Site: same-origin
+  Connection: keep-alive
+  Cookie: visid_incap_3050779=U5sx95ysR3CjG70TMcL9oIPqgGkAAAAAQUIPAAAAAADSEbHmaCHN7fh6pH7D4uAs; incap_ses_505_3050779=JC6GSe3hAgDZeHXHVx8CB4PqgGkAAAAA5gkwrg4HGfphew4adUaQZg==; OptanonConsent=isGpcEnabled=0&datestamp=Mon+Feb+02+2026+19%3A18%3A47+GMT%2B0100+(hora+est%C3%A1ndar+de+Europa+central)&version=202403.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1; OptanonAlertBoxClosed=2026-02-02T18:18:47.356Z; visid_incap_2650616=vqFmrkbPQpGUMl3AvSTUWInqgGkAAAAAQUIPAAAAAABHGKja7G1XuJfDF5AMOrNx; incap_ses_505_2650616=GSdPPEOiIhnufnXHVx8CB4nqgGkAAAAAZ5Vtb7A0ZefGGi6aUnBzxA==; dtCookie=v_4_srv_1_sn_7E992F7C336AD06DAD78A829BF50C3EF_perc_100000_ol_0_mul_1_app-3A1dea11b2a8d07077_1_rcs-3Acss_0; visid_incap_3239193=VLkdJpyUQQi1b80x98LZgIrqgGkAAAAAQUIPAAAAAACbPS33CIOwXhFPWlg/A5f2; incap_ses_505_3239193=+rXuUHV243d5gXXHVx8CB4vqgGkAAAAA7aemx2owPTcvtu/qMh+3BA==; OptanonConsent=isGpcEnabled=0&datestamp=Mon+Feb+02+2026+19%3A18%3A57+GMT%2B0100+(hora+est%C3%A1ndar+de+Europa+central)&version=202403.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1
+}
+
+settings {
+  encodeUrl: false
+  timeout: 0
+}

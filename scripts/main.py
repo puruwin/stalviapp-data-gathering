@@ -25,6 +25,9 @@ from scrapers.categories import CategoryMapper, MasterTaxonomy
 from scrapers.categories.taxonomy import get_taxonomy
 from scrapers.dia import DiaScraper
 from scrapers.ingest import ingest_products
+from scrapers.carrefour import CarrefourScraper
+from scrapers.consum import ConsumScraper
+from scrapers.mercadona import MercadonaScraper
 from scrapers.validators import validate_products
 
 # Configuración de logging
@@ -40,7 +43,9 @@ def get_scraper(market: str):
     """Obtiene el scraper para un supermercado."""
     scrapers = {
         "dia": DiaScraper,
-        # "mercadona": MercadonaScraper,  # TODO: Implementar
+        "mercadona": MercadonaScraper,
+        "carrefour": CarrefourScraper,
+        "consum": ConsumScraper,
     }
 
     if market not in scrapers:
@@ -260,7 +265,7 @@ def main():
     scrape_parser = subparsers.add_parser("scrape", help="Ejecutar scraper")
     scrape_parser.add_argument(
         "market",
-        choices=["dia", "mercadona"],
+        choices=["dia", "mercadona", "carrefour", "consum"],
         help="Supermercado a scrapear",
     )
     scrape_parser.add_argument(
@@ -300,21 +305,21 @@ def main():
     pending_parser = cat_subparsers.add_parser(
         "pending", help="Ver categorías pendientes de mapeo"
     )
-    pending_parser.add_argument("market", choices=["dia", "mercadona"])
+    pending_parser.add_argument("market", choices=["dia", "mercadona", "carrefour", "consum"])
     pending_parser.set_defaults(func=cmd_categories_pending)
 
     # categories stats
     stats_parser = cat_subparsers.add_parser(
         "stats", help="Ver estadísticas de mapeos"
     )
-    stats_parser.add_argument("market", choices=["dia", "mercadona"])
+    stats_parser.add_argument("market", choices=["dia", "mercadona", "carrefour", "consum"])
     stats_parser.set_defaults(func=cmd_categories_stats)
 
     # categories map
     map_parser = cat_subparsers.add_parser(
         "map", help="Mapear categoría manualmente"
     )
-    map_parser.add_argument("market", choices=["dia", "mercadona"])
+    map_parser.add_argument("market", choices=["dia", "mercadona", "carrefour", "consum"])
     map_parser.add_argument("source_id", help="ID de la categoría del supermercado")
     map_parser.add_argument("master_id", help="ID de la categoría maestra")
     map_parser.set_defaults(func=cmd_categories_map)
