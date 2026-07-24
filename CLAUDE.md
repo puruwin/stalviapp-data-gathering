@@ -67,8 +67,16 @@ python -m pytest scraper/tests/
 La persistencia a Postgres (upsert idempotente + histórico de precios) está en
 `scraper/db.py`. Requiere `.env` con `DATABASE_URL` y la BD levantada.
 
+## Datos y roles
+- **Catálogo público** (`products`, `price_history`, `categories`, `category_prototypes`): sin RLS.
+- **Datos de usuario** (`profiles`, `shopping_lists`, `shopping_list_items`): con **RLS**.
+- Dos roles: `stalvi` (owner/superusuario, `DATABASE_URL`) para el scraper —salta la RLS—,
+  y `app_user` (`APP_DATABASE_URL`) para la app —la RLS sí aplica—. La identidad de sesión
+  es `current_app_user()` (local: `SET app.user_id`; Supabase: `auth.uid()`). Ver `supabase/README.md`.
+
 ## Convenciones
 - Código y comentarios en **español** (coherente con el existente).
 - Cada nuevo scraper hereda de `scrapers/base.py:BaseScraper`.
 - La hoja de ruta manda: antes de una tarea grande, mira el archivo de `docs/roadmap/`
-  correspondiente. Hechos: F0 (reset), F1 (scraper→Postgres), F2 (embeddings + catalogación).
+  correspondiente. Hechos: F0 (reset), F1 (scraper→Postgres), F2 (embeddings +
+  catalogación), F3 (usuarios + listas + RLS).
