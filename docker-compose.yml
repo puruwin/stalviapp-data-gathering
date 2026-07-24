@@ -1,0 +1,23 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: stalvi-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: stalvi
+      POSTGRES_PASSWORD: stalvi
+      POSTGRES_DB: stalvi
+    ports:
+      - "5432:5432"
+    volumes:
+      - stalvi-pgdata:/var/lib/postgresql/data
+      # Scripts *.sql de esta carpeta se ejecutan al inicializar la BD vacía.
+      - ./db/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U stalvi -d stalvi"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  stalvi-pgdata:

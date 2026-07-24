@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-CLI unificado para ejecutar scrapers de supermercados.
+CLI para ejecutar el scraper de Mercadona.
 
 Uso:
-    python main.py scrape dia                 # Scrape completo de DIA
-    python main.py scrape dia --test          # Modo test (límites)
-    python main.py scrape dia --dry-run       # Sin enviar a Firebase
-    
-    python main.py categories pending dia     # Ver categorías pendientes
-    python main.py categories stats dia       # Ver estadísticas de mapeos
-    python main.py categories map dia ID MASTER_ID  # Mapear manualmente
+    python main.py scrape mercadona                 # Scrape completo de Mercadona
+    python main.py scrape mercadona --test          # Modo test (límites)
+    python main.py scrape mercadona --dry-run       # Sin persistir (solo scrapear)
+
+    python main.py categories pending mercadona     # Ver categorías pendientes
+    python main.py categories stats mercadona       # Ver estadísticas de mapeos
+    python main.py categories map mercadona ID MASTER_ID  # Mapear manualmente
 """
 
 from __future__ import annotations
@@ -23,10 +23,6 @@ from typing import List, Optional
 from scrapers import NormalizedProduct
 from scrapers.categories import CategoryMapper, MasterTaxonomy
 from scrapers.categories.taxonomy import get_taxonomy
-from scrapers.dia import DiaScraper
-from scrapers.ingest import ingest_products
-from scrapers.carrefour import CarrefourScraper
-from scrapers.consum import ConsumScraper
 from scrapers.mercadona import MercadonaScraper
 from scrapers.validators import validate_products
 
@@ -42,10 +38,7 @@ logger = logging.getLogger(__name__)
 def get_scraper(market: str):
     """Obtiene el scraper para un supermercado."""
     scrapers = {
-        "dia": DiaScraper,
         "mercadona": MercadonaScraper,
-        "carrefour": CarrefourScraper,
-        "consum": ConsumScraper,
     }
 
     if market not in scrapers:
@@ -147,12 +140,17 @@ def run_scraper(
     logger.info(f"  - Pendientes: {mapper_stats.get('pending', 0)}")
     logger.info("=" * 50)
 
-    # Enviar a Firebase
+    # Persistencia
     if dry_run:
-        logger.info("Modo dry-run: no se envía a Firebase")
+        logger.info("Modo dry-run: no se persisten los productos")
     else:
-        logger.info(f"Enviando {len(valid_products)} productos a Firebase...")
-        ingest_products(valid_products, validate=False)
+        # TODO(F1): persistir en Postgres (scraper/db.py con upsert idempotente
+        # e histórico de precios). La ingesta a Firebase se retiró en el reset F0.
+        logger.warning(
+            "Persistencia no disponible todavía: la ingesta a Postgres se "
+            "implementa en F1 (docs/roadmap/01-scraper-mercadona.md). "
+            "Usa --dry-run mientras tanto."
+        )
 
     return valid_products
 
@@ -265,7 +263,7 @@ def main():
     scrape_parser = subparsers.add_parser("scrape", help="Ejecutar scraper")
     scrape_parser.add_argument(
         "market",
-        choices=["dia", "mercadona", "carrefour", "consum"],
+        choices=["mercadona"],
         help="Supermercado a scrapear",
     )
     scrape_parser.add_argument(
@@ -288,7 +286,7 @@ def main():
     scrape_parser.add_argument(
         "--dry-run",
         action="store_true",
-        help="No enviar a Firebase (solo scrapear)",
+        help="No persistir (solo scrapear)",
     )
     scrape_parser.add_argument(
         "-v", "--verbose",
@@ -305,21 +303,21 @@ def main():
     pending_parser = cat_subparsers.add_parser(
         "pending", help="Ver categorías pendientes de mapeo"
     )
-    pending_parser.add_argument("market", choices=["dia", "mercadona", "carrefour", "consum"])
+    pending_parser.add_argument("market", choices=["mercadona"])
     pending_parser.set_defaults(func=cmd_categories_pending)
 
     # categories stats
     stats_parser = cat_subparsers.add_parser(
         "stats", help="Ver estadísticas de mapeos"
     )
-    stats_parser.add_argument("market", choices=["dia", "mercadona", "carrefour", "consum"])
+    stats_parser.add_argument("market", choices=["mercadona"])
     stats_parser.set_defaults(func=cmd_categories_stats)
 
     # categories map
     map_parser = cat_subparsers.add_parser(
         "map", help="Mapear categoría manualmente"
     )
-    map_parser.add_argument("market", choices=["dia", "mercadona", "carrefour", "consum"])
+    map_parser.add_argument("market", choices=["mercadona"])
     map_parser.add_argument("source_id", help="ID de la categoría del supermercado")
     map_parser.add_argument("master_id", help="ID de la categoría maestra")
     map_parser.set_defaults(func=cmd_categories_map)
