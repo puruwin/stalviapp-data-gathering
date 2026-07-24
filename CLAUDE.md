@@ -44,15 +44,22 @@ docker compose up -d
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
+# Esquema de la BD
+bash db/migrate.sh                                         # aplica db/migrations/*.sql
+
 # Scraper (desde la raíz del repo)
 python scraper/main.py scrape mercadona --test --dry-run   # prueba rápida
-python scraper/main.py scrape mercadona                    # completo (persistencia: F1)
+python scraper/main.py scrape mercadona                    # completo (persiste en Postgres)
 python scraper/main.py categories stats mercadona          # estado de mapeos
+
+# Tests
+python -m pytest scraper/tests/
 ```
-La persistencia a Postgres se implementa en F1; hasta entonces usa `--dry-run`.
+La persistencia a Postgres (upsert idempotente + histórico de precios) está en
+`scraper/db.py`. Requiere `.env` con `DATABASE_URL` y la BD levantada.
 
 ## Convenciones
 - Código y comentarios en **español** (coherente con el existente).
 - Cada nuevo scraper hereda de `scrapers/base.py:BaseScraper`.
 - La hoja de ruta manda: antes de una tarea grande, mira el archivo de `docs/roadmap/`
-  correspondiente. F0 (reset) ya está hecho.
+  correspondiente. F0 (reset) y F1 (scraper→Postgres) ya están hechos.
