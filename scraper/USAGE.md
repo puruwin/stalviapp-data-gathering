@@ -74,6 +74,26 @@ Ejemplo: `python scraper/main.py categories map mercadona 112 aceites.aceites`
 
 ---
 
+### 3. Embeddings y catalogación (F2)
+
+Genera embeddings de productos (modelo local ONNX multilingüe, dim 384), construye
+un prototipo por categoría y cataloga por similitud los productos sin categoría.
+
+```bash
+python scraper/embed.py products      # embeddings de productos (incremental)
+python scraper/embed.py prototypes    # prototipo por categoría (centroide/texto)
+python scraper/embed.py classify       # cataloga por kNN los productos sin categoría
+python scraper/embed.py eval           # evalúa la catalogación (hold-out + barrido de umbral)
+python scraper/embed.py search "leche desnatada sin lactosa"   # búsqueda semántica
+python scraper/embed.py all            # products + prototypes + classify
+```
+
+La catalogación es en cascada: primero la inferencia por keyword (durante el scrape,
+a nivel de categoría), y para lo que quede sin categoría, kNN contra los prototipos;
+si no supera el umbral de confianza, queda en `catalog_status='pending'` (revisión).
+
+---
+
 ## Variables de entorno
 
 | Variable | Descripción |

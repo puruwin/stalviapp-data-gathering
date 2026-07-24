@@ -4,6 +4,7 @@ requests>=2.31
 python-dotenv>=1.0        # carga de .env
 psycopg[binary]>=3.1      # persistencia a Postgres (F1)
 
-# Embeddings y catalogación (F2) — instalar cuando se aborde esa fase:
-#   sentence-transformers>=2.7
-#   pgvector>=0.2           # adaptador psycopg <-> vector
+# Embeddings y catalogación (F2)
+fastembed>=0.4            # embeddings ONNX multilingües (sin PyTorch)
+pgvector>=0.3             # adaptador psycopg <-> vector
+numpy>=1.26               # centroides y evaluación

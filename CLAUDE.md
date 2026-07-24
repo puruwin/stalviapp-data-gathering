@@ -26,7 +26,11 @@ Mercadona API → Scraper (Python) → normaliza → upsert → Postgres + pgvec
 ```
 scraper/          # Python: scraper Mercadona, taxonomía y catalogación (ex scripts/)
   main.py         # CLI: scrape / categories
+  embed.py        # CLI: embeddings / prototipos / classify / eval / search
+  db.py           # persistencia a Postgres (psycopg3)
   scrapers/       # BaseScraper + mercadona/ + categories/ + http_client + models + validators
+  embeddings/     # modelo (fastembed), pipeline, búsqueda semántica, evaluación
+  tests/          # pytest
 db/               # Esquema Postgres: init/ (extensiones) + migrations/ (F1+)
 docs/roadmap/     # Hoja de ruta por fases (00-reset … 05-calidad)
 app/              # (F4) App Expo — aún no creada
@@ -52,6 +56,11 @@ python scraper/main.py scrape mercadona --test --dry-run   # prueba rápida
 python scraper/main.py scrape mercadona                    # completo (persiste en Postgres)
 python scraper/main.py categories stats mercadona          # estado de mapeos
 
+# Embeddings y catalogación (F2)
+python scraper/embed.py all                                # embeddings + prototipos + kNN
+python scraper/embed.py search "chocolate negro"           # búsqueda semántica
+python scraper/embed.py eval                               # métricas de catalogación
+
 # Tests
 python -m pytest scraper/tests/
 ```
@@ -62,4 +71,4 @@ La persistencia a Postgres (upsert idempotente + histórico de precios) está en
 - Código y comentarios en **español** (coherente con el existente).
 - Cada nuevo scraper hereda de `scrapers/base.py:BaseScraper`.
 - La hoja de ruta manda: antes de una tarea grande, mira el archivo de `docs/roadmap/`
-  correspondiente. F0 (reset) y F1 (scraper→Postgres) ya están hechos.
+  correspondiente. Hechos: F0 (reset), F1 (scraper→Postgres), F2 (embeddings + catalogación).
