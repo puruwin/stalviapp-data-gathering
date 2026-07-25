@@ -1,0 +1,7 @@
+# Dependencias del API (F4). Requiere también las del scraper (requirements.txt
+# raíz: psycopg, pgvector, fastembed, python-dotenv) porque reutiliza el modelo
+# de embeddings para la búsqueda semántica.
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pyjwt>=2.8
+email-validator>=2.0      # validación de EmailStr en Pydantic

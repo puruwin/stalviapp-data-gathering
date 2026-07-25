@@ -19,7 +19,7 @@ Mercadona API → Scraper (Python) → normaliza → upsert → Postgres + pgvec
 ### Decisiones fijadas
 - **Datos:** Postgres + pgvector como fuente de verdad única. Dev local con `docker-compose`; cloud con **Supabase** (a partir de F3, por su Auth).
 - **Scrapers:** solo **Mercadona**. Dia/Carrefour/Consum y el backend Firestore antiguo están archivados en la rama `archive`.
-- **Embeddings:** modelo **local multilingüe** `intfloat/multilingual-e5-small` (dim 384).
+- **Embeddings:** modelo **local multilingüe** `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` (dim 384, vía fastembed/ONNX). Se usan prefijos estilo e5 (`query:` / `passage:`) para evitar el efecto "hub" en consultas cortas; la búsqueda es asimétrica (query vs passage). *(Nota: `intfloat/multilingual-e5-small` no está disponible en fastembed; se usa MiniLM como equivalente 384-dim.)*
 - **Frontend:** **Expo** (React Native + RN Web) para una sola base de código web + móvil.
 
 ## Estructura

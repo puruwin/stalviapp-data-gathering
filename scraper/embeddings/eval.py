@@ -16,7 +16,7 @@ import numpy as np
 
 from scrapers.categories.taxonomy import get_taxonomy
 
-from .model import embed_texts
+from .model import embed_documents
 from .store import category_text, connect, to_numpy
 
 logger = logging.getLogger(__name__)
@@ -65,7 +65,7 @@ def evaluate(test_frac: float = 0.2, min_samples: int = 5, seed: int = 42) -> Di
         else:
             text_needed.append(lab)
     if text_needed:
-        for lab, v in zip(text_needed, embed_texts([category_text(l) for l in text_needed])):
+        for lab, v in zip(text_needed, embed_documents([category_text(l) for l in text_needed])):
             proto_vecs.append(np.asarray(v, dtype=np.float32))
             proto_labels.append(lab)
 

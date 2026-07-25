@@ -16,7 +16,7 @@ import numpy as np
 
 from scrapers.categories.taxonomy import get_taxonomy
 
-from .model import embed_texts
+from .model import embed_documents
 from .store import category_text, connect, product_text, to_numpy
 
 logger = logging.getLogger(__name__)
@@ -45,7 +45,7 @@ def embed_products(only_missing: bool = True, batch: int = 256) -> int:
     logger.info("Productos a embeber: %d", total)
     for i in range(0, total, batch):
         chunk = rows[i : i + batch]
-        vecs = embed_texts([product_text(name, brand) for _, name, brand in chunk])
+        vecs = embed_documents([product_text(name, brand) for _, name, brand in chunk])
         with connect() as conn, conn.cursor() as cur:
             cur.executemany(
                 "UPDATE products SET embedding = %s WHERE id = %s",
@@ -92,7 +92,7 @@ def build_prototypes(min_samples: int = MIN_SAMPLES) -> Dict[str, int]:
                 text_ids.append(mid)
 
         if text_ids:
-            tvecs = embed_texts([category_text(mid) for mid in text_ids])
+            tvecs = embed_documents([category_text(mid) for mid in text_ids])
             for mid, v in zip(text_ids, tvecs):
                 proto_rows.append((mid, v, "text", 0))
 

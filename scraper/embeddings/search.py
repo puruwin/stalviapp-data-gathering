@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import List, Tuple
 
-from .model import embed_texts
+from .model import embed_query
 from .store import connect
 
 _SEARCH_SQL = """
@@ -23,7 +23,7 @@ def search_products(query: str, k: int = 10) -> List[Tuple]:
     Returns:
         Lista de tuplas (id, name, price, unit, master_category_id, similitud).
     """
-    qvec = embed_texts([query])[0]
+    qvec = embed_query(query)
     with connect() as conn, conn.cursor() as cur:
         cur.execute(_SEARCH_SQL, (qvec, qvec, k))
         return cur.fetchall()
