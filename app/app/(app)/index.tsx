@@ -14,6 +14,7 @@ import {
   Card,
   Dialog,
   FAB,
+  Icon,
   Portal,
   Text,
   TextInput,
@@ -21,7 +22,15 @@ import {
 
 import { api } from '../../src/api/client';
 import { useAuth } from '../../src/auth/AuthContext';
-import type { ShoppingList } from '../../src/api/types';
+import { contentMaxWidth } from '../../src/components/Screen';
+import type { ShoppingListSummary } from '../../src/api/types';
+
+const euros = (n: number) => `${n.toFixed(2)} €`;
+
+const listSubtitle = (l: ShoppingListSummary) => {
+  const productos = `${l.item_count} ${l.item_count === 1 ? 'producto' : 'productos'}`;
+  return l.item_count > 0 ? `${productos} · ${euros(l.total)}` : 'Lista vacía';
+};
 
 export default function HomeScreen() {
   const { user, logout } = useAuth();
@@ -44,7 +53,7 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
-      <Appbar.Header>
+      <Appbar.Header mode="small" elevated>
         <Appbar.Content
           title="Mis listas"
           subtitle={user?.display_name ?? user?.email}
@@ -65,13 +74,33 @@ export default function HomeScreen() {
           keyExtractor={(l) => l.id}
           contentContainerStyle={styles.listContent}
           ListEmptyComponent={
-            <Text style={styles.empty}>
-              Aún no tienes listas. Crea una con el botón +.
-            </Text>
+            <View style={styles.emptyBox}>
+              <Icon source="playlist-plus" size={56} color="#9aa79a" />
+              <Text variant="titleMedium" style={styles.emptyTitle}>
+                Aún no tienes listas
+              </Text>
+              <Text style={styles.empty}>
+                Crea tu primera lista con el botón +.
+              </Text>
+            </View>
           }
-          renderItem={({ item }: { item: ShoppingList }) => (
-            <Card style={styles.card} onPress={() => router.push(`/(app)/list/${item.id}`)}>
-              <Card.Title title={item.name} />
+          renderItem={({ item }: { item: ShoppingListSummary }) => (
+            <Card
+              mode="contained"
+              style={styles.card}
+              onPress={() => router.push(`/(app)/list/${item.id}`)}
+            >
+              <Card.Title
+                title={item.name}
+                titleVariant="titleMedium"
+                subtitle={listSubtitle(item)}
+                left={(props) => <Icon {...props} source="cart-outline" />}
+                right={(props) => (
+                  <View style={styles.chevron}>
+                    <Icon {...props} source="chevron-right" />
+                  </View>
+                )}
+              />
             </Card>
           )}
         />
@@ -110,8 +139,11 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: { flex: 1 },
   center: { flex: 1, justifyContent: 'center', alignItems: 'center', gap: 8 },
-  listContent: { padding: 12, gap: 8 },
-  card: { marginBottom: 4 },
-  empty: { textAlign: 'center', marginTop: 48, opacity: 0.6 },
+  listContent: { ...contentMaxWidth, paddingVertical: 16, gap: 10 },
+  card: { borderRadius: 14 },
+  chevron: { opacity: 0.5 },
+  emptyBox: { alignItems: 'center', marginTop: 72, gap: 8, paddingHorizontal: 24 },
+  emptyTitle: { marginTop: 4 },
+  empty: { textAlign: 'center', opacity: 0.6 },
   fab: { position: 'absolute', right: 16, bottom: 16 },
 });

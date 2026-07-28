@@ -29,6 +29,7 @@ app/                 # rutas (Expo Router)
   (app)/             # zona autenticada (guardia de sesión)
     index.tsx        # Mis listas (crear / abrir)
     list/[id].tsx    # detalle de lista + gasto total en vivo
+    search.tsx       # búsqueda de productos y añadir a la lista
 src/
   config.ts          # URL del API
   theme.ts           # tema Paper

@@ -148,9 +148,25 @@ def search(
 def get_lists(user: dict = Depends(current_user)) -> list[dict]:
     with app_conn(user["id"]) as conn, conn.cursor() as cur:
         cur.execute(
-            "SELECT id, name FROM shopping_lists ORDER BY created_at DESC"
+            """
+            SELECT sl.id, sl.name,
+                   COUNT(i.id)       AS item_count,
+                   list_total(sl.id) AS total
+            FROM shopping_lists sl
+            LEFT JOIN shopping_list_items i ON i.list_id = sl.id
+            GROUP BY sl.id, sl.name, sl.created_at
+            ORDER BY sl.created_at DESC
+            """
         )
-        return [{"id": str(r["id"]), "name": r["name"]} for r in cur.fetchall()]
+        return [
+            {
+                "id": str(r["id"]),
+                "name": r["name"],
+                "item_count": int(r["item_count"]),
+                "total": float(r["total"]) if r["total"] is not None else 0.0,
+            }
+            for r in cur.fetchall()
+        ]
 
 
 @app.post("/lists", status_code=201)

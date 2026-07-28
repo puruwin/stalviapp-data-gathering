@@ -101,9 +101,40 @@ npx expo run:android               # compila (o EAS build)
   "Mis listas" (crear/abrir) y detalle de lista con cantidades y **gasto total en
   vivo**. `tsc --noEmit` limpio y `expo export --platform web` OK.
 
-**Tramo B — pendiente:**
-- Pantalla de **búsqueda** de productos y añadir a la lista desde el detalle.
-- Validar `expo run:android` / `run:ios` (build nativo / EAS).
+**Tramo B — hecho:**
+- `app/(app)/search.tsx`: búsqueda de productos con debounce contra `/search`,
+  resultados con imagen/precio/marca y **añadir a la lista** (upsert). Al añadir
+  se invalidan las queries del detalle → el **gasto total se actualiza en vivo**.
+- Punto de entrada desde el detalle de lista (FAB «Añadir productos»). `tsc`
+  limpio y `expo export --platform web` OK. Flujo MVP completo:
+  login → buscar «leche» → añadir → total.
+
+**Prioridad: WEB primero.** Decisión (2026-07-25): pulir un producto web decente
+antes de tocar nada nativo. El build nativo `expo run:android`/`run:ios` (SDKs/EAS)
+se **aplaza a mucho más adelante**; Expo mantiene la base multiplataforma, pero no
+se invierte en móvil hasta tener web sólida.
+
+**Pulido web — hecho (2026-07-28):** refresh visual «sencillo y moderno», solo modo
+claro, manteniendo la navegación por stack.
+- Tema refinado (`src/theme.ts`): verde primario `#16a34a`, fondo gris cálido
+  `#f6f7f5`, superficies blancas, esquinas redondeadas.
+- Contenedor responsive reutilizable `src/components/Screen.tsx` (+ `contentMaxWidth`
+  para `FlatList`): contenido centrado a ~720px en pantallas anchas; antes se estiraba
+  a pantalla completa.
+- Cards de listas enriquecidas: icono + nombre + «N productos · gasto» + chevron. Para
+  ello `GET /lists` ahora devuelve `item_count` y `total` (reutiliza la función SQL
+  `list_total`); tipo `ShoppingListSummary` en el front. Estado vacío mejorado.
+- Login en tarjeta con marca (icono + título). Detalle: precio destacado, controles de
+  cantidad con borde, barra de total con color de marca. Búsqueda: searchbar y filas
+  alineadas, precio destacado. Fondo de tema global entre pantallas; se elimina la
+  doble cabecera del índice. `tsc --noEmit` limpio y `expo export --platform web` OK.
+
+**Pendiente (web):**
+- Verificación manual del flujo en navegador (no hay browser headless en este entorno).
+- Más UX web: feedback al añadir desde búsqueda, editar/eliminar/renombrar/vaciar listas.
+- Migrar Auth a Supabase al desplegar (ver `supabase/README.md`).
+
+**Aplazado (no ahora):** build nativo iOS/Android.
 
 **Deuda F2 — RESUELTA (2026-07-25):** la relevancia de `/search` estaba rota por
 dos causas: (1) los embeddings del catálogo se calcularon con el pooling antiguo

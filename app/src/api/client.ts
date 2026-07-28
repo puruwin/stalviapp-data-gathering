@@ -9,6 +9,7 @@ import type {
   ListItem,
   Product,
   ShoppingList,
+  ShoppingListSummary,
 } from './types';
 
 let authToken: string | null = null;
@@ -65,7 +66,7 @@ export const api = {
     request<Product[]>(`/search?q=${encodeURIComponent(q)}&k=${k}`),
 
   // --- Listas ---
-  getLists: () => request<ShoppingList[]>('/lists'),
+  getLists: () => request<ShoppingListSummary[]>('/lists'),
   createList: (name: string) =>
     request<ShoppingList>('/lists', {
       method: 'POST',

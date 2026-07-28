@@ -28,6 +28,12 @@ export type ShoppingList = {
   name: string;
 };
 
+/** Resumen de lista para la pantalla índice: incluye nº de items y gasto estimado. */
+export type ShoppingListSummary = ShoppingList & {
+  item_count: number;
+  total: number;
+};
+
 export type ListItem = {
   id: string;
   product_id: string;
