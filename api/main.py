@@ -9,10 +9,12 @@ Endpoints:
   POST /auth/login               login → JWT
   GET  /auth/me                  perfil del token
   GET  /search?q=&k=             búsqueda semántica de productos
-  GET  /lists                    listas del usuario
+  GET  /lists                    listas del usuario (con nº items y total)
   POST /lists                    crear lista
   GET  /lists/{id}               lista + items (con datos de producto)
+  PATCH /lists/{id}              renombrar lista
   DELETE /lists/{id}             borrar lista
+  DELETE /lists/{id}/items       vaciar lista (borra todos los items)
   POST /lists/{id}/items         añadir/actualizar item (upsert por producto)
   PATCH /lists/{id}/items/{iid}  cambiar cantidad / marcar comprado
   DELETE /lists/{id}/items/{iid} quitar item
@@ -34,6 +36,7 @@ from .schemas import (
     ItemAddIn,
     ItemUpdateIn,
     ListCreateIn,
+    ListUpdateIn,
     LoginIn,
     RegisterIn,
     TokenOut,
@@ -220,10 +223,35 @@ def get_list(list_id: str, user: dict = Depends(current_user)) -> dict:
     return {"id": str(lst["id"]), "name": lst["name"], "items": items}
 
 
+@app.patch("/lists/{list_id}")
+def rename_list(
+    list_id: str, body: ListUpdateIn, user: dict = Depends(current_user)
+) -> dict:
+    with app_conn(user["id"]) as conn, conn.cursor() as cur:
+        cur.execute(
+            "UPDATE shopping_lists SET name = %s WHERE id = %s RETURNING id, name",
+            (body.name, list_id),
+        )
+        row = cur.fetchone()
+        conn.commit()
+    if row is None:
+        raise HTTPException(status.HTTP_404_NOT_FOUND, "Lista no encontrada")
+    return {"id": str(row["id"]), "name": row["name"]}
+
+
 @app.delete("/lists/{list_id}", status_code=204)
 def delete_list(list_id: str, user: dict = Depends(current_user)) -> None:
     with app_conn(user["id"]) as conn, conn.cursor() as cur:
         cur.execute("DELETE FROM shopping_lists WHERE id = %s", (list_id,))
+        conn.commit()
+
+
+@app.delete("/lists/{list_id}/items", status_code=204)
+def empty_list(list_id: str, user: dict = Depends(current_user)) -> None:
+    """Vacía la lista: borra todos sus items (la lista se mantiene)."""
+    _owns_list(user["id"], list_id)
+    with app_conn(user["id"]) as conn, conn.cursor() as cur:
+        cur.execute("DELETE FROM shopping_list_items WHERE list_id = %s", (list_id,))
         conn.commit()
 
 

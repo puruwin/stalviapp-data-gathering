@@ -5,7 +5,7 @@
  * invalidan las queries del detalle para que el total se actualice al volver.
  */
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-import { Stack, useLocalSearchParams } from 'expo-router';
+import { Stack, useLocalSearchParams, useRouter } from 'expo-router';
 import { useEffect, useMemo, useState } from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
 import {
@@ -33,6 +33,7 @@ export default function SearchScreen() {
   }>();
   const qc = useQueryClient();
   const theme = useTheme();
+  const router = useRouter();
 
   const [query, setQuery] = useState('');
   const [debounced, setDebounced] = useState('');
@@ -55,6 +56,7 @@ export default function SearchScreen() {
     onSuccess: (_data, product) => {
       qc.invalidateQueries({ queryKey: ['list', listId] });
       qc.invalidateQueries({ queryKey: ['list', listId, 'total'] });
+      qc.invalidateQueries({ queryKey: ['lists'] });
       setSnack(`Añadido: ${product.name}`);
     },
     onError: () => setSnack('No se pudo añadir el producto'),
@@ -133,7 +135,8 @@ export default function SearchScreen() {
       <Snackbar
         visible={!!snack}
         onDismiss={() => setSnack(null)}
-        duration={1500}
+        duration={2500}
+        action={{ label: 'Ver lista', onPress: () => router.back() }}
       >
         {snack}
       </Snackbar>

@@ -31,10 +31,12 @@ Docs interactivas en `http://127.0.0.1:8000/docs`.
 | POST | `/auth/login` | — | Login → JWT |
 | GET | `/auth/me` | ✔ | Perfil del token |
 | GET | `/search?q=&k=` | ✔ | Búsqueda semántica de productos |
-| GET | `/lists` | ✔ | Listas del usuario |
+| GET | `/lists` | ✔ | Listas del usuario (con nº items y total) |
 | POST | `/lists` | ✔ | Crear lista |
 | GET | `/lists/{id}` | ✔ | Lista + items (con datos de producto) |
+| PATCH | `/lists/{id}` | ✔ | Renombrar lista |
 | DELETE | `/lists/{id}` | ✔ | Borrar lista |
+| DELETE | `/lists/{id}/items` | ✔ | Vaciar lista (borra todos los items) |
 | POST | `/lists/{id}/items` | ✔ | Añadir/actualizar item (upsert por producto) |
 | PATCH | `/lists/{id}/items/{iid}` | ✔ | Cambiar cantidad / marcar comprado |
 | DELETE | `/lists/{id}/items/{iid}` | ✔ | Quitar item |

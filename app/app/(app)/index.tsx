@@ -1,7 +1,7 @@
 /**
- * Home autenticada: listas de la compra del usuario. Permite crear listas y
- * cerrar sesión. La búsqueda de productos y el detalle con gasto total llegan
- * en el tramo B de F4.
+ * Home autenticada: listas de la compra del usuario. Permite crear, renombrar y
+ * borrar listas, abrir su detalle y cerrar sesión. Cada card tiene un menú (⋮)
+ * con Renombrar / Borrar; el borrado pide confirmación.
  */
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { useRouter } from 'expo-router';
@@ -15,9 +15,12 @@ import {
   Dialog,
   FAB,
   Icon,
+  IconButton,
+  Menu,
   Portal,
   Text,
   TextInput,
+  useTheme,
 } from 'react-native-paper';
 
 import { api } from '../../src/api/client';
@@ -32,24 +35,67 @@ const listSubtitle = (l: ShoppingListSummary) => {
   return l.item_count > 0 ? `${productos} · ${euros(l.total)}` : 'Lista vacía';
 };
 
+type Dialog = { mode: 'create' | 'rename'; id?: string };
+
 export default function HomeScreen() {
   const { user, logout } = useAuth();
   const router = useRouter();
   const qc = useQueryClient();
+  const theme = useTheme();
 
-  const [dialogOpen, setDialogOpen] = useState(false);
-  const [newName, setNewName] = useState('');
+  const [dialog, setDialog] = useState<Dialog | null>(null);
+  const [name, setName] = useState('');
+  const [menuFor, setMenuFor] = useState<string | null>(null);
+  const [confirmDelete, setConfirmDelete] = useState<ShoppingListSummary | null>(null);
 
   const lists = useQuery({ queryKey: ['lists'], queryFn: api.getLists });
+  const closeDialog = () => {
+    setDialog(null);
+    setName('');
+  };
 
   const createList = useMutation({
-    mutationFn: (name: string) => api.createList(name),
+    mutationFn: (n: string) => api.createList(n),
     onSuccess: () => {
       qc.invalidateQueries({ queryKey: ['lists'] });
-      setDialogOpen(false);
-      setNewName('');
+      closeDialog();
     },
   });
+  const renameList = useMutation({
+    mutationFn: ({ id, name: n }: { id: string; name: string }) =>
+      api.renameList(id, n),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ['lists'] });
+      closeDialog();
+    },
+  });
+  const removeList = useMutation({
+    mutationFn: (id: string) => api.deleteList(id),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ['lists'] });
+      setConfirmDelete(null);
+    },
+  });
+
+  const openCreate = () => {
+    setName('');
+    setDialog({ mode: 'create' });
+  };
+  const openRename = (l: ShoppingListSummary) => {
+    setName(l.name);
+    setDialog({ mode: 'rename', id: l.id });
+  };
+  const submitDialog = () => {
+    const n = name.trim();
+    if (!n) return;
+    if (dialog?.mode === 'rename' && dialog.id) {
+      renameList.mutate({ id: dialog.id, name: n });
+    } else {
+      createList.mutate(n);
+    }
+  };
+
+  const saving = createList.isPending || renameList.isPending;
 
   return (
     <View style={styles.container}>
@@ -95,10 +141,34 @@ export default function HomeScreen() {
                 titleVariant="titleMedium"
                 subtitle={listSubtitle(item)}
                 left={(props) => <Icon {...props} source="cart-outline" />}
-                right={(props) => (
-                  <View style={styles.chevron}>
-                    <Icon {...props} source="chevron-right" />
-                  </View>
+                right={() => (
+                  <Menu
+                    visible={menuFor === item.id}
+                    onDismiss={() => setMenuFor(null)}
+                    anchor={
+                      <IconButton
+                        icon="dots-vertical"
+                        onPress={() => setMenuFor(item.id)}
+                      />
+                    }
+                  >
+                    <Menu.Item
+                      leadingIcon="pencil-outline"
+                      title="Renombrar"
+                      onPress={() => {
+                        setMenuFor(null);
+                        openRename(item);
+                      }}
+                    />
+                    <Menu.Item
+                      leadingIcon="delete-outline"
+                      title="Borrar"
+                      onPress={() => {
+                        setMenuFor(null);
+                        setConfirmDelete(item);
+                      }}
+                    />
+                  </Menu>
                 )}
               />
             </Card>
@@ -106,28 +176,51 @@ export default function HomeScreen() {
         />
       )}
 
-      <FAB icon="plus" style={styles.fab} onPress={() => setDialogOpen(true)} />
+      <FAB icon="plus" style={styles.fab} onPress={openCreate} />
 
       <Portal>
-        <Dialog visible={dialogOpen} onDismiss={() => setDialogOpen(false)}>
-          <Dialog.Title>Nueva lista</Dialog.Title>
+        <Dialog visible={!!dialog} onDismiss={closeDialog}>
+          <Dialog.Title>
+            {dialog?.mode === 'rename' ? 'Renombrar lista' : 'Nueva lista'}
+          </Dialog.Title>
           <Dialog.Content>
             <TextInput
               label="Nombre"
-              value={newName}
-              onChangeText={setNewName}
+              value={name}
+              onChangeText={setName}
               mode="outlined"
               autoFocus
+              onSubmitEditing={submitDialog}
             />
           </Dialog.Content>
           <Dialog.Actions>
-            <Button onPress={() => setDialogOpen(false)}>Cancelar</Button>
+            <Button onPress={closeDialog}>Cancelar</Button>
             <Button
-              onPress={() => createList.mutate(newName.trim())}
-              disabled={!newName.trim() || createList.isPending}
-              loading={createList.isPending}
+              onPress={submitDialog}
+              disabled={!name.trim() || saving}
+              loading={saving}
             >
-              Crear
+              {dialog?.mode === 'rename' ? 'Guardar' : 'Crear'}
+            </Button>
+          </Dialog.Actions>
+        </Dialog>
+
+        <Dialog visible={!!confirmDelete} onDismiss={() => setConfirmDelete(null)}>
+          <Dialog.Title>Borrar lista</Dialog.Title>
+          <Dialog.Content>
+            <Text>
+              ¿Seguro que quieres borrar «{confirmDelete?.name}»? Se perderán sus
+              productos.
+            </Text>
+          </Dialog.Content>
+          <Dialog.Actions>
+            <Button onPress={() => setConfirmDelete(null)}>Cancelar</Button>
+            <Button
+              textColor={theme.colors.error}
+              loading={removeList.isPending}
+              onPress={() => confirmDelete && removeList.mutate(confirmDelete.id)}
+            >
+              Borrar
             </Button>
           </Dialog.Actions>
         </Dialog>
@@ -141,7 +234,6 @@ const styles = StyleSheet.create({
   center: { flex: 1, justifyContent: 'center', alignItems: 'center', gap: 8 },
   listContent: { ...contentMaxWidth, paddingVertical: 16, gap: 10 },
   card: { borderRadius: 14 },
-  chevron: { opacity: 0.5 },
   emptyBox: { alignItems: 'center', marginTop: 72, gap: 8, paddingHorizontal: 24 },
   emptyTitle: { marginTop: 4 },
   empty: { textAlign: 'center', opacity: 0.6 },

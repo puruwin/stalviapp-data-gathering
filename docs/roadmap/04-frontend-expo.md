@@ -129,9 +129,18 @@ claro, manteniendo la navegación por stack.
   alineadas, precio destacado. Fondo de tema global entre pantallas; se elimina la
   doble cabecera del índice. `tsc --noEmit` limpio y `expo export --platform web` OK.
 
+**UX de listas — hecha (2026-07-28):** CRUD completo de listas desde la app.
+- Backend: `PATCH /lists/{id}` (renombrar) y `DELETE /lists/{id}/items` (vaciar);
+  `DELETE /lists/{id}` (borrar) ya existía. Cliente: `renameList` / `emptyList`.
+- Índice: menú ⋮ por card con **Renombrar** (diálogo) y **Borrar** (con confirmación).
+- Detalle: menú ⋮ en la cabecera con **Renombrar** / **Vaciar** / **Borrar** (borrar
+  vuelve atrás). Las mutaciones invalidan también `['lists']` para refrescar las cards.
+- Búsqueda: el Snackbar de «Añadido» incluye acción **Ver lista**. `tsc` limpio,
+  `expo export --platform web` OK y smoke test de endpoints (registro→crear→renombrar
+  →vaciar→borrar) verde.
+
 **Pendiente (web):**
 - Verificación manual del flujo en navegador (no hay browser headless en este entorno).
-- Más UX web: feedback al añadir desde búsqueda, editar/eliminar/renombrar/vaciar listas.
 - Migrar Auth a Supabase al desplegar (ver `supabase/README.md`).
 
 **Aplazado (no ahora):** build nativo iOS/Android.

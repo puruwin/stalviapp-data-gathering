@@ -35,6 +35,10 @@ class ListCreateIn(BaseModel):
     name: str = Field(min_length=1)
 
 
+class ListUpdateIn(BaseModel):
+    name: str = Field(min_length=1)
+
+
 class ListOut(BaseModel):
     id: str
     name: str

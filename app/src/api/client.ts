@@ -73,8 +73,15 @@ export const api = {
       body: JSON.stringify({ name }),
     }),
   getList: (id: string) => request<ListDetail>(`/lists/${id}`),
+  renameList: (id: string, name: string) =>
+    request<ShoppingList>(`/lists/${id}`, {
+      method: 'PATCH',
+      body: JSON.stringify({ name }),
+    }),
   deleteList: (id: string) =>
     request<void>(`/lists/${id}`, { method: 'DELETE' }),
+  emptyList: (id: string) =>
+    request<void>(`/lists/${id}/items`, { method: 'DELETE' }),
 
   // --- Items ---
   addItem: (listId: string, product_id: string, quantity = 1) =>
