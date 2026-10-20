@@ -11,9 +11,9 @@ import { FlatList, StyleSheet, View } from 'react-native';
 import {
   ActivityIndicator,
   Avatar,
+  Button,
   Divider,
   IconButton,
-  List,
   Searchbar,
   Snackbar,
   Text,
@@ -22,6 +22,7 @@ import {
 
 import { api } from '../../src/api/client';
 import { contentMaxWidth } from '../../src/components/Screen';
+import { ProductRow } from '../../src/components/ProductRow';
 import type { Product } from '../../src/api/types';
 
 const euros = (n: number | null) => (n == null ? '' : `${n.toFixed(2)} €`);
@@ -68,10 +69,9 @@ export default function SearchScreen() {
   );
 
   const renderItem = ({ item }: { item: Product }) => (
-    <List.Item
-      title={item.name}
-      titleNumberOfLines={2}
-      description={() => (
+    <ProductRow
+      name={item.name}
+      description={(
         <Text style={styles.itemDesc}>
           <Text style={[styles.price, { color: theme.colors.primary }]}>
             {euros(item.price)}
@@ -79,7 +79,7 @@ export default function SearchScreen() {
           {item.brand ? `  ·  ${item.brand}` : ''}
         </Text>
       )}
-      left={() => (
+      left={(
         <View style={styles.avatar}>
           {item.image_url ? (
             <Avatar.Image size={44} source={{ uri: item.image_url }} />
@@ -88,9 +88,10 @@ export default function SearchScreen() {
           )}
         </View>
       )}
-      right={() => (
+      controls={(
         <IconButton
           icon="plus-circle"
+          accessibilityLabel={`Añadir ${item.name}`}
           iconColor={theme.colors.primary}
           onPress={() => add.mutate(item)}
           disabled={add.isPending}
@@ -105,6 +106,7 @@ export default function SearchScreen() {
       <View style={styles.searchWrap}>
         <Searchbar
           placeholder="Buscar productos…"
+          accessibilityLabel="Buscar productos"
           value={query}
           onChangeText={setQuery}
           autoFocus
@@ -117,7 +119,10 @@ export default function SearchScreen() {
       ) : results.isLoading ? (
         <ActivityIndicator style={styles.center} size="large" />
       ) : results.isError ? (
-        <Text style={styles.hint}>Error al buscar. Inténtalo de nuevo.</Text>
+        <View style={styles.hint}>
+          <Text accessibilityRole="alert">Error al buscar. Inténtalo de nuevo.</Text>
+          <Button onPress={() => results.refetch()}>Reintentar búsqueda</Button>
+        </View>
       ) : (
         <FlatList
           data={results.data ?? []}

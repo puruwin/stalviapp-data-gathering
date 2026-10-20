@@ -14,6 +14,7 @@ import {
   Card,
   Dialog,
   FAB,
+  HelperText,
   Icon,
   IconButton,
   Menu,
@@ -78,10 +79,14 @@ export default function HomeScreen() {
   });
 
   const openCreate = () => {
+    createList.reset();
+    renameList.reset();
     setName('');
     setDialog({ mode: 'create' });
   };
   const openRename = (l: ShoppingListSummary) => {
+    createList.reset();
+    renameList.reset();
     setName(l.name);
     setDialog({ mode: 'rename', id: l.id });
   };
@@ -104,14 +109,14 @@ export default function HomeScreen() {
           title="Mis listas"
           subtitle={user?.display_name ?? user?.email}
         />
-        <Appbar.Action icon="logout" onPress={logout} />
+        <Appbar.Action icon="logout" accessibilityLabel="Cerrar sesión" onPress={logout} />
       </Appbar.Header>
 
       {lists.isLoading ? (
         <ActivityIndicator style={styles.center} size="large" />
       ) : lists.isError ? (
         <View style={styles.center}>
-          <Text>No se pudieron cargar las listas.</Text>
+          <Text accessibilityRole="alert">No se pudieron cargar las listas.</Text>
           <Button onPress={() => lists.refetch()}>Reintentar</Button>
         </View>
       ) : (
@@ -148,6 +153,7 @@ export default function HomeScreen() {
                     anchor={
                       <IconButton
                         icon="dots-vertical"
+                        accessibilityLabel={`Opciones de ${item.name}`}
                         onPress={() => setMenuFor(item.id)}
                       />
                     }
@@ -155,6 +161,7 @@ export default function HomeScreen() {
                     <Menu.Item
                       leadingIcon="pencil-outline"
                       title="Renombrar"
+                      accessibilityLabel="Renombrar"
                       onPress={() => {
                         setMenuFor(null);
                         openRename(item);
@@ -163,8 +170,10 @@ export default function HomeScreen() {
                     <Menu.Item
                       leadingIcon="delete-outline"
                       title="Borrar"
+                      accessibilityLabel="Borrar"
                       onPress={() => {
                         setMenuFor(null);
+                        removeList.reset();
                         setConfirmDelete(item);
                       }}
                     />
@@ -176,7 +185,7 @@ export default function HomeScreen() {
         />
       )}
 
-      <FAB icon="plus" style={styles.fab} onPress={openCreate} />
+      <FAB icon="plus" accessibilityLabel="Crear lista" style={styles.fab} onPress={openCreate} />
 
       <Portal>
         <Dialog visible={!!dialog} onDismiss={closeDialog}>
@@ -186,12 +195,18 @@ export default function HomeScreen() {
           <Dialog.Content>
             <TextInput
               label="Nombre"
+              accessibilityLabel="Nombre de la lista"
               value={name}
               onChangeText={setName}
               mode="outlined"
               autoFocus
               onSubmitEditing={submitDialog}
             />
+            {(createList.isError || renameList.isError) && (
+              <HelperText type="error" accessibilityRole="alert">
+                No se pudo guardar la lista. Inténtalo de nuevo.
+              </HelperText>
+            )}
           </Dialog.Content>
           <Dialog.Actions>
             <Button onPress={closeDialog}>Cancelar</Button>
@@ -212,6 +227,11 @@ export default function HomeScreen() {
               ¿Seguro que quieres borrar «{confirmDelete?.name}»? Se perderán sus
               productos.
             </Text>
+            {removeList.isError && (
+              <HelperText type="error" accessibilityRole="alert">
+                No se pudo borrar la lista. Inténtalo de nuevo.
+              </HelperText>
+            )}
           </Dialog.Content>
           <Dialog.Actions>
             <Button onPress={() => setConfirmDelete(null)}>Cancelar</Button>

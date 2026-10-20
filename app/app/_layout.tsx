@@ -12,9 +12,13 @@ import { View } from 'react-native';
 
 import { AuthProvider, useAuth } from '../src/auth/AuthContext';
 import { theme } from '../src/theme';
+import { ApiError } from '../src/api/client';
 
 const queryClient = new QueryClient({
-  defaultOptions: { queries: { retry: 1, refetchOnWindowFocus: false } },
+  defaultOptions: { queries: {
+    retry: (count, error) => !(error instanceof ApiError && error.status === 401) && count < 1,
+    refetchOnWindowFocus: false,
+  } },
 });
 
 function RootNavigator() {

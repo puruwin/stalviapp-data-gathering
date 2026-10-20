@@ -21,7 +21,7 @@ import { useAuth } from '../src/auth/AuthContext';
 import { Screen } from '../src/components/Screen';
 
 export default function LoginScreen() {
-  const { user, login, register } = useAuth();
+  const { user, login, register, sessionNotice } = useAuth();
   const router = useRouter();
   const theme = useTheme();
 
@@ -45,7 +45,8 @@ export default function LoginScreen() {
       }
       router.replace('/(app)');
     } catch (e) {
-      if (e instanceof ApiError) setError(e.message);
+      if (e instanceof ApiError) setError(e.status >= 500
+        ? 'El servidor no está disponible. Inténtalo de nuevo.' : e.message);
       else setError('No se pudo conectar con el servidor');
     } finally {
       setSubmitting(false);
@@ -92,6 +93,7 @@ export default function LoginScreen() {
           {mode === 'register' && (
             <TextInput
               label="Nombre (opcional)"
+              accessibilityLabel="Nombre (opcional)"
               value={displayName}
               onChangeText={setDisplayName}
               mode="outlined"
@@ -100,6 +102,7 @@ export default function LoginScreen() {
           )}
           <TextInput
             label="Email"
+            accessibilityLabel="Email"
             value={email}
             onChangeText={setEmail}
             mode="outlined"
@@ -110,6 +113,8 @@ export default function LoginScreen() {
           />
           <TextInput
             label="Contraseña"
+            accessibilityLabel="Contraseña"
+            autoComplete={mode === 'register' ? 'new-password' : 'current-password'}
             value={password}
             onChangeText={setPassword}
             mode="outlined"
@@ -117,7 +122,8 @@ export default function LoginScreen() {
             style={styles.input}
           />
 
-          <HelperText type="error" visible={!!error}>
+          {sessionNotice && <Text accessibilityRole="alert">{sessionNotice}</Text>}
+          <HelperText type="error" visible={!!error} accessibilityRole={error ? 'alert' : undefined}>
             {error}
           </HelperText>
 

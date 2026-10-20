@@ -36,6 +36,10 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
+# Evidencias locales de Playwright (pueden contener sesiones de prueba).
+playwright-report/
+test-results/
+
 # generated native folders
 /ios
 /android

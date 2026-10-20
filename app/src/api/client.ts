@@ -10,9 +10,15 @@ import type {
   Product,
   ShoppingList,
   ShoppingListSummary,
+  User,
 } from './types';
 
 let authToken: string | null = null;
+let onUnauthorized: (() => void) | null = null;
+
+export function setUnauthorizedHandler(handler: (() => void) | null) {
+  onUnauthorized = handler;
+}
 
 export function setAuthToken(token: string | null) {
   authToken = token;
@@ -26,15 +32,21 @@ class ApiError extends Error {
 }
 
 async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
+  // Una respuesta tardía de una sesión anterior no debe cerrar la cuenta actual.
+  const requestToken = authToken;
   const headers: Record<string, string> = {
     'Content-Type': 'application/json',
     ...(options.headers as Record<string, string> | undefined),
   };
-  if (authToken) headers.Authorization = `Bearer ${authToken}`;
+  if (requestToken) headers.Authorization = `Bearer ${requestToken}`;
 
   const res = await fetch(`${API_URL}${path}`, { ...options, headers });
 
   if (!res.ok) {
+    if (res.status === 401 && requestToken && requestToken === authToken &&
+        (path === '/auth/me' || !path.startsWith('/auth/'))) {
+      onUnauthorized?.();
+    }
     let detail = res.statusText;
     try {
       const body = await res.json();
@@ -50,6 +62,7 @@ async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
 
 export const api = {
   // --- Auth ---
+  me: () => request<User>('/auth/me'),
   register: (email: string, password: string, display_name?: string) =>
     request<AuthResponse>('/auth/register', {
       method: 'POST',
