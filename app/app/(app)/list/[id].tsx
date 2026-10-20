@@ -15,10 +15,10 @@ import {
   Divider,
   FAB,
   IconButton,
-  List,
   Menu,
   Portal,
   Surface,
+  Snackbar,
   Text,
   TextInput,
   useTheme,
@@ -26,6 +26,7 @@ import {
 
 import { api } from '../../../src/api/client';
 import { contentMaxWidth } from '../../../src/components/Screen';
+import { ProductRow } from '../../../src/components/ProductRow';
 import type { ListItem } from '../../../src/api/types';
 
 const euros = (n: number | null | undefined) =>
@@ -41,6 +42,8 @@ export default function ListDetailScreen() {
   const [renameName, setRenameName] = useState<string | null>(null);
   const [confirmEmpty, setConfirmEmpty] = useState(false);
   const [confirmDelete, setConfirmDelete] = useState(false);
+  const [actionError, setActionError] = useState<string | null>(null);
+  const mutationError = () => setActionError('No se pudo guardar el cambio. Inténtalo de nuevo.');
 
   const list = useQuery({ queryKey: ['list', id], queryFn: () => api.getList(id) });
   const total = useQuery({
@@ -61,16 +64,19 @@ export default function ListDetailScreen() {
   const setQty = useMutation({
     mutationFn: ({ itemId, quantity }: { itemId: string; quantity: number }) =>
       api.updateItem(id, itemId, { quantity }),
-    onSuccess: refresh,
+    onSuccess: refreshAll,
+    onError: mutationError,
   });
   const toggle = useMutation({
     mutationFn: ({ itemId, checked }: { itemId: string; checked: boolean }) =>
       api.updateItem(id, itemId, { checked }),
     onSuccess: refresh,
+    onError: mutationError,
   });
   const remove = useMutation({
     mutationFn: (itemId: string) => api.deleteItem(id, itemId),
     onSuccess: refreshAll,
+    onError: mutationError,
   });
   const rename = useMutation({
     mutationFn: (name: string) => api.renameList(id, name),
@@ -78,6 +84,7 @@ export default function ListDetailScreen() {
       refreshAll();
       setRenameName(null);
     },
+    onError: mutationError,
   });
   const emptyList = useMutation({
     mutationFn: () => api.emptyList(id),
@@ -85,14 +92,16 @@ export default function ListDetailScreen() {
       refreshAll();
       setConfirmEmpty(false);
     },
+    onError: mutationError,
   });
   const removeList = useMutation({
     mutationFn: () => api.deleteList(id),
     onSuccess: () => {
       qc.invalidateQueries({ queryKey: ['lists'] });
       setConfirmDelete(false);
-      router.back();
+      router.dismissTo('/(app)');
     },
+    onError: mutationError,
   });
 
   if (list.isLoading) {
@@ -101,16 +110,18 @@ export default function ListDetailScreen() {
   if (list.isError || !list.data) {
     return (
       <View style={styles.center}>
-        <Text>No se pudo cargar la lista.</Text>
+        <Text accessibilityRole="alert">No se pudo cargar la lista.</Text>
+        <Button onPress={() => list.refetch()}>Reintentar</Button>
       </View>
     );
   }
 
+  const updating = setQty.isPending || toggle.isPending || remove.isPending;
   const renderItem = ({ item }: { item: ListItem }) => (
-    <List.Item
-      title={item.name}
-      titleNumberOfLines={2}
-      description={() => (
+    <ProductRow
+      name={item.name}
+      compactControls
+      description={(
         <Text style={styles.itemDesc}>
           <Text style={[styles.price, { color: theme.colors.primary }]}>
             {euros(item.price)}
@@ -118,20 +129,23 @@ export default function ListDetailScreen() {
           {`  ·  ${item.quantity} ud`}
         </Text>
       )}
-      style={[item.checked && styles.itemChecked]}
-      left={() => (
-        <Checkbox
+      left={(
+        <Checkbox.Android
+          accessibilityLabel={`Comprado: ${item.name}`}
+          aria-checked={item.checked}
+          disabled={updating}
           status={item.checked ? 'checked' : 'unchecked'}
           onPress={() => toggle.mutate({ itemId: item.id, checked: !item.checked })}
         />
       )}
-      right={() => (
+      controls={(
         <View style={styles.qtyRow}>
           <IconButton
             icon="minus"
+            accessibilityLabel={`Reducir cantidad de ${item.name}`}
             size={18}
             mode="outlined"
-            disabled={item.quantity <= 1}
+            disabled={item.quantity <= 1 || updating}
             onPress={() =>
               setQty.mutate({ itemId: item.id, quantity: item.quantity - 1 })
             }
@@ -139,13 +153,15 @@ export default function ListDetailScreen() {
           <Text style={styles.qty}>{item.quantity}</Text>
           <IconButton
             icon="plus"
+            accessibilityLabel={`Aumentar cantidad de ${item.name}`}
+            disabled={updating}
             size={18}
             mode="outlined"
             onPress={() =>
               setQty.mutate({ itemId: item.id, quantity: item.quantity + 1 })
             }
           />
-          <IconButton icon="delete-outline" size={18} onPress={() => remove.mutate(item.id)} />
+          <IconButton icon="delete-outline" accessibilityLabel={`Quitar ${item.name}`} disabled={updating} size={18} onPress={() => remove.mutate(item.id)} />
         </View>
       )}
     />
@@ -171,6 +187,7 @@ export default function ListDetailScreen() {
               anchor={
                 <IconButton
                   icon="dots-vertical"
+                  accessibilityLabel="Opciones de la lista"
                   iconColor="#fff"
                   onPress={() => setMenuOpen(true)}
                 />
@@ -179,6 +196,7 @@ export default function ListDetailScreen() {
               <Menu.Item
                 leadingIcon="pencil-outline"
                 title="Renombrar"
+                accessibilityLabel="Renombrar"
                 onPress={() => {
                   setMenuOpen(false);
                   setRenameName(list.data.name);
@@ -187,6 +205,7 @@ export default function ListDetailScreen() {
               <Menu.Item
                 leadingIcon="notification-clear-all"
                 title="Vaciar lista"
+                accessibilityLabel="Vaciar lista"
                 disabled={isEmpty}
                 onPress={() => {
                   setMenuOpen(false);
@@ -197,6 +216,7 @@ export default function ListDetailScreen() {
               <Menu.Item
                 leadingIcon="delete-outline"
                 title="Borrar lista"
+                accessibilityLabel="Borrar lista"
                 onPress={() => {
                   setMenuOpen(false);
                   setConfirmDelete(true);
@@ -230,11 +250,14 @@ export default function ListDetailScreen() {
       >
         <Text variant="titleMedium">Total estimado</Text>
         <Text
+          accessibilityLabel="Total estimado de la lista"
+          accessibilityLiveRegion="polite"
           variant="headlineSmall"
           style={[styles.totalValue, { color: theme.colors.primary }]}
         >
-          {total.isLoading ? '…' : euros(total.data?.total)}
+          {total.isError ? 'No disponible' : total.isLoading ? '…' : euros(total.data?.total)}
         </Text>
+        {total.isError && <Button onPress={() => total.refetch()}>Reintentar total</Button>}
       </Surface>
 
       <Portal>
@@ -243,6 +266,7 @@ export default function ListDetailScreen() {
           <Dialog.Content>
             <TextInput
               label="Nombre"
+              accessibilityLabel="Nombre de la lista"
               value={renameName ?? ''}
               onChangeText={setRenameName}
               mode="outlined"
@@ -301,6 +325,9 @@ export default function ListDetailScreen() {
           </Dialog.Actions>
         </Dialog>
       </Portal>
+      <Snackbar visible={!!actionError} onDismiss={() => setActionError(null)}>
+        {actionError}
+      </Snackbar>
     </View>
   );
 }

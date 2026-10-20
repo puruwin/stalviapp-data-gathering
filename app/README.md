@@ -40,5 +40,13 @@ src/
 ## Estado (F4)
 - **Tramo A (hecho):** API + scaffold + auth (login/registro, sesión persistida,
   rutas protegidas) + listas (crear, ver, ajustar cantidades, total en vivo).
-- **Tramo B (pendiente):** búsqueda de productos y añadir a la lista desde el
-  detalle; validación `expo run:android` / `run:ios`.
+- **Tramo B (hecho):** búsqueda de productos, añadir a la lista, cantidades,
+  marcado de comprado, total en vivo y CRUD de listas.
+- La sesión inválida se elimina y vuelve al login. La caché se limpia al salir
+  y al cambiar de cuenta; una respuesta 401 tardía no cierra la cuenta nueva.
+- Campos y controles con etiquetas accesibles; filas con botones independientes,
+  casillas con estado marcado y reintentos para errores de red.
+- [Pruebas web automatizadas](e2e/README.md): recorrido principal y casos de
+  sesión/errores en escritorio y móvil web. Configuración para Chromium, Firefox
+  y WebKit; [informe de la cobertura ejecutada](../docs/validacion-multinavegador-2026-10-20.md).
+- Los builds nativos `expo run:android` / `run:ios` siguen aplazados.
