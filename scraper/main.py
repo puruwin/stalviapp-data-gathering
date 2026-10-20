@@ -144,12 +144,26 @@ def run_scraper(
     if dry_run:
         logger.info("Modo dry-run: no se persisten los productos")
     else:
-        # TODO(F1): persistir en Postgres (scraper/db.py con upsert idempotente
-        # e histórico de precios). La ingesta a Firebase se retiró en el reset F0.
-        logger.warning(
-            "Persistencia no disponible todavía: la ingesta a Postgres se "
-            "implementa en F1 (docs/roadmap/01-scraper-mercadona.md). "
-            "Usa --dry-run mientras tanto."
+        import db
+
+        logger.info(f"Persistiendo {len(valid_products)} productos en Postgres...")
+        cat_rows = [
+            {
+                "market": market,
+                "external_id": c.id,
+                "name": c.name,
+                "parent_name": c.parent_name,
+                "master_category_id": scraper.category_mapper.get_master_category(c),
+            }
+            for c in categories
+        ]
+        db.upsert_categories(cat_rows)
+        pstats = db.upsert_products(valid_products)
+        logger.info(
+            "Persistencia: nuevos=%d, precio_cambiado=%d, sin_cambios=%d",
+            pstats["new"],
+            pstats["price_changed"],
+            pstats["unchanged"],
         )
 
     return valid_products

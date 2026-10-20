@@ -20,9 +20,9 @@ Reset y escalado coherente del proyecto. Cada fase tiene un **archivo de prompt 
 | Fase | Archivo | Estado |
 |------|---------|--------|
 | F0 — Reset de arquitectura | [`00-reset.md`](./00-reset.md) | ✅ |
-| F1 — Scraper Mercadona sólido | [`01-scraper-mercadona.md`](./01-scraper-mercadona.md) | ☐ |
-| F2 — Taxonomía + embeddings + catalogación | [`02-taxonomia-embeddings.md`](./02-taxonomia-embeddings.md) | ☐ |
-| F3 — Usuarios + funcionalidades | [`03-usuarios-datos.md`](./03-usuarios-datos.md) | ☐ |
+| F1 — Scraper Mercadona sólido | [`01-scraper-mercadona.md`](./01-scraper-mercadona.md) | ✅ |
+| F2 — Taxonomía + embeddings + catalogación | [`02-taxonomia-embeddings.md`](./02-taxonomia-embeddings.md) | ✅ |
+| F3 — Usuarios + funcionalidades | [`03-usuarios-datos.md`](./03-usuarios-datos.md) | ✅ |
 | F4 — Frontend Expo | [`04-frontend-expo.md`](./04-frontend-expo.md) | ☐ |
 | F5 — Calidad (transversal) | [`05-calidad.md`](./05-calidad.md) | ☐ |
 

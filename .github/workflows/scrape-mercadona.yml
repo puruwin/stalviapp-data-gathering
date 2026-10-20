@@ -1,0 +1,24 @@
+name: scrape-mercadona
+
+# DESACTIVADO por ahora: solo ejecución manual (workflow_dispatch).
+# El cron está comentado a propósito porque todavía no hay una BD accesible
+# desde CI. Se activará al disponer de Postgres cloud (Supabase, F3), añadiendo
+# el secret DATABASE_URL y descomentando el bloque 'schedule'.
+on:
+  workflow_dispatch: {}
+  # schedule:
+  #   - cron: "0 5 * * *"   # 05:00 UTC, diario
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Scrape Mercadona
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: python scraper/main.py scrape mercadona
