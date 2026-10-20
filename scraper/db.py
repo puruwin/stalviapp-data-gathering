@@ -13,6 +13,7 @@ import os
 from typing import TYPE_CHECKING, Dict, List, Optional
 
 import psycopg
+from psycopg.types.json import Jsonb
 from dotenv import load_dotenv
 
 if TYPE_CHECKING:
@@ -44,9 +45,9 @@ def _price_eq(a: Optional[float], b: Optional[float]) -> bool:
 
 _UPSERT_PRODUCT = """
 INSERT INTO products (id, name, supermarket, category, master_category_id,
-                      price, price_per_unit, unit, brand, url, image_url, last_seen)
+                      price, price_per_unit, unit, brand, url, image_url, source_metadata, last_seen)
 VALUES (%(id)s, %(name)s, %(supermarket)s, %(category)s, %(master_category_id)s,
-        %(price)s, %(price_per_unit)s, %(unit)s, %(brand)s, %(url)s, %(image_url)s, now())
+        %(price)s, %(price_per_unit)s, %(unit)s, %(brand)s, %(url)s, %(image_url)s, %(source_metadata)s, now())
 ON CONFLICT (id) DO UPDATE SET
     name               = EXCLUDED.name,
     supermarket        = EXCLUDED.supermarket,
@@ -58,12 +59,13 @@ ON CONFLICT (id) DO UPDATE SET
     brand              = EXCLUDED.brand,
     url                = EXCLUDED.url,
     image_url          = EXCLUDED.image_url,
+    source_metadata    = EXCLUDED.source_metadata,
     last_seen          = now();
 """
 
 _INSERT_HISTORY = """
-INSERT INTO price_history (product_id, price, price_per_unit)
-VALUES (%(id)s, %(price)s, %(price_per_unit)s);
+INSERT INTO price_history (product_id, price, price_per_unit, source_metadata)
+VALUES (%(id)s, %(price)s, %(price_per_unit)s, %(source_metadata)s);
 """
 
 _UPSERT_CATEGORY = """
@@ -91,15 +93,15 @@ def upsert_products(products: List["NormalizedProduct"]) -> Dict[str, int]:
             deduped[p.id] = p
     products = list(deduped.values())
 
-    stats = {"total": len(products), "new": 0, "price_changed": 0, "unchanged": 0}
+    stats = {"total": len(products), "new": 0, "price_changed": 0, "context_changed": 0, "unchanged": 0}
     if not products:
         return stats
 
     with psycopg.connect(get_dsn()) as conn:
         with conn.cursor() as cur:
             ids = [p.id for p in products]
-            cur.execute("SELECT id, price FROM products WHERE id = ANY(%s)", (ids,))
-            existing = {row[0]: row[1] for row in cur.fetchall()}
+            cur.execute("SELECT id, price, source_metadata->>'price_context' FROM products WHERE id = ANY(%s)", (ids,))
+            existing = {row[0]: (row[1], row[2]) for row in cur.fetchall()}
 
             upsert_rows = []
             history_rows = []
@@ -117,17 +119,23 @@ def upsert_products(products: List["NormalizedProduct"]) -> Dict[str, int]:
                         "brand": p.brand,
                         "url": p.url,
                         "image_url": p.image_url,
+                        "source_metadata": Jsonb(p.source_metadata),
                     }
                 )
                 hist = {
                     "id": p.id,
                     "price": p.price,
                     "price_per_unit": p.price_per_unit,
+                    "source_metadata": Jsonb(p.source_metadata),
                 }
                 if p.id not in existing:
                     stats["new"] += 1
                     history_rows.append(hist)
-                elif not _price_eq(existing[p.id], p.price):
+                elif existing[p.id][1] != p.source_metadata.get("price_context"):
+                    # Nuevo baseline del ámbito; no se considera variación de precio.
+                    stats["context_changed"] += 1
+                    history_rows.append(hist)
+                elif not _price_eq(existing[p.id][0], p.price):
                     stats["price_changed"] += 1
                     history_rows.append(hist)
                 else:

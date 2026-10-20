@@ -109,6 +109,7 @@ export default function HomeScreen() {
           title="Mis listas"
           subtitle={user?.display_name ?? user?.email}
         />
+        <Appbar.Action icon="view-dashboard-outline" accessibilityLabel="Abrir backoffice" onPress={() => router.push('/(app)/backoffice')} />
         <Appbar.Action icon="logout" accessibilityLabel="Cerrar sesión" onPress={logout} />
       </Appbar.Header>
 

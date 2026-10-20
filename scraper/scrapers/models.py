@@ -6,7 +6,7 @@ Define el contrato común que todos los scrapers deben seguir.
 
 from __future__ import annotations
 
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass, asdict, field
 from typing import Any, Dict, Optional
 
 
@@ -60,6 +60,8 @@ class NormalizedProduct:
     brand: Optional[str]
     url: str
     image_url: str
+    # Datos de origen (EAN, contexto, disponibilidad y condiciones de oferta).
+    source_metadata: Dict[str, Any] = field(default_factory=dict)
 
     def to_dict(self) -> Dict[str, Any]:
         """Convierte a diccionario para envío a Firebase."""

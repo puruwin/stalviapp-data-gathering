@@ -51,3 +51,11 @@ La auth va por header `Authorization: Bearer <token>`.
 - **Búsqueda:** los embeddings de F2 están afectados por un cambio de pooling de
   fastembed (CLS → mean); la relevancia es baja hasta re-embeber el catálogo con
   el modelo/pooling correctos (tarea de F2/F5, ver roadmap).
+
+## Backoffice del catálogo
+
+Consultas autenticadas de solo lectura: `/catalogue/summary`,
+`/catalogue/products` (paginación y filtros), `/catalogue/products/{id}` y
+`/catalogue/products/{id}/history?days=90`. Consumen productos e histórico
+existentes, sin embeddings ni cambios de esquema. Detalle en
+[docs/backoffice.md](../docs/backoffice.md).

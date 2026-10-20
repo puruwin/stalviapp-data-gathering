@@ -5,6 +5,11 @@
 import { API_URL } from '../config';
 import type {
   AuthResponse,
+  CatalogueFilters,
+  CataloguePage,
+  CatalogueProduct,
+  CatalogueSummary,
+  ProductPriceHistory,
   ListDetail,
   ListItem,
   Product,
@@ -75,8 +80,23 @@ export const api = {
     }),
 
   // --- Búsqueda ---
-  search: (q: string, k = 20) =>
-    request<Product[]>(`/search?q=${encodeURIComponent(q)}&k=${k}`),
+  search: (q: string, k = 20, province = '') =>
+    request<Product[]>(`/search?q=${encodeURIComponent(q)}&k=${k}&province=${encodeURIComponent(province)}`),
+
+  // --- Catálogo / backoffice (datos reales, sin embeddings) ---
+  getCatalogueSummary: (province = '') => request<CatalogueSummary>(`/catalogue/summary?province=${encodeURIComponent(province)}`),
+  getCatalogue: (filters: CatalogueFilters = {}) => {
+    const params = new URLSearchParams();
+    Object.entries(filters).forEach(([key, value]) => {
+      if (Array.isArray(value)) value.forEach((id) => params.append(key, id));
+      else if (value !== undefined && value !== '') params.set(key, String(value));
+    });
+    return request<CataloguePage>(`/catalogue/products?${params}`);
+  },
+  getCatalogueProduct: (id: string, province = '') =>
+    request<CatalogueProduct>(`/catalogue/products/${encodeURIComponent(id)}?province=${encodeURIComponent(province)}`),
+  getProductHistory: (id: string, days = 90, province = '') =>
+    request<ProductPriceHistory>(`/catalogue/products/${encodeURIComponent(id)}/history?days=${days}&province=${encodeURIComponent(province)}`),
 
   // --- Listas ---
   getLists: () => request<ShoppingListSummary[]>('/lists'),

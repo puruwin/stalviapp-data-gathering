@@ -1,0 +1,178 @@
+[
+  {
+    "id": 2811,
+    "nombre": "Despensa",
+    "name": "Despensa",
+    "iconUrl": "https://cdn-consum.aktiosdigitalservices.com/assets/category/es/icon-food.svg",
+    "title": "Despensa | Productos de Alimentación | Supermercado Online",
+    "description": "Encuentra toda la oferta de alimentos en la sección de Despensa y haz la compra online en tu supermercado Consum a los mejores precios.",
+    "type": 0,
+    "level": 1,
+    "url": "https://tienda.consum.es/es/c/despensa/2811",
+    "h1": "Despensa",
+    "h2": "",
+    "seo": "despensa",
+    "metaKeywords": "Alimentación, supermercado online, alimentación, nevera, aperitivos",
+    "subcategories": [
+      {
+        "id": 2055,
+        "nombre": "Lácteos y huevos",
+        "name": "Lácteos y huevos",
+        "title": "Lácteos y huevos | Despensa",
+        "description": "Todos los productos de Lácteos y huevos en la sección de Despensa de  tu supermercado Consum Online: la compra en un clic y al mejor precio aquí.",
+        "type": 0,
+        "level": 2,
+        "url": "https://tienda.consum.es/es/c/despensa/lacteos-huevos/2055",
+        "h1": "Lácteos y huevos",
+        "h2": "",
+        "seo": "despensa/lacteos-huevos",
+        "metaKeywords": "Lácteos, huevos, leche, básicos, supermercado online",
+        "subcategories": [
+          {
+            "id": 2071,
+            "nombre": "Leche",
+            "name": "Leche",
+            "title": "Comprar Leche Online | Lácteos y huevos",
+            "description": "Compra Leche online en la sección de Lácteos y huevos de tu supermercado Consum: descubre nuestras ofertas al mejor precio.",
+            "type": 0,
+            "level": 3,
+            "url": "https://tienda.consum.es/es/c/despensa/lacteos-huevos/leche/2071",
+            "h1": "Leche",
+            "h2": "",
+            "seo": "despensa/lacteos-huevos/leche",
+            "metaKeywords": "",
+            "subcategories": [
+              {
+                "id": 2076,
+                "nombre": "Entera",
+                "name": "Entera",
+                "title": "Comprar Leche Entera Online | Leche",
+                "description": "Compra Leche Entera en la sección de Leche de tu supermercado Consum: descubre nuestras ofertas al mejor precio.",
+                "type": 0,
+                "level": 4,
+                "url": "https://tienda.consum.es/es/c/despensa/lacteos-huevos/leche/entera/2076",
+                "h1": "Entera",
+                "h2": "",
+                "seo": "despensa/lacteos-huevos/leche/entera",
+                "metaKeywords": "",
+                "subcategories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2812,
+    "nombre": "Frescos",
+    "name": "Frescos",
+    "iconUrl": "https://cdn-consum.aktiosdigitalservices.com/assets/category/es/icon-fresh.svg",
+    "title": "Frescos | Supermercado Online",
+    "description": "Encuentra toda la oferta de Frescos y haz la compra online en tu supermercado Consum a los mejores precios.",
+    "type": 0,
+    "level": 1,
+    "url": "https://tienda.consum.es/es/c/frescos/2812",
+    "h1": "Frescos",
+    "h2": "",
+    "seo": "frescos",
+    "metaKeywords": "productos frescos, carne, pescado, fruta, verdura",
+    "subcategories": [
+      {
+        "id": 2148,
+        "nombre": "Carnicería",
+        "name": "Carnicería",
+        "title": "Carnicería Online | Frescos",
+        "description": "Carnicería Online en la sección de Frescos en tu supermercado Consum: descubre nuestras carnes, haz la compra en un clic y benefíciate del mejor precio.",
+        "type": 0,
+        "level": 2,
+        "url": "https://tienda.consum.es/es/c/frescos/carniceria/2148",
+        "h1": "Carnicería",
+        "h2": "",
+        "seo": "frescos/carniceria",
+        "metaKeywords": "Carne, cerdo, ternera, pollo, pavo",
+        "subcategories": [
+          {
+            "id": 2156,
+            "nombre": "Aves",
+            "name": "Aves",
+            "title": "Comprar Aves online | Supermercados Consum",
+            "description": "Compra Aves en la sección de Carnicería de tu supermercado Consum: descubre nuestras ofertas al mejor precio.",
+            "type": 0,
+            "level": 3,
+            "url": "https://tienda.consum.es/es/c/frescos/carniceria/aves/2156",
+            "h1": "Aves",
+            "h2": "",
+            "seo": "frescos/carniceria/aves",
+            "metaKeywords": "",
+            "subcategories": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1239,
+    "nombre": "Droguería y limpieza",
+    "name": "Droguería y limpieza",
+    "iconUrl": "https://cdn-consum.aktiosdigitalservices.com/assets/category/es/icon-home-care.svg",
+    "title": "Droguería y limpieza | Supermercado Online",
+    "description": "Encuentra todos los productos de Droguería y limpieza y haz la compra online en tu supermercado Consum a los mejores precios.",
+    "type": 0,
+    "level": 1,
+    "url": "https://tienda.consum.es/es/c/drogueria/1239",
+    "h1": "Droguería y limpieza",
+    "h2": "",
+    "seo": "drogueria",
+    "metaKeywords": "Droguería, limpieza, limpieza del hogar, productos de limpieza, supermercado online",
+    "subcategories": [
+      {
+        "id": 5051,
+        "nombre": "Cuidado ropa",
+        "name": "Cuidado ropa",
+        "title": "Cuidado de la ropa | Droguería y limpieza",
+        "description": "Todos los productos para el Cuidado de la ropa están en la sección de Droguería y Limpieza de tu supermercado Consum Online: haz la compra en un clic y al mejor precio aquí.",
+        "type": 0,
+        "level": 2,
+        "url": "https://tienda.consum.es/es/c/drogueria/cuidado-ropa/5051",
+        "h1": "Cuidado ropa",
+        "h2": "",
+        "seo": "drogueria/cuidado-ropa",
+        "metaKeywords": "",
+        "subcategories": [
+          {
+            "id": 1292,
+            "nombre": "Detergente",
+            "name": "Detergente",
+            "title": "Detergentes - Cuidado ropa | Droguería y Limpieza",
+            "description": "Todos los Detergentes para la ropa en la sección de Droguería y Limpieza de tu supermercado Consum: haz la compra online en un clic y al mejor precio aquí.",
+            "type": 0,
+            "level": 3,
+            "url": "https://tienda.consum.es/es/c/drogueria/detergente/1292",
+            "h1": "Detergente",
+            "h2": "",
+            "seo": "drogueria/detergente",
+            "metaKeywords": "Detergentes, cuidado de la ropa, productos colada, lavado de la ropa, supermercado online",
+            "subcategories": [
+              {
+                "id": 1294,
+                "nombre": "A máquina líquido",
+                "name": "A máquina líquido",
+                "title": "Productos para lavar a máquina | Detergente",
+                "description": "Compra Productos para lavar a máquina en tu supermercado online Consum: descubre nuestras ofertas de Cuidado ropa - detergente y compra al mejor precio.",
+                "type": 0,
+                "level": 4,
+                "url": "https://tienda.consum.es/es/c/drogueria/detergente/a-maquina-liquido/1294",
+                "h1": "A máquina líquido",
+                "h2": "",
+                "seo": "drogueria/detergente/a-maquina-liquido",
+                "metaKeywords": "",
+                "subcategories": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

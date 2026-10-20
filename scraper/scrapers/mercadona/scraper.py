@@ -140,21 +140,22 @@ class MercadonaScraper(BaseScraper):
             return None
 
         price_instructions = item.get("price_instructions") or {}
-        bulk_price = price_instructions.get("bulk_price")
-        unit_price = price_instructions.get("unit_price") or price_instructions.get(
-            "reference_price"
-        )
+        # unit_price es el precio del envase; bulk/reference expresan €/kg/l.
+        sale_price = price_instructions.get("unit_price")
+        reference_price = price_instructions.get("reference_price")
+        if reference_price is None:
+            reference_price = price_instructions.get("bulk_price")
         unit = price_instructions.get("reference_format") or price_instructions.get(
             "size_format"
         )
 
         try:
-            price = float(bulk_price) if bulk_price is not None else None
+            price = float(sale_price) if sale_price is not None else None
         except (TypeError, ValueError):
             price = None
 
         try:
-            price_per_unit = float(unit_price) if unit_price is not None else None
+            price_per_unit = float(reference_price) if reference_price is not None else None
         except (TypeError, ValueError):
             price_per_unit = None
 
@@ -173,6 +174,9 @@ class MercadonaScraper(BaseScraper):
             brand=None,
             url=item.get("share_url") or "",
             image_url=item.get("thumbnail") or "",
+            source_metadata={"price_schema":"unit-price-v2",
+                "price_context":"mercadona:online:alc1:EUR:unit-price-v2",
+                "price_scope":{"zone_id":"alc1","label":"Precio online · almacén alc1"}},
         )
 
     def save_category_mappings(self) -> None:

@@ -1,0 +1,4121 @@
+{
+  "market": "consum",
+  "version": "1.0",
+  "updated_at": "2026-10-20T16:51:27.269219",
+  "mappings": [
+    {
+      "source_id": "2076",
+      "source_path": "Despensa > Lácteos y huevos > Leche > Entera",
+      "master_id": "lacteos.leche",
+      "status": "confirmed",
+      "suggestions": [],
+      "notes": "Revisión por ruta del menú; leche entera."
+    },
+    {
+      "source_id": "1294",
+      "source_path": "Droguería y limpieza > Cuidado ropa > Detergente > A máquina líquido",
+      "master_id": "limpieza.ropa",
+      "status": "confirmed",
+      "suggestions": [],
+      "notes": "Revisión por ruta del menú; detergente de ropa."
+    },
+    {
+      "source_id": "5299",
+      "source_path": "Despensa > Turrones y Dulces > Turrones  ",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5300",
+      "source_path": "Despensa > Turrones y Dulces > Dulces de Navidad",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5350",
+      "source_path": "Despensa > Turrones y Dulces > Bombones",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1986",
+      "source_path": "Despensa > Aperitivos y frutos secos > Frutos secos > Almendras",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1988",
+      "source_path": "Despensa > Aperitivos y frutos secos > Frutos secos > Cacahuetes",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1991",
+      "source_path": "Despensa > Aperitivos y frutos secos > Frutos secos > Nueces",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1994",
+      "source_path": "Despensa > Aperitivos y frutos secos > Frutos secos > Pipas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5219",
+      "source_path": "Despensa > Aperitivos y frutos secos > Frutos secos > Pistachos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5220",
+      "source_path": "Despensa > Aperitivos y frutos secos > Frutos secos > Avellanas y anacardos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1996",
+      "source_path": "Despensa > Aperitivos y frutos secos > Frutos secos > Maíz tostado y cocktail",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1992",
+      "source_path": "Despensa > Aperitivos y frutos secos > Frutos secos > Otros frutos secos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1980",
+      "source_path": "Despensa > Aperitivos y frutos secos > Fruta desecada",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2502",
+      "source_path": "Despensa > Aperitivos y frutos secos > Aceitunas y encurtidos > Aceitunas con hueso",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4050",
+      "source_path": "Despensa > Aperitivos y frutos secos > Aceitunas y encurtidos > Aceitunas sin hueso",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1973",
+      "source_path": "Despensa > Aperitivos y frutos secos > Aceitunas y encurtidos > Alcaparras",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1974",
+      "source_path": "Despensa > Aperitivos y frutos secos > Aceitunas y encurtidos > Banderillas y cocktails",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1975",
+      "source_path": "Despensa > Aperitivos y frutos secos > Aceitunas y encurtidos > Cebollitas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1976",
+      "source_path": "Despensa > Aperitivos y frutos secos > Aceitunas y encurtidos > Guindillas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1977",
+      "source_path": "Despensa > Aperitivos y frutos secos > Aceitunas y encurtidos > Pepinillos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1978",
+      "source_path": "Despensa > Aperitivos y frutos secos > Aceitunas y encurtidos > Resto de encurtidos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1997",
+      "source_path": "Despensa > Aperitivos y frutos secos > Galletas saladas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2530",
+      "source_path": "Despensa > Aperitivos y frutos secos > Patatas fritas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1998",
+      "source_path": "Despensa > Aperitivos y frutos secos > Snacks y otros aperitivos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5344",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Arroz > Arroz cocido",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1644",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Arroz > Arroz Redondo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5345",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Arroz > Arroz basmati",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1643",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Arroz > Arroz largo y vaporizado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5346",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Arroz > Arroz bomba",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1642",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Arroz > Arroz integral",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5347",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Arroz > Arroz especial",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2478",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Bases y masas > Refrigeradas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1655",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Legumbres > Alubias secas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1656",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Legumbres > Garbanzos secos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1658",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Legumbres > Lentejas secas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5085",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Legumbres > Legumbres Texturizadas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5041",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Legumbres > Alubias cocidas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5042",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Legumbres > Garbanzos cocidos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5043",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Legumbres > Lentejas cocidas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1660",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Pastas > Canelones y lasagnas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1666",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Pastas > Pasta fresca",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2714",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Pastas > Macarrones, espaguetis y tallarines",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2716",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Pastas > Fideos y sopas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2717",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Pastas > Pasta sin gluten",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2718",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Pastas > Pasta integral",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2719",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Pastas > Pasta italiana",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2720",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Pastas > Pasta al huevo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5297",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Pastas > Pasta ensaladas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2722",
+      "source_path": "Despensa > Arroz, pastas, legumbres > Pastas > Otras pastas secas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2491",
+      "source_path": "Despensa > Caldos, sopas y purés > Caldo liquido",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2493",
+      "source_path": "Despensa > Caldos, sopas y purés > Caldo en pastillas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2497",
+      "source_path": "Despensa > Caldos, sopas y purés > Cremas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2496",
+      "source_path": "Despensa > Caldos, sopas y purés > Noodles",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2492",
+      "source_path": "Despensa > Caldos, sopas y purés > Sopas en sobre",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2494",
+      "source_path": "Despensa > Caldos, sopas y purés > Purés",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1527",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Aceite y vinagre > Aceite de girasol",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4000",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Aceite y vinagre > Aceite de oliva intenso y suave",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1533",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Aceite y vinagre > Aceite de oliva virgen y virgen extra",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1538",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Aceite y vinagre > Otros aceites",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1632",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Aceite y vinagre > Vinagre y aliños",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1543",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Conservas pescado > Almejas, berberechos y navajas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1546",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Conservas pescado > Atún y bonito",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1549",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Conservas pescado > Caballa y melva",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1554",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Conservas pescado > Mejillones",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1560",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Conservas pescado > Sardinas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1557",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Conservas pescado > Otras conservas pescado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1579",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Conservas vegetales > Alcachofa",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1581",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Conservas vegetales > Espárragos y palmitos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1584",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Conservas vegetales > Guisantes",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1585",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Conservas vegetales > Judía verde",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1586",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Conservas vegetales > Maíz",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1589",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Conservas vegetales > Pimiento",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1590",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Conservas vegetales > Setas y champiñones",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1587",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Conservas vegetales > Otros vegetales",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5243",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Tomate > Tomate frito",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5244",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Tomate > Tomate natural",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4001",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Conservas dulces > Frutas en almíbar y en su jugo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1614",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Sal, bicarbonato y especias > Sal",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2333",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Sal, bicarbonato y especias > Bicarbonato",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1615",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Sal, bicarbonato y especias > Especias",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1608",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Sal, bicarbonato y especias > Sazonadores",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1623",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Salsas > Ketchup",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1624",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Salsas > Mayonesa",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2485",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Salsas > Mostaza",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1631",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Salsas > Salsas frías",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1629",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Salsas > Salsas calientes",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1619",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Salsas > Bechamel",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1628",
+      "source_path": "Despensa > Conservas, aceites y condimentos > Salsas > Tomate frito",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1539",
+      "source_path": "Despensa > Desayuno, dulces y café > Azúcar y edulcorantes > Azúcar",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2223",
+      "source_path": "Despensa > Desayuno, dulces y café > Azúcar y edulcorantes > Edulcorantes",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5245",
+      "source_path": "Despensa > Desayuno, dulces y café > Bollería industrial y pastelitos > Berlinas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5246",
+      "source_path": "Despensa > Desayuno, dulces y café > Bollería industrial y pastelitos > Bollería",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5247",
+      "source_path": "Despensa > Desayuno, dulces y café > Bollería industrial y pastelitos > Croissants",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5248",
+      "source_path": "Despensa > Desayuno, dulces y café > Bollería industrial y pastelitos > Hojaldres",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5249",
+      "source_path": "Despensa > Desayuno, dulces y café > Bollería industrial y pastelitos > Magdalenas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5250",
+      "source_path": "Despensa > Desayuno, dulces y café > Bollería industrial y pastelitos > Pastelitos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5251",
+      "source_path": "Despensa > Desayuno, dulces y café > Bollería industrial y pastelitos > Tartas y bizcochos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1877",
+      "source_path": "Despensa > Desayuno, dulces y café > Cacao y cereales solubles > Cacao soluble",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1873",
+      "source_path": "Despensa > Desayuno, dulces y café > Cacao y cereales solubles > Cremas de desayuno",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1892",
+      "source_path": "Despensa > Desayuno, dulces y café > Cacao y cereales solubles > Cereales solubles",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2628",
+      "source_path": "Despensa > Desayuno, dulces y café > Café y cápsulas > Cápsulas sistema Nespresso",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5309",
+      "source_path": "Despensa > Desayuno, dulces y café > Café y cápsulas > Cápsulas sistema Dolce Gusto",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5312",
+      "source_path": "Despensa > Desayuno, dulces y café > Café y cápsulas > Cápsulas otros sistemas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1883",
+      "source_path": "Despensa > Desayuno, dulces y café > Café y cápsulas > Café Grano",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1884",
+      "source_path": "Despensa > Desayuno, dulces y café > Café y cápsulas > Café Molido descafeinado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1885",
+      "source_path": "Despensa > Desayuno, dulces y café > Café y cápsulas > Café Molido mezcla",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1886",
+      "source_path": "Despensa > Desayuno, dulces y café > Café y cápsulas > Café Molido natural",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1889",
+      "source_path": "Despensa > Desayuno, dulces y café > Café y cápsulas > Café Soluble",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4052",
+      "source_path": "Despensa > Desayuno, dulces y café > Cereales y barritas > Cereales",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5234",
+      "source_path": "Despensa > Desayuno, dulces y café > Chocolates y bombones > Chocolate Negro",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5235",
+      "source_path": "Despensa > Desayuno, dulces y café > Chocolates y bombones > Chocolate con Leche",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5236",
+      "source_path": "Despensa > Desayuno, dulces y café > Chocolates y bombones > Chocolate blanco",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5237",
+      "source_path": "Despensa > Desayuno, dulces y café > Chocolates y bombones > Chocolate para postres",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5238",
+      "source_path": "Despensa > Desayuno, dulces y café > Chocolates y bombones > Chocolate a la taza",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5239",
+      "source_path": "Despensa > Desayuno, dulces y café > Chocolates y bombones > Bombones",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1870",
+      "source_path": "Despensa > Desayuno, dulces y café > Chocolates y bombones > Chocolatinas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1871",
+      "source_path": "Despensa > Desayuno, dulces y café > Chocolates y bombones > Tabletas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5037",
+      "source_path": "Despensa > Desayuno, dulces y café > Chicles, caramelos y gominolas > Chicles",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5038",
+      "source_path": "Despensa > Desayuno, dulces y café > Chicles, caramelos y gominolas > Gominolas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5039",
+      "source_path": "Despensa > Desayuno, dulces y café > Chicles, caramelos y gominolas > Caramelos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1567",
+      "source_path": "Despensa > Desayuno, dulces y café > Mermeladas, confituras y miel > Membrillos y compotas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1568",
+      "source_path": "Despensa > Desayuno, dulces y café > Mermeladas, confituras y miel > Mermeladas y confituras",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1569",
+      "source_path": "Despensa > Desayuno, dulces y café > Mermeladas, confituras y miel > Miel",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1915",
+      "source_path": "Despensa > Desayuno, dulces y café > Galletas > Galletas de chocolate",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1917",
+      "source_path": "Despensa > Desayuno, dulces y café > Galletas > Desayuno y maría",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2774",
+      "source_path": "Despensa > Desayuno, dulces y café > Galletas > Desayuno y merienda infantil",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1925",
+      "source_path": "Despensa > Desayuno, dulces y café > Galletas > Galletas saludables",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1924",
+      "source_path": "Despensa > Desayuno, dulces y café > Galletas > Wafer y barquillos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1933",
+      "source_path": "Despensa > Desayuno, dulces y café > Infusiones > Té",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1931",
+      "source_path": "Despensa > Desayuno, dulces y café > Infusiones > Otras infusiones",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5252",
+      "source_path": "Despensa > Desayuno, dulces y café > Repostería para preparar > Harina",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5253",
+      "source_path": "Despensa > Desayuno, dulces y café > Repostería para preparar > Levadura",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5254",
+      "source_path": "Despensa > Desayuno, dulces y café > Repostería para preparar > Decoración postres",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5255",
+      "source_path": "Despensa > Desayuno, dulces y café > Repostería para preparar > Gelatinas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5256",
+      "source_path": "Despensa > Desayuno, dulces y café > Repostería para preparar > Postres en polvo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5257",
+      "source_path": "Despensa > Desayuno, dulces y café > Repostería para preparar > Salsas y siropes",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5155",
+      "source_path": "Despensa > Panes y tostadas > Pan de molde > Con corteza",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5156",
+      "source_path": "Despensa > Panes y tostadas > Pan de molde > Sin corteza",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5157",
+      "source_path": "Despensa > Panes y tostadas > Pan de molde integral y cereales",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5158",
+      "source_path": "Despensa > Panes y tostadas > Panes especiales",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5160",
+      "source_path": "Despensa > Panes y tostadas > Pan de hamburguesa, hot dog y wraps",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5161",
+      "source_path": "Despensa > Panes y tostadas > Tostadas y minibiscotes",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5162",
+      "source_path": "Despensa > Panes y tostadas > Rosquilletas, picos y snacks",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5259",
+      "source_path": "Despensa > Panes y tostadas > Pan rallado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5275",
+      "source_path": "Despensa > Harina, levadura y pan rallado > Harina",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5276",
+      "source_path": "Despensa > Harina, levadura y pan rallado > Levadura",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5277",
+      "source_path": "Despensa > Harina, levadura y pan rallado > Pan rallado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5164",
+      "source_path": "Despensa > Lácteos y huevos > Cafés refrigerados",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2056",
+      "source_path": "Despensa > Lácteos y huevos > Batidos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2064",
+      "source_path": "Despensa > Lácteos y huevos > Horchatas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5353",
+      "source_path": "Despensa > Lácteos y huevos > Huevos > Huevos frescos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5354",
+      "source_path": "Despensa > Lácteos y huevos > Huevos > Otros huevos y claras de huevo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2082",
+      "source_path": "Despensa > Lácteos y huevos > Leche > Leche con calcio",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2073",
+      "source_path": "Despensa > Lácteos y huevos > Leche > Condensada",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2074",
+      "source_path": "Despensa > Lácteos y huevos > Leche > Desnatada",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2075",
+      "source_path": "Despensa > Lácteos y huevos > Leche > Semidesnatada",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2077",
+      "source_path": "Despensa > Lácteos y huevos > Leche > Evaporada",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2078",
+      "source_path": "Despensa > Lácteos y huevos > Leche > Leche en polvo y deshidratada",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2080",
+      "source_path": "Despensa > Lácteos y huevos > Leche > Leche fresca",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2090",
+      "source_path": "Despensa > Lácteos y huevos > Leche > Leches especiales",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2093",
+      "source_path": "Despensa > Lácteos y huevos > Leche > Preparados lácteos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2091",
+      "source_path": "Despensa > Lácteos y huevos > Bebidas vegetales",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2096",
+      "source_path": "Despensa > Lácteos y huevos > Mantequilla y margarina > Mantequilla",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2099",
+      "source_path": "Despensa > Lácteos y huevos > Mantequilla y margarina > Margarina",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2101",
+      "source_path": "Despensa > Lácteos y huevos > Nata > Nata para cocinar",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2102",
+      "source_path": "Despensa > Lácteos y huevos > Nata > Nata para montar",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5010",
+      "source_path": "Despensa > Lácteos y huevos > Nata > Nata en Spray",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5355",
+      "source_path": "Despensa > Lácteos y huevos > Café con Leche",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2109",
+      "source_path": "Despensa > Lácteos y huevos > Postres > Arroz con leche",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2116",
+      "source_path": "Despensa > Lácteos y huevos > Postres > Copa",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2110",
+      "source_path": "Despensa > Lácteos y huevos > Postres > Cuajada",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2106",
+      "source_path": "Despensa > Lácteos y huevos > Postres > Flanes",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2113",
+      "source_path": "Despensa > Lácteos y huevos > Postres > Gelatina",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2114",
+      "source_path": "Despensa > Lácteos y huevos > Postres > Mousse",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2107",
+      "source_path": "Despensa > Lácteos y huevos > Postres > Natillas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2119",
+      "source_path": "Despensa > Lácteos y huevos > Postres > Otros postres",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2136",
+      "source_path": "Despensa > Lácteos y huevos > Yogures > Bífidus",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5165",
+      "source_path": "Despensa > Lácteos y huevos > Yogures > Yogur enriquecido",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2557",
+      "source_path": "Despensa > Lácteos y huevos > Yogures > Yogur especial salud",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5166",
+      "source_path": "Despensa > Lácteos y huevos > Yogures > Yogur proteinas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2137",
+      "source_path": "Despensa > Lácteos y huevos > Yogures > L-casei",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2126",
+      "source_path": "Despensa > Lácteos y huevos > Yogures > Petit e infantiles",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5167",
+      "source_path": "Despensa > Lácteos y huevos > Yogures > Yogur vegetal",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5168",
+      "source_path": "Despensa > Lácteos y huevos > Yogures > Yogur griego",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2134",
+      "source_path": "Despensa > Lácteos y huevos > Yogures > Yogur sabores",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2132",
+      "source_path": "Despensa > Lácteos y huevos > Yogures > Yogur natural y azucarado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5169",
+      "source_path": "Despensa > Lácteos y huevos > Yogures > Yogur desnatado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2129",
+      "source_path": "Despensa > Lácteos y huevos > Yogures > Yogur líquido",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4508",
+      "source_path": "Despensa > Cocina internacional > Mexicano",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4509",
+      "source_path": "Despensa > Cocina internacional > Asiático",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5260",
+      "source_path": "Despensa > Nutrición y dietética > Barritas y galletas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5261",
+      "source_path": "Despensa > Nutrición y dietética > Batidos y cremas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2243",
+      "source_path": "Despensa > Nutrición y dietética > Complementos nutricionales",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2290",
+      "source_path": "Despensa > Nutrición y dietética > Nutrición deportiva",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5262",
+      "source_path": "Despensa > Nutrición y dietética > Semillas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2559",
+      "source_path": "Despensa > Nutrición y dietética > Tortitas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1691",
+      "source_path": "Bebidas > Aguas > Agua con gas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2483",
+      "source_path": "Bebidas > Aguas > Agua con sabores",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2750",
+      "source_path": "Bebidas > Aguas > Agua sin gas : garrafa",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2752",
+      "source_path": "Bebidas > Aguas > Agua sin gas : botella",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1701",
+      "source_path": "Bebidas > Cavas y sidras",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2760",
+      "source_path": "Bebidas > Cervezas > Cervezas con alcohol > Aromatizada",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5336",
+      "source_path": "Bebidas > Cervezas > Cervezas con alcohol > Ipa y artesana",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1708",
+      "source_path": "Bebidas > Cervezas > Cervezas con alcohol > Especial",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2758",
+      "source_path": "Bebidas > Cervezas > Cervezas con alcohol > Importación ",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2822",
+      "source_path": "Bebidas > Cervezas > Cervezas con alcohol > Sabor limón",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2754",
+      "source_path": "Bebidas > Cervezas > Cervezas con alcohol > Negra",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2736",
+      "source_path": "Bebidas > Cervezas > Cervezas con alcohol > Rubia botella",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2734",
+      "source_path": "Bebidas > Cervezas > Cervezas con alcohol > Rubia lata",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5337",
+      "source_path": "Bebidas > Cervezas > Cervezas con alcohol > Sin filtrar",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5338",
+      "source_path": "Bebidas > Cervezas > Cervezas con alcohol > Sin gluten",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5339",
+      "source_path": "Bebidas > Cervezas > Cervezas con alcohol > Tostada",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5340",
+      "source_path": "Bebidas > Cervezas > Cervezas con alcohol > Trigo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1710",
+      "source_path": "Bebidas > Cervezas > Cervezas sin alcohol > 0,0",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5341",
+      "source_path": "Bebidas > Cervezas > Cervezas sin alcohol > 0,0 tostada",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5342",
+      "source_path": "Bebidas > Cervezas > Cervezas sin alcohol > Baja graduación",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2762",
+      "source_path": "Bebidas > Cervezas > Cervezas sin alcohol > Sabor limón",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2484",
+      "source_path": "Bebidas > Gaseosas y sodas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4057",
+      "source_path": "Bebidas > Isotónicas y energéticas > Isotónicas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4005",
+      "source_path": "Bebidas > Isotónicas y energéticas > Energéticas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5314",
+      "source_path": "Bebidas > Licores > Vermut y aperitivo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5315",
+      "source_path": "Bebidas > Licores > Anís",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5316",
+      "source_path": "Bebidas > Licores > Brandy",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5317",
+      "source_path": "Bebidas > Licores > Whisky",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5318",
+      "source_path": "Bebidas > Licores > Ginebra",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5319",
+      "source_path": "Bebidas > Licores > Ron",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5320",
+      "source_path": "Bebidas > Licores > Vodka",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5321",
+      "source_path": "Bebidas > Licores > Licores y cremas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5322",
+      "source_path": "Bebidas > Licores > Combinados",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5323",
+      "source_path": "Bebidas > Licores > Otros licores",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4010",
+      "source_path": "Bebidas > Refrescos > Bitter y ginger ale",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1731",
+      "source_path": "Bebidas > Refrescos > Cola",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1734",
+      "source_path": "Bebidas > Refrescos > Limón y lima-limón",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1735",
+      "source_path": "Bebidas > Refrescos > Naranja",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1737",
+      "source_path": "Bebidas > Refrescos > Té",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4011",
+      "source_path": "Bebidas > Refrescos > Tónica",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4012",
+      "source_path": "Bebidas > Refrescos > Refrescos sin gas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1739",
+      "source_path": "Bebidas > Sangrías y combinados base vino",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4014",
+      "source_path": "Bebidas > Vinos > Blanco DO",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1755",
+      "source_path": "Bebidas > Vinos > Blanco mesa",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4013",
+      "source_path": "Bebidas > Vinos > Espumoso",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4016",
+      "source_path": "Bebidas > Vinos > Rosado DO",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1765",
+      "source_path": "Bebidas > Vinos > Rosado mesa",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4017",
+      "source_path": "Bebidas > Vinos > Tinto DO Ribera del Duero",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1768",
+      "source_path": "Bebidas > Vinos > Tinto DO Rioja",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1764",
+      "source_path": "Bebidas > Vinos > Tinto otras DO",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1776",
+      "source_path": "Bebidas > Vinos > Tinto mesa",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1754",
+      "source_path": "Bebidas > Vinos > Fino, dulce y de licor",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2616",
+      "source_path": "Bebidas > Zumos y néctares > Mosto",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2088",
+      "source_path": "Bebidas > Zumos y néctares > Zumos con leche",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5170",
+      "source_path": "Bebidas > Zumos y néctares > Zumos refrigerados > Bebidas refrescantes",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5171",
+      "source_path": "Bebidas > Zumos y néctares > Zumos refrigerados > Zumos frescos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4018",
+      "source_path": "Bebidas > Zumos y néctares > Zumos y néctares no refrigerados",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5086",
+      "source_path": "Bebidas > Zumos y néctares > Zumos y néctares sin azúcar",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5279",
+      "source_path": "Frescos > Carnicería > Vacuno",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2156",
+      "source_path": "Frescos > Carnicería > Aves",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2170",
+      "source_path": "Frescos > Carnicería > Conejo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2159",
+      "source_path": "Frescos > Carnicería > Cerdo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2162",
+      "source_path": "Frescos > Carnicería > Cordero",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2165",
+      "source_path": "Frescos > Carnicería > Picadas y hamburguesas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2166",
+      "source_path": "Frescos > Carnicería > Embutido",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5087",
+      "source_path": "Frescos > Carnicería > Arreglos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2163",
+      "source_path": "Frescos > Carnicería > Otros elaborados",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5280",
+      "source_path": "Frescos > Carnicería corte > Vacuno",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4060",
+      "source_path": "Frescos > Carnicería corte > Aves",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4068",
+      "source_path": "Frescos > Carnicería corte > Conejo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4062",
+      "source_path": "Frescos > Carnicería corte > Cerdo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4064",
+      "source_path": "Frescos > Carnicería corte > Cordero",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4065",
+      "source_path": "Frescos > Carnicería corte > Picadas y hamburguesas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4066",
+      "source_path": "Frescos > Carnicería corte > Embutido",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4069",
+      "source_path": "Frescos > Carnicería corte > Otros elaborados",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2010",
+      "source_path": "Frescos > Charcutería > Cocido > Jamón cocido - york",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5172",
+      "source_path": "Frescos > Charcutería > Cocido > Cocidos de pavo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5173",
+      "source_path": "Frescos > Charcutería > Cocido > Cocidos de pollo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2011",
+      "source_path": "Frescos > Charcutería > Cocido > Mortadela y chopped",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2008",
+      "source_path": "Frescos > Charcutería > Cocido > Bacon y panceta",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2548",
+      "source_path": "Frescos > Charcutería > Cocido > Otros cocidos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4511",
+      "source_path": "Frescos > Charcutería > Cocido > Charcutería origen vegetal",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2016",
+      "source_path": "Frescos > Charcutería > Curado > Jamón",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5174",
+      "source_path": "Frescos > Charcutería > Curado > Paleta",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5175",
+      "source_path": "Frescos > Charcutería > Curado > Curados especialidades",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5177",
+      "source_path": "Frescos > Charcutería > Embutidos > Lomo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5178",
+      "source_path": "Frescos > Charcutería > Embutidos > Longaniza",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5179",
+      "source_path": "Frescos > Charcutería > Embutidos > Fuet",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2013",
+      "source_path": "Frescos > Charcutería > Embutidos > Chorizo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2018",
+      "source_path": "Frescos > Charcutería > Embutidos > Salchichón y salami",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5180",
+      "source_path": "Frescos > Charcutería > Embutidos > Surtidos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5183",
+      "source_path": "Frescos > Charcutería > Patés y sobrasadas > Paté de carne",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5184",
+      "source_path": "Frescos > Charcutería > Patés y sobrasadas > Foie y paté de ave",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5348",
+      "source_path": "Frescos > Charcutería > Patés y sobrasadas > Paté pescado y marisco",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5349",
+      "source_path": "Frescos > Charcutería > Patés y sobrasadas > Untables",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2054",
+      "source_path": "Frescos > Charcutería > Patés y sobrasadas > Sobrasada",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2050",
+      "source_path": "Frescos > Charcutería > Salchichas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4075",
+      "source_path": "Frescos > Charcutería corte > Cocido > Jamón cocido - york",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5186",
+      "source_path": "Frescos > Charcutería corte > Cocido > Cocidos de pavo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5187",
+      "source_path": "Frescos > Charcutería corte > Cocido > Cocidos de pollo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4076",
+      "source_path": "Frescos > Charcutería corte > Cocido > Mortadela y chopped",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4073",
+      "source_path": "Frescos > Charcutería corte > Cocido > Bacon y panceta",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4077",
+      "source_path": "Frescos > Charcutería corte > Cocido > Otros cocidos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4081",
+      "source_path": "Frescos > Charcutería corte > Curado > Jamón",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5189",
+      "source_path": "Frescos > Charcutería corte > Curado > Curados especialidades",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4079",
+      "source_path": "Frescos > Charcutería corte > Embutidos > Chorizo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5191",
+      "source_path": "Frescos > Charcutería corte > Embutidos > Lomo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5192",
+      "source_path": "Frescos > Charcutería corte > Embutidos > Longaniza",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4082",
+      "source_path": "Frescos > Charcutería corte > Embutidos > Salchichón y salami",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5195",
+      "source_path": "Frescos > Charcutería corte > Patés y sobrasadas > Paté de cerdo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5196",
+      "source_path": "Frescos > Charcutería corte > Patés y sobrasadas > Paté de ave",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4086",
+      "source_path": "Frescos > Charcutería corte > Patés y sobrasadas > Sobrasada",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5223",
+      "source_path": "Frescos > Charcutería corte > Membrillo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4087",
+      "source_path": "Frescos > Charcutería corte > Salazones y marinados",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2033",
+      "source_path": "Frescos > Quesos > Frescos y para ensaladas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5198",
+      "source_path": "Frescos > Quesos > Cuña tierno y saludable",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5199",
+      "source_path": "Frescos > Quesos > Cuña semicurado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5200",
+      "source_path": "Frescos > Quesos > Cuña curado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2030",
+      "source_path": "Frescos > Quesos > Quesos de Oveja",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5201",
+      "source_path": "Frescos > Quesos > Pasta blanda cabra",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5202",
+      "source_path": "Frescos > Quesos > Pasta blanda vaca",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2023",
+      "source_path": "Frescos > Quesos > Quesos de importación > Emmental y gruyere",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2021",
+      "source_path": "Frescos > Quesos > Quesos de importación > Bola, edam, gouda, maasdam",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2036",
+      "source_path": "Frescos > Quesos > Quesos de importación > Brie, camembert y cremosos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5224",
+      "source_path": "Frescos > Quesos > Quesos de importación > Parmesano",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5203",
+      "source_path": "Frescos > Quesos > En lonchas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5204",
+      "source_path": "Frescos > Quesos > Fundidos y porciones",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2040",
+      "source_path": "Frescos > Quesos > Quesos Rallados",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2038",
+      "source_path": "Frescos > Quesos > Quesos Para untar",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2042",
+      "source_path": "Frescos > Quesos > Tablas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5225",
+      "source_path": "Frescos > Quesos > Membrillo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4100",
+      "source_path": "Frescos > Quesos corte > Frescos y para ensaladas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4097",
+      "source_path": "Frescos > Quesos corte > Quesos de Cabra",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4101",
+      "source_path": "Frescos > Quesos corte > Quesos de Oveja",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5226",
+      "source_path": "Frescos > Quesos corte > Quesos de Barra",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4094",
+      "source_path": "Frescos > Quesos corte > Quesos Nacionales",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4102",
+      "source_path": "Frescos > Quesos corte > Quesos Para untar",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4103",
+      "source_path": "Frescos > Quesos corte > Roquefort y azules",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4106",
+      "source_path": "Frescos > Quesos corte > Otros quesos importación",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5242",
+      "source_path": "Frescos > Quesos corte > Membrillo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5088",
+      "source_path": "Frescos > Pescadería > Pescado en bandeja",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4089",
+      "source_path": "Frescos > Pescadería > Pescado azul",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4090",
+      "source_path": "Frescos > Pescadería > Pescado blanco",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4091",
+      "source_path": "Frescos > Pescadería > Calamar y sepia",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4092",
+      "source_path": "Frescos > Pescadería > Marisco",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2006",
+      "source_path": "Frescos > Pescadería > Ahumados",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2044",
+      "source_path": "Frescos > Pescadería > Surimis y salazones",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5044",
+      "source_path": "Frescos > Verduras > Ensaladas preparadas y guacamole",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5045",
+      "source_path": "Frescos > Verduras > Verduras microondas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4514",
+      "source_path": "Frescos > Verduras > Ensaladas y brotes",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4515",
+      "source_path": "Frescos > Verduras > Aromáticos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5227",
+      "source_path": "Frescos > Verduras > Patatas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2189",
+      "source_path": "Frescos > Verduras > Cebollas, ajos y puerros",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5228",
+      "source_path": "Frescos > Verduras > Tomates",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2193",
+      "source_path": "Frescos > Verduras > Brócoli, col y coliflor",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2194",
+      "source_path": "Frescos > Verduras > Calabaza, calabacín y berenjena",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2196",
+      "source_path": "Frescos > Verduras > Champiñones y setas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2200",
+      "source_path": "Frescos > Verduras > Espárragos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2586",
+      "source_path": "Frescos > Verduras > Judías, habas y otras legumbres",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2549",
+      "source_path": "Frescos > Verduras > Lechuga y endibias",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2211",
+      "source_path": "Frescos > Verduras > Pepino y pimiento",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2214",
+      "source_path": "Frescos > Verduras > Zanahorias y otras raíces",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2203",
+      "source_path": "Frescos > Verduras > Otras verduras",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2183",
+      "source_path": "Frescos > Frutas > Fruta de temporada",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2180",
+      "source_path": "Frescos > Frutas > Cítricos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2182",
+      "source_path": "Frescos > Frutas > Manzana, pera y uva",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5229",
+      "source_path": "Frescos > Frutas > Plátano y banana",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5230",
+      "source_path": "Frescos > Frutas > Melón y sandía",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5231",
+      "source_path": "Frescos > Frutas > Frutos rojos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2184",
+      "source_path": "Frescos > Frutas > Fruta tropical",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4517",
+      "source_path": "Frescos > Frutas > Fruta preparada",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2185",
+      "source_path": "Frescos > Frutas > Otras frutas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5012",
+      "source_path": "Horno > Pan de horno > Pan común",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5013",
+      "source_path": "Horno > Pan de horno > Panecillos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5014",
+      "source_path": "Horno > Pan de horno > Pan rústico",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5163",
+      "source_path": "Horno > Pan de horno > Pan Integral y otras semillas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5016",
+      "source_path": "Horno > Pan de horno > Pan sin gluten",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5019",
+      "source_path": "Horno > Pan de molde y rebanado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5017",
+      "source_path": "Horno > Pan hamburguesas y perritos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5020",
+      "source_path": "Horno > Rosquilletas, picos y snacks",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1856",
+      "source_path": "Horno > Bollería dulce > Croissants y ensaimadas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5023",
+      "source_path": "Horno > Bollería dulce > Cocas y bizcochos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5024",
+      "source_path": "Horno > Bollería dulce > Pastas de té",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5025",
+      "source_path": "Horno > Bollería dulce > Magdalenas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5026",
+      "source_path": "Horno > Bollería dulce > Bollería rellena y donuts",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5027",
+      "source_path": "Horno > Bollería dulce > Napolitanas y hojaldres",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5028",
+      "source_path": "Horno > Bollería salada > Napolitanas y croissants",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5029",
+      "source_path": "Horno > Bollería salada > Empanadillas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5030",
+      "source_path": "Horno > Bollería salada > Pizzas y hojaldres",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5032",
+      "source_path": "Horno > Tartas y repostería > Tartas ",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5033",
+      "source_path": "Horno > Tartas y repostería > Repostería ",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1846",
+      "source_path": "Platos preparados > Preparados refrigerados > Ensaladas y humus",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1834",
+      "source_path": "Platos preparados > Preparados refrigerados > Bocadillos y sándwiches",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5265",
+      "source_path": "Platos preparados > Preparados refrigerados > Cremas y sopas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5271",
+      "source_path": "Platos preparados > Preparados refrigerados > Comida étnica",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5264",
+      "source_path": "Platos preparados > Preparados refrigerados > Gazpachos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5329",
+      "source_path": "Platos preparados > Preparados refrigerados > Platos para llevar",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5266",
+      "source_path": "Platos preparados > Preparados refrigerados > Tortillas, croquetas y patatas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5267",
+      "source_path": "Platos preparados > Preparados refrigerados > Preparados de carne y pescado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5268",
+      "source_path": "Platos preparados > Preparados refrigerados > Preparados de verdura",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5269",
+      "source_path": "Platos preparados > Preparados refrigerados > Preparados de arroz",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5270",
+      "source_path": "Platos preparados > Preparados refrigerados > Preparados de pasta",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5263",
+      "source_path": "Platos preparados > Preparados refrigerados > Pizzas  ",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5272",
+      "source_path": "Platos preparados > Preparados en conserva > Preparados de legumbres y hortalizas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5273",
+      "source_path": "Platos preparados > Preparados en conserva > Preparados de carne  ",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5274",
+      "source_path": "Platos preparados > Preparados en conserva > Preparados de pasta y arroz",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2505",
+      "source_path": "Congelados y helados > Carnes",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5089",
+      "source_path": "Congelados y helados > Pescados y mariscos > Pescado congelado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5090",
+      "source_path": "Congelados y helados > Pescados y mariscos > Marisco congelado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5352",
+      "source_path": "Congelados y helados > Pescados y mariscos > Sepia, pulpo y calamares",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5205",
+      "source_path": "Congelados y helados > Platos preparados > Base arroz",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5206",
+      "source_path": "Congelados y helados > Platos preparados > Base carne",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5207",
+      "source_path": "Congelados y helados > Platos preparados > Base pescado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5208",
+      "source_path": "Congelados y helados > Platos preparados > Base pasta",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5209",
+      "source_path": "Congelados y helados > Platos preparados > Base verdura",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1831",
+      "source_path": "Congelados y helados > Platos preparados > Salteados y revueltos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5232",
+      "source_path": "Congelados y helados > Platos preparados > Cocinas del mundo > Oriental",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5212",
+      "source_path": "Congelados y helados > Rebozados > Carne",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1794",
+      "source_path": "Congelados y helados > Rebozados > Croquetas y empanadillas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1813",
+      "source_path": "Congelados y helados > Rebozados > Pescado y marisco",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5213",
+      "source_path": "Congelados y helados > Rebozados > Snacks",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5091",
+      "source_path": "Congelados y helados > Frutas y Verduras > Fruta congelada",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2519",
+      "source_path": "Congelados y helados > Frutas y Verduras > Guisantes, judías y habas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2520",
+      "source_path": "Congelados y helados > Frutas y Verduras > Menestras y ensaladillas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2517",
+      "source_path": "Congelados y helados > Frutas y Verduras > Patatas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5092",
+      "source_path": "Congelados y helados > Frutas y Verduras > Espinacas,coles y alcachofas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5093",
+      "source_path": "Congelados y helados > Frutas y Verduras > Preparado paella y hervido",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5094",
+      "source_path": "Congelados y helados > Frutas y Verduras > Condimentos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5095",
+      "source_path": "Congelados y helados > Frutas y Verduras > Otras verduras",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5216",
+      "source_path": "Congelados y helados > Pizza y bases congeladas > Pizza congelada",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5217",
+      "source_path": "Congelados y helados > Pizza y bases congeladas > Bases congeladas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2487",
+      "source_path": "Congelados y helados > Hielo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1786",
+      "source_path": "Congelados y helados > Helados > Bloques, tartas y Nata",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1787",
+      "source_path": "Congelados y helados > Helados > Bombones",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1788",
+      "source_path": "Congelados y helados > Helados > Conos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2488",
+      "source_path": "Congelados y helados > Helados > Polos de hielo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1789",
+      "source_path": "Congelados y helados > Helados > Sándwich",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1790",
+      "source_path": "Congelados y helados > Helados > Tarrinas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4019",
+      "source_path": "Congelados y helados > Helados > Sin azúcar, veganos y saludables",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2489",
+      "source_path": "Congelados y helados > Helados > Horchatas y granizados",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4522",
+      "source_path": "Congelados y helados > Helados > Fruta helada",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5096",
+      "source_path": "Congelados y helados > Pan, churros y porras",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5282",
+      "source_path": "Ecológico y saludable > Despensa",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5283",
+      "source_path": "Ecológico y saludable > Frescos y refrigerados",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5284",
+      "source_path": "Ecológico y saludable > Droguería y limpieza",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5285",
+      "source_path": "Ecológico y saludable > Cuidado personal",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5286",
+      "source_path": "Ecológico y saludable > Bazar",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4523",
+      "source_path": "Infantil > Alimentación infantil > Papillas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5331",
+      "source_path": "Infantil > Alimentación infantil > Potitos y platos preparados > Potitos de Carne",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5332",
+      "source_path": "Infantil > Alimentación infantil > Potitos y platos preparados > Potitos de Pescado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5333",
+      "source_path": "Infantil > Alimentación infantil > Potitos y platos preparados > Potitos de verdura",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5334",
+      "source_path": "Infantil > Alimentación infantil > Potitos y platos preparados > Potitos de fruta y postres",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5335",
+      "source_path": "Infantil > Alimentación infantil > Potitos y platos preparados > Platos preparados",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4525",
+      "source_path": "Infantil > Alimentación infantil > Yogures",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5330",
+      "source_path": "Infantil > Alimentación infantil > Pouches",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4526",
+      "source_path": "Infantil > Alimentación infantil > Galletas y Snacks",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2314",
+      "source_path": "Infantil > Leches infantiles",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2318",
+      "source_path": "Infantil > Higiene > Complementos higiene",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2570",
+      "source_path": "Infantil > Higiene > Cremas, lociones y colonia",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2313",
+      "source_path": "Infantil > Higiene > Gel y champú",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2319",
+      "source_path": "Infantil > Higiene > Toallitas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4527",
+      "source_path": "Infantil > Pañales > Braguita noche",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2562",
+      "source_path": "Infantil > Pañales > Bañadores",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4528",
+      "source_path": "Infantil > Pañales > Bebé: Talla de 0 a 3",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4529",
+      "source_path": "Infantil > Pañales > Junior: Talla de 4 a 6",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2325",
+      "source_path": "Infantil > Puericultura",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1279",
+      "source_path": "Droguería y limpieza > Celulosa > Papel higiénico",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1280",
+      "source_path": "Droguería y limpieza > Celulosa > Papel de cocina",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1281",
+      "source_path": "Droguería y limpieza > Celulosa > Servilletas de papel",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1282",
+      "source_path": "Droguería y limpieza > Celulosa > Toallitas húmedas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1278",
+      "source_path": "Droguería y limpieza > Celulosa > Pañuelos y tissues",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1293",
+      "source_path": "Droguería y limpieza > Cuidado ropa > Detergente > A mano y jabón común",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1295",
+      "source_path": "Droguería y limpieza > Cuidado ropa > Detergente > Máquina pastilla",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1296",
+      "source_path": "Droguería y limpieza > Cuidado ropa > Detergente > Máquina polvo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1298",
+      "source_path": "Droguería y limpieza > Cuidado ropa > Detergente > Prendas delicadas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1368",
+      "source_path": "Droguería y limpieza > Cuidado ropa > Suavizante",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1284",
+      "source_path": "Droguería y limpieza > Cuidado ropa > Aditivos y complementos > Aditivos para el lavado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1285",
+      "source_path": "Droguería y limpieza > Cuidado ropa > Aditivos y complementos > Descalcificadores lavadora",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1287",
+      "source_path": "Droguería y limpieza > Cuidado ropa > Aditivos y complementos > Prelavado y blanqueador",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1288",
+      "source_path": "Droguería y limpieza > Cuidado ropa > Aditivos y complementos > Productos planchado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1290",
+      "source_path": "Droguería y limpieza > Cuidado ropa > Aditivos y complementos > Quitamanchas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5240",
+      "source_path": "Droguería y limpieza > Cuidado ropa > Aditivos y complementos > Desinfectante Textil",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5295",
+      "source_path": "Droguería y limpieza > Cuidado ropa > Tender y planchar",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1336",
+      "source_path": "Droguería y limpieza > Limpieza hogar > Lejías y amoniacos > Lejía con detergente",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1337",
+      "source_path": "Droguería y limpieza > Limpieza hogar > Lejías y amoniacos > Lejía normal y multiusos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5076",
+      "source_path": "Droguería y limpieza > Limpieza hogar > Lejías y amoniacos > Amoniacos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5077",
+      "source_path": "Droguería y limpieza > Limpieza hogar > Limpiacristales y multiusos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1346",
+      "source_path": "Droguería y limpieza > Limpieza hogar > Limpiadores suelos > Fregasuelos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1341",
+      "source_path": "Droguería y limpieza > Limpieza hogar > Limpiadores suelos > Abrillantador suelos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4030",
+      "source_path": "Droguería y limpieza > Limpieza hogar > Limpiadores suelos > Cera suelos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1354",
+      "source_path": "Droguería y limpieza > Limpieza hogar > Limpiadores suelos > Limpiador suelo madera",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5079",
+      "source_path": "Droguería y limpieza > Limpieza hogar > Limpiadores muebles",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1344",
+      "source_path": "Droguería y limpieza > Limpieza hogar > Desatascador limpia tuberías",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1343",
+      "source_path": "Droguería y limpieza > Limpieza hogar > Antical",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1350",
+      "source_path": "Droguería y limpieza > Limpieza hogar > Otros limpiadores específicos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5054",
+      "source_path": "Droguería y limpieza > Limpieza cocina > Lavavajillas a mano",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5055",
+      "source_path": "Droguería y limpieza > Limpieza cocina > Lavavajillas a máquina",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5056",
+      "source_path": "Droguería y limpieza > Limpieza cocina > Aditivos y limpiamáquinas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1361",
+      "source_path": "Droguería y limpieza > Limpieza cocina > Limpia vitrocerámica",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1362",
+      "source_path": "Droguería y limpieza > Limpieza cocina > Quitagrasas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5058",
+      "source_path": "Droguería y limpieza > Limpieza baños > Gel WC",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5059",
+      "source_path": "Droguería y limpieza > Limpieza baños > Limpiadores",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5296",
+      "source_path": "Droguería y limpieza > Limpieza baños > Accesorios de baño",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1300",
+      "source_path": "Droguería y limpieza > Accesorios y utensilios limpieza > Bolsas y sacos de basura",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1253",
+      "source_path": "Droguería y limpieza > Accesorios y utensilios limpieza > Cubos y barreños",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5061",
+      "source_path": "Droguería y limpieza > Accesorios y utensilios limpieza > Fregonas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5062",
+      "source_path": "Droguería y limpieza > Accesorios y utensilios limpieza > Escoba y recogedor",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5063",
+      "source_path": "Droguería y limpieza > Accesorios y utensilios limpieza > Mopas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5065",
+      "source_path": "Droguería y limpieza > Accesorios y utensilios limpieza > Bayetas, gamuzas y plumeros",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1245",
+      "source_path": "Droguería y limpieza > Accesorios y utensilios limpieza > Estropajos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5064",
+      "source_path": "Droguería y limpieza > Accesorios y utensilios limpieza > Guantes domésticos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5066",
+      "source_path": "Droguería y limpieza > Accesorios y utensilios limpieza > Otros utensilios de limpieza",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1260",
+      "source_path": "Droguería y limpieza > Ambientadores > Absorbe olores y antihumedad",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1261",
+      "source_path": "Droguería y limpieza > Ambientadores > Aerosol spray o pistola",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1264",
+      "source_path": "Droguería y limpieza > Ambientadores > Continuos y decorativos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1263",
+      "source_path": "Droguería y limpieza > Ambientadores > Eléctricos y automáticos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4027",
+      "source_path": "Droguería y limpieza > Insecticidas > Anti hormigas y cucarachicidas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5073",
+      "source_path": "Droguería y limpieza > Insecticidas > Antipolillas y carcoma",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1319",
+      "source_path": "Droguería y limpieza > Insecticidas > Eléctricos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5068",
+      "source_path": "Droguería y limpieza > Insecticidas > Spray voladores",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1321",
+      "source_path": "Droguería y limpieza > Insecticidas > Otros insecticidas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5069",
+      "source_path": "Droguería y limpieza > Limpieza calzado y accesorios > Limpiadores calzado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5070",
+      "source_path": "Droguería y limpieza > Limpieza calzado y accesorios > Cepillos y esponjas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5071",
+      "source_path": "Droguería y limpieza > Limpieza calzado y accesorios > Cordones y plantillas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5046",
+      "source_path": "Cuidado personal > Cuidado del cabello > Peines y accesorios",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5097",
+      "source_path": "Cuidado personal > Cuidado del cabello > Champú > Anticaspa y anticaída",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5098",
+      "source_path": "Cuidado personal > Cuidado del cabello > Champú > Cabello normal",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5099",
+      "source_path": "Cuidado personal > Cuidado del cabello > Champú > Cabello seco",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5100",
+      "source_path": "Cuidado personal > Cuidado del cabello > Champú > Cabello rizado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5101",
+      "source_path": "Cuidado personal > Cuidado del cabello > Champú > Cabello graso",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5102",
+      "source_path": "Cuidado personal > Cuidado del cabello > Champú > Cabello dañado y frágil",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5103",
+      "source_path": "Cuidado personal > Cuidado del cabello > Champú > Natural",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5104",
+      "source_path": "Cuidado personal > Cuidado del cabello > Champú > En seco",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5105",
+      "source_path": "Cuidado personal > Cuidado del cabello > Champú > Infantil",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5106",
+      "source_path": "Cuidado personal > Cuidado del cabello > Champú > Específico",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1483",
+      "source_path": "Cuidado personal > Cuidado del cabello > Mascarillas cabello",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5108",
+      "source_path": "Cuidado personal > Cuidado del cabello > Acondicionadores > Cabello normal",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5109",
+      "source_path": "Cuidado personal > Cuidado del cabello > Acondicionadores > Cabello seco",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5110",
+      "source_path": "Cuidado personal > Cuidado del cabello > Acondicionadores > Cabello rizado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5111",
+      "source_path": "Cuidado personal > Cuidado del cabello > Acondicionadores > Cabello liso",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5112",
+      "source_path": "Cuidado personal > Cuidado del cabello > Acondicionadores > Cabello dañado y teñido",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5113",
+      "source_path": "Cuidado personal > Cuidado del cabello > Acondicionadores > Bifásico",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5114",
+      "source_path": "Cuidado personal > Cuidado del cabello > Acondicionadores > Infantil",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5115",
+      "source_path": "Cuidado personal > Cuidado del cabello > Serums, aceites y otros",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5116",
+      "source_path": "Cuidado personal > Cuidado del cabello > Coloración > Negros",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5117",
+      "source_path": "Cuidado personal > Cuidado del cabello > Coloración > Marrones",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5118",
+      "source_path": "Cuidado personal > Cuidado del cabello > Coloración > Rojos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5119",
+      "source_path": "Cuidado personal > Cuidado del cabello > Coloración > Rubios",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5120",
+      "source_path": "Cuidado personal > Cuidado del cabello > Coloración > Sin amoniaco",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5121",
+      "source_path": "Cuidado personal > Cuidado del cabello > Coloración > No permanente",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5122",
+      "source_path": "Cuidado personal > Cuidado del cabello > Coloración > Hombre",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5123",
+      "source_path": "Cuidado personal > Cuidado del cabello > Coloración > Raíces y cejas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5124",
+      "source_path": "Cuidado personal > Cuidado del cabello > Coloración > Mechas y decolorante",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5125",
+      "source_path": "Cuidado personal > Cuidado del cabello > Coloración > Accesorios",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5082",
+      "source_path": "Cuidado personal > Cuidado del cabello > Fijación capilar > Espumas y mousses",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5083",
+      "source_path": "Cuidado personal > Cuidado del cabello > Fijación capilar > Lacas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5084",
+      "source_path": "Cuidado personal > Cuidado del cabello > Fijación capilar > Cremas y aguas de peinado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1482",
+      "source_path": "Cuidado personal > Cuidado del cabello > Fijación capilar > Gel y cera",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1407",
+      "source_path": "Cuidado personal > Cuidado corporal > Body-lociones",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5048",
+      "source_path": "Cuidado personal > Cuidado facial > Hidratación",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5049",
+      "source_path": "Cuidado personal > Cuidado facial > Tratamiento",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4039",
+      "source_path": "Cuidado personal > Cuidado facial > Limpieza y desmaquilladores",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2568",
+      "source_path": "Cuidado personal > Cuidado facial > Protector labial",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1440",
+      "source_path": "Cuidado personal > Cuidado manos y pies > Cremas de manos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5126",
+      "source_path": "Cuidado personal > Cuidado manos y pies > Crema de pies",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5127",
+      "source_path": "Cuidado personal > Cuidado manos y pies > Desodorantes",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5128",
+      "source_path": "Cuidado personal > Cuidado manos y pies > Manicura y pedicura",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1373",
+      "source_path": "Cuidado personal > Higiene corporal > Gel de baño",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1377",
+      "source_path": "Cuidado personal > Higiene corporal > Jabón en pastillas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2465",
+      "source_path": "Cuidado personal > Higiene corporal > Gel de manos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5130",
+      "source_path": "Cuidado personal > Higiene corporal > Esponjas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1453",
+      "source_path": "Cuidado personal > Desodorante > Crema y barra",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1454",
+      "source_path": "Cuidado personal > Desodorante > Roll on",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1455",
+      "source_path": "Cuidado personal > Desodorante > Spray",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1464",
+      "source_path": "Cuidado personal > Higiene íntima > Aseo íntimo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1467",
+      "source_path": "Cuidado personal > Higiene íntima > Compresas y protegeslips",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4040",
+      "source_path": "Cuidado personal > Higiene íntima > Pañal adulto y protectores",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1465",
+      "source_path": "Cuidado personal > Higiene íntima > Tampones",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1457",
+      "source_path": "Cuidado personal > Higiene bucal > Antisépticos y enjuagues",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1458",
+      "source_path": "Cuidado personal > Higiene bucal > Cepillos de dientes",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1459",
+      "source_path": "Cuidado personal > Higiene bucal > Cepillos eléctricos y a pilas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1460",
+      "source_path": "Cuidado personal > Higiene bucal > Dentífricos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1461",
+      "source_path": "Cuidado personal > Higiene bucal > Productos protésicos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1462",
+      "source_path": "Cuidado personal > Higiene bucal > Seda dental",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1392",
+      "source_path": "Cuidado personal > Afeitado y cuidado masculino > Brochas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1391",
+      "source_path": "Cuidado personal > Afeitado y cuidado masculino > Crema de afeitado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1385",
+      "source_path": "Cuidado personal > Afeitado y cuidado masculino > Después afeitado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1390",
+      "source_path": "Cuidado personal > Afeitado y cuidado masculino > Espuma de afeitar",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1389",
+      "source_path": "Cuidado personal > Afeitado y cuidado masculino > Gel y jabón de afeitado",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5218",
+      "source_path": "Cuidado personal > Afeitado y cuidado masculino > Hidratación facial",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1386",
+      "source_path": "Cuidado personal > Afeitado y cuidado masculino > Maquinillas de afeitar",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1387",
+      "source_path": "Cuidado personal > Afeitado y cuidado masculino > Recambios hojas afeitar",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1412",
+      "source_path": "Cuidado personal > Solares",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5133",
+      "source_path": "Cuidado personal > Maquillaje > Labiales > Barras",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5134",
+      "source_path": "Cuidado personal > Maquillaje > Labiales > Brillos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5135",
+      "source_path": "Cuidado personal > Maquillaje > Labiales > Perfiladores",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5136",
+      "source_path": "Cuidado personal > Maquillaje > Labiales > Bálsamos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5137",
+      "source_path": "Cuidado personal > Maquillaje > Ojos > Mascara de pestañas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5138",
+      "source_path": "Cuidado personal > Maquillaje > Ojos > Sombras",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5139",
+      "source_path": "Cuidado personal > Maquillaje > Ojos > Eye liner y perfiladores",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5142",
+      "source_path": "Cuidado personal > Maquillaje > Rostro > Maquillaje compacto",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5143",
+      "source_path": "Cuidado personal > Maquillaje > Rostro > Maquillaje fluido",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5144",
+      "source_path": "Cuidado personal > Maquillaje > Rostro > Polvos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5145",
+      "source_path": "Cuidado personal > Maquillaje > Rostro > Coloretes",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5146",
+      "source_path": "Cuidado personal > Maquillaje > Rostro > Corrector",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5147",
+      "source_path": "Cuidado personal > Maquillaje > Rostro > Iluminador",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5148",
+      "source_path": "Cuidado personal > Maquillaje > Uñas > Laca de uñas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5150",
+      "source_path": "Cuidado personal > Maquillaje > Uñas > Tratamiento uñas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5151",
+      "source_path": "Cuidado personal > Maquillaje > Uñas > Quitaesmaltes",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5152",
+      "source_path": "Cuidado personal > Maquillaje > Brochas, pinceles y esponjas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1446",
+      "source_path": "Cuidado personal > Depilación > Cera ",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1450",
+      "source_path": "Cuidado personal > Depilación > Crema, gel y spray",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1449",
+      "source_path": "Cuidado personal > Depilación > Depilación hombre",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1447",
+      "source_path": "Cuidado personal > Depilación > Maquinillas y recambios",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1394",
+      "source_path": "Cuidado personal > Colonias y perfumes > Estuches",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1395",
+      "source_path": "Cuidado personal > Colonias y perfumes > Familiar",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1396",
+      "source_path": "Cuidado personal > Colonias y perfumes > Femeninas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1398",
+      "source_path": "Cuidado personal > Colonias y perfumes > Infantiles",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1397",
+      "source_path": "Cuidado personal > Colonias y perfumes > Masculinas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1399",
+      "source_path": "Cuidado personal > Accesorios y complementos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4032",
+      "source_path": "Cuidado personal > Parafarmacia > Botiquín > Alcohol, agua oxigenada y otros",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2558",
+      "source_path": "Cuidado personal > Parafarmacia > Botiquín > Algodón",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2337",
+      "source_path": "Cuidado personal > Parafarmacia > Botiquín > Bandas protectoras adhesivas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2338",
+      "source_path": "Cuidado personal > Parafarmacia > Botiquín > Esparadrapo",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2339",
+      "source_path": "Cuidado personal > Parafarmacia > Botiquín > Pomadas y polvos de talco",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2342",
+      "source_path": "Cuidado personal > Parafarmacia > Botiquín > Vendas gasas esterilizadas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4033",
+      "source_path": "Cuidado personal > Parafarmacia > Botiquín > Otros",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2350",
+      "source_path": "Cuidado personal > Parafarmacia > Fitoterapia",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2351",
+      "source_path": "Cuidado personal > Parafarmacia > Preservativos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1489",
+      "source_path": "Mascotas > Accesorios",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5373",
+      "source_path": "Mascotas > Gatos > Comida Seca > Natural",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5374",
+      "source_path": "Mascotas > Gatos > Comida Seca > Junior",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5375",
+      "source_path": "Mascotas > Gatos > Comida Seca > Senior",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5376",
+      "source_path": "Mascotas > Gatos > Comida Seca > Esterilizados",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5377",
+      "source_path": "Mascotas > Gatos > Comida Seca > Cuidados Especiales",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5378",
+      "source_path": "Mascotas > Gatos > Comida Húmeda > Natural",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5382",
+      "source_path": "Mascotas > Gatos > Comida Húmeda > Patés",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5383",
+      "source_path": "Mascotas > Gatos > Comida Húmeda > Bocaditos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5384",
+      "source_path": "Mascotas > Gatos > Snacks > Sticks Dentales",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5385",
+      "source_path": "Mascotas > Gatos > Snacks > Líquidos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5386",
+      "source_path": "Mascotas > Gatos > Snacks > Sabores y Proteínas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5387",
+      "source_path": "Mascotas > Gatos > Cuidado y Bienestar > Antiparasitarios",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5388",
+      "source_path": "Mascotas > Gatos > Cuidado y Bienestar > Higiene",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5390",
+      "source_path": "Mascotas > Gatos > Arenas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5399",
+      "source_path": "Mascotas > Perros > Comida Seca > Natural",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5400",
+      "source_path": "Mascotas > Perros > Comida Seca > Junior",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5401",
+      "source_path": "Mascotas > Perros > Comida Seca > Senior",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5402",
+      "source_path": "Mascotas > Perros > Comida Seca > Perro Mini",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5403",
+      "source_path": "Mascotas > Perros > Comida Seca > Perro Mediano",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5404",
+      "source_path": "Mascotas > Perros > Comida Seca > Perro Grande",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5407",
+      "source_path": "Mascotas > Perros > Comida Seca > Cuidados Especiales",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5357",
+      "source_path": "Mascotas > Perros > Comida Húmeda > Natural",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5358",
+      "source_path": "Mascotas > Perros > Comida Húmeda > Junior",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5359",
+      "source_path": "Mascotas > Perros > Comida Húmeda > Senior",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5360",
+      "source_path": "Mascotas > Perros > Comida Húmeda > Patés",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5361",
+      "source_path": "Mascotas > Perros > Comida Húmeda > Bocaditos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5363",
+      "source_path": "Mascotas > Perros > Snacks > Sticks Dentales",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5364",
+      "source_path": "Mascotas > Perros > Snacks > Naturales",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5365",
+      "source_path": "Mascotas > Perros > Snacks > Premios y Galletas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5366",
+      "source_path": "Mascotas > Perros > Snacks > Sabores y Proteínas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5367",
+      "source_path": "Mascotas > Perros > Snacks > Larga Duración",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5368",
+      "source_path": "Mascotas > Perros > Cuidado y Bienestar > Antiparasitarios",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5369",
+      "source_path": "Mascotas > Perros > Cuidado y Bienestar > Higiene",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5370",
+      "source_path": "Mascotas > Perros > Cuidado y Bienestar > Peluquería",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5396",
+      "source_path": "Mascotas > Pequeñas mascotas > Conejos/Roedores",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5398",
+      "source_path": "Mascotas > Pequeñas mascotas > Mundo Acuático",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5393",
+      "source_path": "Mascotas > Pequeñas mascotas > Aves > Canarios",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5394",
+      "source_path": "Mascotas > Pequeñas mascotas > Aves > Periquitos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5395",
+      "source_path": "Mascotas > Pequeñas mascotas > Aves > Otras Aves",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1496",
+      "source_path": "Bazar > Promocionales > Hogar",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4530",
+      "source_path": "Bazar > Promocionales > Textil",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4544",
+      "source_path": "Bazar > Menaje > Menaje cocina",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5287",
+      "source_path": "Bazar > Menaje > Menaje de mesa",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1312",
+      "source_path": "Bazar > Conservación alimentos y moldes > Film transparente",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1313",
+      "source_path": "Bazar > Conservación alimentos y moldes > Papel aluminio",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2464",
+      "source_path": "Bazar > Conservación alimentos y moldes > Papel horno",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5294",
+      "source_path": "Bazar > Conservación alimentos y moldes > Bolsas de conservación",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1301",
+      "source_path": "Bazar > Conservación alimentos y moldes > Herméticos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1306",
+      "source_path": "Bazar > Conservación alimentos y moldes > Moldes y recipientes",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1302",
+      "source_path": "Bazar > Desechables > Vasos y copas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5289",
+      "source_path": "Bazar > Desechables > Platos, bandejas y cuencos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5290",
+      "source_path": "Bazar > Desechables > Cubiertos",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5291",
+      "source_path": "Bazar > Desechables > Palillos y pajitas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "5292",
+      "source_path": "Bazar > Desechables > Manteles",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1303",
+      "source_path": "Bazar > Desechables > Decoración y fiestas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "4021",
+      "source_path": "Bazar > Jardin y exterior > Barbacoa, carbón y encendido",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "2462",
+      "source_path": "Bazar > Pilas",
+      "status": "pending",
+      "suggestions": []
+    },
+    {
+      "source_id": "1509",
+      "source_path": "Bazar > Velas",
+      "status": "pending",
+      "suggestions": []
+    }
+  ]
+}

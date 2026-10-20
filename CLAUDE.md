@@ -4,11 +4,11 @@ Guía para trabajar en este repositorio.
 
 ## Qué es
 App para recopilar precios de supermercados y ofrecer al usuario una lista de la
-compra con el gasto estimado. **Empezamos solo por Mercadona.**
+compra con el gasto estimado. **Mercadona y Consum están conectados al catálogo.**
 
 ## Arquitectura (objetivo)
 ```
-Mercadona API → Scraper (Python) → normaliza → upsert → Postgres + pgvector
+APIs de catálogo → Scraper (Python) → normaliza → upsert → Postgres + pgvector
                                        │                     │
                  embeddings locales ───┘   catalogación en cascada
                  (multilingual-e5)         (keyword → kNN → revisión)
@@ -18,14 +18,15 @@ Mercadona API → Scraper (Python) → normaliza → upsert → Postgres + pgvec
 
 ### Decisiones fijadas
 - **Datos:** Postgres + pgvector como fuente de verdad única. Dev local con `docker-compose`; cloud con **Supabase** (a partir de F3, por su Auth).
-- **Scrapers:** solo **Mercadona**. Dia/Carrefour/Consum y el backend Firestore antiguo están archivados en la rama `archive`.
+- **Scrapers:** Mercadona y Consum. Consum unifica por SKU todas las zonas reales publicadas, conserva la procedencia del precio y verifica las imágenes de galería. Ver `docs/consum.md`. Los adaptadores antiguos de Dia/Carrefour/Consum y Firestore siguen en `archive`.
 - **Embeddings:** modelo **local multilingüe** `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` (dim 384, vía fastembed/ONNX). Se usan prefijos estilo e5 (`query:` / `passage:`) para evitar el efecto "hub" en consultas cortas; la búsqueda es asimétrica (query vs passage). *(Nota: `intfloat/multilingual-e5-small` no está disponible en fastembed; se usa MiniLM como equivalente 384-dim.)*
 - **Frontend:** **Expo** (React Native + RN Web) para una sola base de código web + móvil.
 
 ## Estructura
 ```
-scraper/          # Python: scraper Mercadona, taxonomía y catalogación (ex scripts/)
-  main.py         # CLI: scrape / categories
+scraper/          # Python: scrapers Mercadona/Consum, taxonomía y catalogación (ex scripts/)
+  main.py         # CLI: scrape / categories (Consum admite --all-zones)
+  consum_catalogue.py # Descubrimiento, descarga reanudable, unión y fotos por zona
   embed.py        # CLI: embeddings / prototipos / classify / eval / search
   db.py           # persistencia a Postgres (psycopg3)
   scrapers/       # BaseScraper + mercadona/ + categories/ + http_client + models + validators

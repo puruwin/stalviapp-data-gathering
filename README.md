@@ -1,10 +1,10 @@
 # Stalvi
 
-App para recopilar precios de supermercados (**solo Mercadona** por ahora) y ofrecer
+App para recopilar precios de supermercados (Mercadona y Consum) y ofrecer
 al usuario una lista de la compra con el gasto estimado.
 
 ```
-Mercadona API → Scraper (Python) → Postgres + pgvector
+APIs de catálogo → Scraper (Python) → Postgres + pgvector
                      │                    │
         embeddings locales ───┘  catalogación en cascada
                                           │
@@ -45,6 +45,10 @@ python scraper/embed.py all                # embeddings + prototipos + catalogac
 ```
 Prueba rápida sin persistir: `python scraper/main.py scrape mercadona --test --dry-run`
 
+Consum dispone de un catálogo unificado por SKU de todas sus zonas de reparto publicadas,
+con EAN, imágenes verificadas, promociones y procedencia del precio.
+Comandos y límites en [docs/consum.md](docs/consum.md). Requiere la migración 0005.
+
 ## 4. API (FastAPI)
 Desde la raíz del repo, con el venv activo y la BD levantada:
 ```bash
@@ -78,7 +82,7 @@ cd app && npx tsc --noEmit        # typecheck de la app
 
 ## Estructura
 ```
-scraper/   # Python: scraper Mercadona, taxonomía, embeddings, upsert a Postgres
+scraper/   # Python: scrapers Mercadona y Consum, taxonomía, embeddings, upsert a Postgres
 api/       # API FastAPI (auth JWT, búsqueda, listas) que consume la app
 app/       # App Expo (Expo Router + React Native Paper)
 db/        # esquema Postgres: init/ + migrations/ + migrate.sh

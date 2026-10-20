@@ -150,6 +150,11 @@ class CategoryMapper:
 
         return None
 
+    def register_pending(self, category: Category) -> None:
+        """Registra una categoría para revisión sin inferir equivalencias."""
+        if category.id not in self._mappings:
+            self._save_mapping(category, master_id=None, status="pending")
+
     def _infer_and_save(self, category: Category) -> Optional[str]:
         """Infiere la categoría maestra y guarda el mapeo."""
         master_id, confidence, suggestions = self._infer_category(category)

@@ -21,22 +21,25 @@ if _SCRAPER_DIR not in sys.path:
 from embeddings.model import embed_query  # noqa: E402
 
 from .db import app_conn  # noqa: E402
-
-_SEARCH_SQL = """
-SELECT id, name, price, price_per_unit, unit, brand, image_url,
-       master_category_id, 1 - (embedding <=> %s) AS similarity
-FROM products
-WHERE embedding IS NOT NULL
-ORDER BY embedding <=> %s
-LIMIT %s
-"""
+from .catalogue import _source  # noqa: E402
 
 
-def search_products(user_id: str, query: str, k: int = 20) -> List[dict]:
+
+def search_products(user_id: str, query: str, k: int = 20, province: str = '') -> List[dict]:
     """Devuelve los k productos más parecidos a la query (catálogo público)."""
     qvec = embed_query(query)
+    literal = query.replace('\\', '\\\\').replace('%', '\\%').replace('_', '\\_')
     with app_conn(user_id) as conn, conn.cursor() as cur:
-        cur.execute(_SEARCH_SQL, (qvec, qvec, k))
+        source, params, _ = _source(province)
+        # Los productos sin vector siguen disponibles mediante búsqueda textual.
+        # La puntuación de texto asegura que las nuevas referencias no desaparezcan.
+        cur.execute(f"""SELECT p.id,p.name,p.supermarket,p.price,p.price_per_unit,p.unit,p.brand,p.image_url,
+            p.master_category_id,CASE WHEN p.embedding IS NOT NULL THEN 1-(p.embedding <=> %s) ELSE 0 END AS similarity
+            FROM {source}
+            WHERE p.embedding IS NOT NULL OR p.name ILIKE %s
+            ORDER BY (p.name ILIKE %s) DESC,similarity DESC,p.id LIMIT %s""",
+            [qvec,*params,'%'+literal+'%',
+             '%'+literal+'%',k])
         rows = cur.fetchall()
     for r in rows:
         # Serializa numéricos a float para JSON limpio.

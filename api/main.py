@@ -31,6 +31,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 
 from . import auth as auth_mod
+from . import catalogue
 from .db import app_conn, owner_conn
 from .schemas import (
     ItemAddIn,
@@ -141,9 +142,50 @@ def me(user: dict = Depends(current_user)) -> UserOut:
 def search(
     q: str = Query(min_length=1),
     k: int = Query(default=20, ge=1, le=50),
+    province: str = Query(default="", pattern="^([0-9]{2})?$"),
     user: dict = Depends(current_user),
 ) -> list[dict]:
-    return search_products(user["id"], q, k)
+    return search_products(user["id"], q, k, province)
+
+
+# --- Catálogo: lectura autenticada, con el mismo rol app_user -----------------
+@app.get("/catalogue/summary")
+def catalogue_summary(province: str = Query(default="", pattern="^([0-9]{2})?$"), user: dict = Depends(current_user)) -> dict:
+    return catalogue.summary(user["id"], province)
+
+
+@app.get("/catalogue/products")
+def catalogue_products(
+    q: str = Query(default="", max_length=200),
+    category: str = Query(default="", max_length=200),
+    brand: str = Query(default="", max_length=200),
+    supermarket: str = Query(default="", max_length=100),
+    province: str = Query(default="", pattern="^([0-9]{2})?$"),
+    change: str = Query(default="all", pattern="^(all|down|up|unknown)$"),
+    group_by: str = Query(default="category", pattern="^(category|brand|supermarket|none)$"),
+    sort: str = Query(default="name", pattern="^(name|price_asc|price_desc|updated|drop)$"),
+    page: int = Query(default=1, ge=1),
+    page_size: int = Query(default=50, ge=1, le=100),
+    ids: list[str] | None = Query(default=None, max_length=500),
+    user: dict = Depends(current_user),
+) -> dict:
+    return catalogue.list_products(user["id"], q=q, category=category, brand=brand,
+        supermarket=supermarket, change=change, group_by=group_by, sort=sort,
+        page=page, page_size=page_size, ids=ids, province=province)
+
+
+@app.get("/catalogue/products/{product_id}")
+def catalogue_product(product_id: str, province: str = Query(default="", pattern="^([0-9]{2})?$"), user: dict = Depends(current_user)) -> dict:
+    return catalogue.get_product(user["id"], product_id, province)
+
+
+@app.get("/catalogue/products/{product_id}/history")
+def catalogue_history(product_id: str,
+    days: int = Query(default=90, ge=1, le=3650),
+    province: str = Query(default="", pattern="^([0-9]{2})?$"),
+    user: dict = Depends(current_user),
+) -> dict:
+    return catalogue.price_history(user["id"], product_id, days, province)
 
 
 # --- Listas ----------------------------------------------------------------

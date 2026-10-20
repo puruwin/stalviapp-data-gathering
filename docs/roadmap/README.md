@@ -12,7 +12,7 @@ Reset y escalado coherente del proyecto. Cada fase tiene un **archivo de prompt 
 | Área | Decisión | Alternativa reversible |
 |------|----------|------------------------|
 | Datos | **Postgres + pgvector** (vía **Supabase**: BD gestionada + pgvector + Auth) | Postgres self-hosted + FastAPI |
-| Scrapers | **Solo Mercadona**; Dia/Carrefour/Consum archivados | Reactivar súpers más adelante |
+| Scrapers | Mercadona y Consum (catálogo unificado por zonas); Dia/Carrefour archivados | Validar estabilidad y ampliar cadenas |
 | Embeddings | **Modelo local multilingüe** `intfloat/multilingual-e5-small` | API (OpenAI text-embedding-3) |
 | Frontend | **Expo** (React Native + RN Web): web + iOS + Android | Flutter |
 

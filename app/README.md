@@ -50,3 +50,12 @@ src/
   sesión/errores en escritorio y móvil web. Configuración para Chromium, Firefox
   y WebKit; [informe de la cobertura ejecutada](../docs/validacion-multinavegador-2026-10-20.md).
 - Los builds nativos `expo run:android` / `run:ios` siguen aplazados.
+
+## Backoffice local
+
+Desde «Mis listas», abre «Abrir backoffice» en la cabecera, o visita
+`/backoffice` con una sesión activa. El catálogo agrupado y las fichas usan
+precios e históricos reales del API. Incluye filtros, paginación, CSV de la
+página, favoritos y alertas locales por cuenta. La implementación web está
+en `src/backoffice/BackofficeScreen.web.tsx`. Documentación y límites en
+[docs/backoffice.md](../docs/backoffice.md).

@@ -6,6 +6,7 @@
 import { Redirect, Stack } from 'expo-router';
 
 import { useAuth } from '../../src/auth/AuthContext';
+import { RegionProvider } from '../../src/region/RegionContext';
 import { theme } from '../../src/theme';
 
 export default function AppLayout() {
@@ -14,7 +15,7 @@ export default function AppLayout() {
   if (!user) return <Redirect href="/login" />;
 
   return (
-    <Stack
+    <RegionProvider key={user.id} userId={user.id}><Stack
       screenOptions={{
         headerStyle: { backgroundColor: theme.colors.primary },
         headerTintColor: '#fff',
@@ -24,6 +25,7 @@ export default function AppLayout() {
       }}
     >
       <Stack.Screen name="index" options={{ headerShown: false }} />
-    </Stack>
+      <Stack.Screen name="backoffice" options={{ headerShown: false, title: 'Catálogo de productos' }} />
+    </Stack></RegionProvider>
   );
 }

@@ -7,6 +7,7 @@ Asegura que los datos cumplan el contrato antes de enviarlos a Firebase.
 from __future__ import annotations
 
 import logging
+from dataclasses import replace
 from typing import List, Optional
 
 from .models import NormalizedProduct
@@ -17,6 +18,7 @@ logger = logging.getLogger(__name__)
 BASE_URLS = {
     "dia": "https://www.dia.es",
     "mercadona": "https://tienda.mercadona.es",
+    "consum": "https://tienda.consum.es",
 }
 
 
@@ -58,7 +60,8 @@ def validate_product(product: NormalizedProduct) -> Optional[NormalizedProduct]:
     url = _ensure_absolute_url(product.url, product.supermarket)
     image_url = _ensure_absolute_url(product.image_url, product.supermarket)
 
-    return NormalizedProduct(
+    return replace(
+        product,
         id=product.id,
         name=product.name,
         supermarket=product.supermarket,

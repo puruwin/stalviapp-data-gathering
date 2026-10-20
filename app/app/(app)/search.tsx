@@ -20,6 +20,8 @@ import {
   useTheme,
 } from 'react-native-paper';
 
+import { RegionSelector } from '../../src/region/RegionSelector';
+import { useRegion } from '../../src/region/RegionContext';
 import { api } from '../../src/api/client';
 import { contentMaxWidth } from '../../src/components/Screen';
 import { ProductRow } from '../../src/components/ProductRow';
@@ -33,6 +35,7 @@ export default function SearchScreen() {
     listName?: string;
   }>();
   const qc = useQueryClient();
+  const {province,ready:regionReady} = useRegion();
   const theme = useTheme();
   const router = useRouter();
 
@@ -47,9 +50,9 @@ export default function SearchScreen() {
   }, [query]);
 
   const results = useQuery({
-    queryKey: ['search', debounced],
-    queryFn: () => api.search(debounced),
-    enabled: debounced.length > 0,
+    queryKey: ['search', debounced, province],
+    queryFn: () => api.search(debounced,20,province),
+    enabled: regionReady && debounced.length > 0,
   });
 
   const add = useMutation({
@@ -104,6 +107,7 @@ export default function SearchScreen() {
     <View style={styles.container}>
       <Stack.Screen options={{ title: subtitle }} />
       <View style={styles.searchWrap}>
+        <RegionSelector/>
         <Searchbar
           placeholder="Buscar productos…"
           accessibilityLabel="Buscar productos"

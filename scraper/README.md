@@ -1,11 +1,11 @@
-# Scraper de Mercadona
+# Scrapers de supermercados
 
-Scraping de productos de Mercadona con normalización de categorías a una taxonomía
-maestra. La persistencia a Postgres se implementa en F1
-(ver [`../docs/roadmap/01-scraper-mercadona.md`](../docs/roadmap/01-scraper-mercadona.md)).
+Scraping de Mercadona y el catálogo regional unificado de Consum, con normalización de categorías,
+persistencia en Postgres e histórico de precios. Para Consum, consultar
+[comandos, alcance y trazabilidad](../docs/consum.md).
 
-> Nota: en el reset de arquitectura (F0) se retiraron los scrapers de Dia/Carrefour/Consum
-> y el backend Firestore. Siguen disponibles en la rama `archive`.
+> Los adaptadores antiguos de Dia/Carrefour/Consum y Firestore siguen en `archive`.
+> Consum tiene una implementación nueva activa, con paginación por offset.
 
 ## Requisitos
 
@@ -23,7 +23,8 @@ python scraper/main.py categories stats mercadona          # estadísticas de ma
 python scraper/main.py categories taxonomy                 # ver taxonomía maestra
 ```
 
-Hasta que F1 añada la persistencia a Postgres, usa siempre `--dry-run`.
+`--dry-run` evita persistir productos, históricos y mapeos. Para importar datos,
+aplica las migraciones y ejecuta el comando sin esa opción.
 
 ## Documentación
 
@@ -34,5 +35,5 @@ Hasta que F1 añada la persistencia a Postgres, usa siempre `--dry-run`.
 ## Estructura
 
 - **main.py** — CLI (`scrape`, `categories`)
-- **scrapers/** — `BaseScraper`, `mercadona/`, `categories/` (taxonomía + mapper), `http_client`, `models`, `validators`
+- **scrapers/** — `BaseScraper`, `mercadona/`, `consum/`, `categories/` (taxonomía + mapper), `http_client`, `models`, `validators`
 - **scrapers/data/** — taxonomía maestra y mapeos de categorías (JSON)

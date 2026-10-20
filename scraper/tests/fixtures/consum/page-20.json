@@ -1,0 +1,3287 @@
+{
+  "totalCount": 3233,
+  "totalRecipeCount": 0,
+  "hasMore": true,
+  "products": [
+    {
+      "id": 5080,
+      "productType": 1,
+      "code": "487595",
+      "ean": "3046920028004",
+      "type": "product",
+      "productData": {
+        "name": "Chocolate 70% Cacao Excellence",
+        "brand": {
+          "id": "LINDT",
+          "name": "LINDT",
+          "url": "lindt",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/chocolate-70-cacao-excellence/487595",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/487595.jpg?t=20260827095532",
+        "description": "Chocolate 70% Cacao Excellence 100 Gr",
+        "seo": "chocolate-70-cacao-excellence",
+        "seoTitle": "",
+        "seoDescription": "chocolate-70-cacao-excellence",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/487595_001.jpg?t=20211030040002",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/487595_002.jpg?t=20211030040002",
+          "order": 2,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 5.25,
+              "centUnitAmount": 52.5
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 Kg",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 5234,
+          "name": "Chocolate Negro",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13257504,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Acumul",
+          "shortDescription": "Acumulas en tu cheque regalo",
+          "longDescription": "Acumulas en tu cheque regalo",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-diferido.png",
+          "promotionId": 436529332,
+          "promotionType": 2,
+          "inmediate": false,
+          "applicationTargetType": 1,
+          "applicationActionType": 1,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 1.0,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5094,
+      "productType": 1,
+      "code": "553768",
+      "ean": "8410285124377",
+      "type": "product",
+      "productData": {
+        "name": "Nata para Cocinar Textura Espesa Botellín",
+        "brand": {
+          "id": "PRESIDENT",
+          "name": "PRESIDENT",
+          "url": "president",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/nata-para-cocinar-textura-espesa-botellin/553768",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/553768.jpg?t=20260901075801",
+        "description": "Nata para Cocinar Textura Espesa Botellín 250 ml",
+        "seo": "nata-para-cocinar-textura-espesa-botellin",
+        "seoTitle": "",
+        "seoDescription": "nata-para-cocinar-textura-espesa-botellin",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/553768_001.jpg?t=20230303040001",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/553768_002.jpg?t=20210925040025",
+          "order": 2,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 1.95,
+              "centUnitAmount": 7.8
+            }
+          },
+          {
+            "id": "OFFER_PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 1.75,
+              "centUnitAmount": 7.0
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 L",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 2101,
+          "name": "Nata para cocinar",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13257603,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Ahora ",
+          "shortDescription": "Ahora más barato",
+          "longDescription": "Ahora más barato",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+          "promotionId": 436529455,
+          "promotionType": 1,
+          "inmediate": true,
+          "applicationTargetType": 1,
+          "applicationActionType": 2,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 1.75,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5096,
+      "productType": 1,
+      "code": "575431",
+      "ean": "8410175068491",
+      "type": "product",
+      "productData": {
+        "name": "Confitura Diet Arándano y Frambuesa",
+        "brand": {
+          "id": "HERO",
+          "name": "HERO",
+          "url": "hero",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/confitura-diet-arandano-y-frambuesa/575431",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/575431.jpg?t=20260812080139",
+        "description": "Confitura Diet Arándano y Frambuesa 280 Gr",
+        "seo": "confitura-diet-arandano-y-frambuesa",
+        "seoTitle": "",
+        "seoDescription": "confitura-diet-arandano-y-frambuesa",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/575431_001.jpg?t=20251115130002",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/575431_002.jpg?t=20251115130002",
+          "order": 2,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/575431_003.jpg?t=20251115130002",
+          "order": 3,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 2.99,
+              "centUnitAmount": 10.68
+            }
+          },
+          {
+            "id": "OFFER_PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 2.39,
+              "centUnitAmount": 8.54
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 Kg",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 1568,
+          "name": "Mermeladas y confituras",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13409494,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Ahora ",
+          "shortDescription": "Ahora más barato",
+          "longDescription": "Ahora más barato",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+          "promotionId": 440325057,
+          "promotionType": 1,
+          "inmediate": true,
+          "applicationTargetType": 1,
+          "applicationActionType": 2,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 2.39,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5100,
+      "productType": 1,
+      "code": "584482",
+      "ean": "8411700004762",
+      "type": "product",
+      "productData": {
+        "name": "Leche Calcio Semidesnatada Brik",
+        "brand": {
+          "id": "PULEVA",
+          "name": "PULEVA",
+          "url": "puleva",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/leche-calcio-semidesnatada-brik/584482",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/584482.jpg?t=20260827095541",
+        "description": "Leche Calcio Semidesnatada Brik 1 L",
+        "seo": "leche-calcio-semidesnatada-brik",
+        "seoTitle": "",
+        "seoDescription": "leche-calcio-semidesnatada-brik",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/584482_001.jpg?t=20240823091501",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/584482_002.jpg?t=20240823091501",
+          "order": 2,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/584482_003.jpg?t=20240823091501",
+          "order": 3,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/584482_004.jpg?t=20240823091501",
+          "order": 4,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 1.59,
+              "centUnitAmount": 1.59
+            }
+          },
+          {
+            "id": "OFFER_PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 1.29,
+              "centUnitAmount": 1.29
+            }
+          }
+        ],
+        "taxPercentage": 4.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 L",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 2082,
+          "name": "Leche con calcio",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13409594,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Ahora ",
+          "shortDescription": "Ahora más barato",
+          "longDescription": "Ahora más barato",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+          "promotionId": 440325157,
+          "promotionType": 1,
+          "inmediate": true,
+          "applicationTargetType": 1,
+          "applicationActionType": 2,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 1.29,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5116,
+      "productType": 1,
+      "code": "682716",
+      "ean": "8410031132519",
+      "type": "product",
+      "productData": {
+        "name": "Caramelos con Palo Bolsa 10 Unidades",
+        "brand": {
+          "id": "CHUPA-CHUPS",
+          "name": "CHUPA-CHUPS",
+          "url": "chupa-chups",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/caramelos-con-palo-bolsa-10-unidades/682716",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/682716.jpg?t=20260813075718",
+        "description": "Caramelos con Palo Bolsa 10 Unidades 120 Gr",
+        "seo": "caramelos-con-palo-bolsa-10-unidades",
+        "seoTitle": "",
+        "seoDescription": "caramelos-con-palo-bolsa-10-unidades",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/682716_001.jpg?t=20201006083003",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/682716_002.jpg?t=20201006083003",
+          "order": 2,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 2.19,
+              "centUnitAmount": 18.25
+            }
+          },
+          {
+            "id": "OFFER_PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 1.85,
+              "centUnitAmount": 15.42
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 Kg",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 5039,
+          "name": "Caramelos",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13258497,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Ahora ",
+          "shortDescription": "Ahora más barato",
+          "longDescription": "Ahora más barato",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+          "promotionId": 436530571,
+          "promotionType": 1,
+          "inmediate": true,
+          "applicationTargetType": 1,
+          "applicationActionType": 2,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 1.85,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5122,
+      "productType": 1,
+      "code": "710343",
+      "ean": "8410100063935",
+      "type": "product",
+      "productData": {
+        "name": "Pasta Oriental Pollo Bolsa",
+        "brand": {
+          "id": "MAGGI",
+          "name": "MAGGI",
+          "url": "maggi",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/pasta-oriental-pollo-bolsa/710343",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/710343.jpg?t=20260812080140",
+        "description": "Pasta Oriental Pollo Bolsa 71 Gr",
+        "seo": "pasta-oriental-pollo-bolsa",
+        "seoTitle": "",
+        "seoDescription": "pasta-oriental-pollo-bolsa",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/710343_001.jpg?t=20260220041502",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/710343_002.jpg?t=20231025040008",
+          "order": 2,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/710343_003.jpg?t=20231025040008",
+          "order": 3,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 0.99,
+              "centUnitAmount": 13.94
+            }
+          },
+          {
+            "id": "OFFER_PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 0.85,
+              "centUnitAmount": 11.97
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 Kg",
+        "minimumUnit": 1.0,
+        "maximumUnit": 10.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 2496,
+          "name": "Noodles",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13258696,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Ahora ",
+          "shortDescription": "Ahora más barato",
+          "longDescription": "Ahora más barato",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+          "promotionId": 436530831,
+          "promotionType": 1,
+          "inmediate": true,
+          "applicationTargetType": 1,
+          "applicationActionType": 2,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 0.85,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5176,
+      "productType": 1,
+      "code": "941096",
+      "ean": "8410175068484",
+      "type": "product",
+      "productData": {
+        "name": "Confitura Diet Melocotón",
+        "brand": {
+          "id": "HERO",
+          "name": "HERO",
+          "url": "hero",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/confitura-diet-melocoton/941096",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/941096.jpg?t=20260812080141",
+        "description": "Confitura Diet Melocotón 280 Gr",
+        "seo": "confitura-diet-melocoton",
+        "seoTitle": "",
+        "seoDescription": "confitura-diet-melocoton",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/941096_001.jpg?t=20251115130003",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/941096_002.jpg?t=20251115130003",
+          "order": 2,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/941096_003.jpg?t=20251115130003",
+          "order": 3,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 2.99,
+              "centUnitAmount": 10.68
+            }
+          },
+          {
+            "id": "OFFER_PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 2.39,
+              "centUnitAmount": 8.54
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 Kg",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 1568,
+          "name": "Mermeladas y confituras",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13410041,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Ahora ",
+          "shortDescription": "Ahora más barato",
+          "longDescription": "Ahora más barato",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+          "promotionId": 440325607,
+          "promotionType": 1,
+          "inmediate": true,
+          "applicationTargetType": 1,
+          "applicationActionType": 2,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 2.39,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5208,
+      "productType": 1,
+      "code": "1368042",
+      "ean": "3046920028363",
+      "type": "product",
+      "productData": {
+        "name": "Chocolate 85% Cacao Excellence",
+        "brand": {
+          "id": "LINDT",
+          "name": "LINDT",
+          "url": "lindt",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/chocolate-85-cacao-excellence/1368042",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/1368042.jpg?t=20260827095648",
+        "description": "Chocolate 85% Cacao Excellence 100 Gr",
+        "seo": "chocolate-85-cacao-excellence",
+        "seoTitle": "",
+        "seoDescription": "chocolate-85-cacao-excellence",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/1368042_001.jpg?t=20211030040002",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/1368042_002.jpg?t=20211030040002",
+          "order": 2,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 5.49,
+              "centUnitAmount": 54.9
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 Kg",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 5234,
+          "name": "Chocolate Negro",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13260125,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Acumul",
+          "shortDescription": "Acumulas en tu cheque regalo",
+          "longDescription": "Acumulas en tu cheque regalo",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-diferido.png",
+          "promotionId": 436532510,
+          "promotionType": 2,
+          "inmediate": false,
+          "applicationTargetType": 1,
+          "applicationActionType": 1,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 1.0,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5216,
+      "productType": 1,
+      "code": "1509256",
+      "ean": "8411700011111",
+      "type": "product",
+      "productData": {
+        "name": "Bebida Láctea Desnatada Omega 3 Brik",
+        "brand": {
+          "id": "PULEVA",
+          "name": "PULEVA",
+          "url": "puleva",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/bebida-lactea-desnatada-omega-3-brik/1509256",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/1509256.jpg?t=20260827095651",
+        "description": "Bebida Láctea Desnatada Omega 3 Brik 1 L",
+        "seo": "bebida-lactea-desnatada-omega-3-brik",
+        "seoTitle": "",
+        "seoDescription": "bebida-lactea-desnatada-omega-3-brik",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/1509256_001.jpg?t=20231025040003",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/1509256_002.jpg?t=20231025040003",
+          "order": 2,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/1509256_003.jpg?t=20231025040003",
+          "order": 3,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/1509256_004.jpg?t=20231025040003",
+          "order": 4,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 1.89,
+              "centUnitAmount": 1.89
+            }
+          },
+          {
+            "id": "OFFER_PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 1.69,
+              "centUnitAmount": 1.69
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 L",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 2093,
+          "name": "Preparados lácteos",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13410141,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Ahora ",
+          "shortDescription": "Ahora más barato",
+          "longDescription": "Ahora más barato",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+          "promotionId": 440325707,
+          "promotionType": 1,
+          "inmediate": true,
+          "applicationTargetType": 1,
+          "applicationActionType": 2,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 1.69,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5240,
+      "productType": 1,
+      "code": "2366466",
+      "ean": "8410000802771",
+      "type": "product",
+      "productData": {
+        "name": "Galletas Mini con gotas de Chocolate",
+        "brand": {
+          "id": "CHIPS AHOY",
+          "name": "CHIPS AHOY",
+          "url": "chips-ahoy",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/galletas-mini-con-gotas-de-chocolate/2366466",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/2366466.jpg?t=20260827095708",
+        "description": "Galletas Mini con gotas de Chocolate 160 Gr",
+        "seo": "galletas-mini-con-gotas-de-chocolate",
+        "seoTitle": "",
+        "seoDescription": "galletas-mini-con-gotas-de-chocolate",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/2366466_001.jpg?t=20250409091501",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/2366466_002.jpg?t=20250409091501",
+          "order": 2,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/2366466_003.jpg?t=20250409091501",
+          "order": 3,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 1.99,
+              "centUnitAmount": 12.44
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 Kg",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 1915,
+          "name": "Galletas de chocolate",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13260655,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Acumul",
+          "shortDescription": "Acumulas en tu cheque regalo",
+          "longDescription": "Acumulas en tu cheque regalo",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-diferido.png",
+          "promotionId": 436533098,
+          "promotionType": 2,
+          "inmediate": false,
+          "applicationTargetType": 1,
+          "applicationActionType": 1,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 0.4,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5254,
+      "productType": 1,
+      "code": "2633303",
+      "ean": "8410091073616",
+      "type": "product",
+      "productData": {
+        "name": "Café Creme Express Molido",
+        "brand": {
+          "id": "MARCILLA",
+          "name": "MARCILLA",
+          "url": "marcilla",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/cafe-creme-express-molido/2633303",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/2633303.jpg?t=20260812080144",
+        "description": "Café Creme Express Molido 250 Gr",
+        "seo": "cafe-creme-express-molido",
+        "seoTitle": "",
+        "seoDescription": "cafe-creme-express-molido",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/2633303_001.jpg?t=20241112091502",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/2633303_002.jpg?t=20241112091502",
+          "order": 2,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/2633303_003.jpg?t=20241112091502",
+          "order": 3,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/2633303_004.jpg?t=20241112091502",
+          "order": 4,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 4.95,
+              "centUnitAmount": 19.8
+            }
+          },
+          {
+            "id": "OFFER_PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 4.49,
+              "centUnitAmount": 17.96
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 Kg",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 1886,
+          "name": "Café Molido natural",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13260821,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Ahora ",
+          "shortDescription": "Ahora más barato",
+          "longDescription": "Ahora más barato",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+          "promotionId": 436533288,
+          "promotionType": 1,
+          "inmediate": true,
+          "applicationTargetType": 1,
+          "applicationActionType": 2,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 4.49,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5270,
+      "productType": 1,
+      "code": "3000072",
+      "ean": "8410100024011",
+      "type": "product",
+      "productData": {
+        "name": "Café Grano Natural",
+        "brand": {
+          "id": "BONKA",
+          "name": "BONKA",
+          "url": "bonka",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/cafe-grano-natural/3000072",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/3000072.jpg?t=20260812080144",
+        "description": "Café Grano Natural 500 Gr",
+        "seo": "cafe-grano-natural",
+        "seoTitle": "",
+        "seoDescription": "cafe-grano-natural",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/3000072_001.jpg?t=20260220041501",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/3000072_002.jpg?t=20260220041501",
+          "order": 2,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/3000072_003.jpg?t=20260220041501",
+          "order": 3,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/3000072_004.jpg?t=20260220041501",
+          "order": 4,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 10.3,
+              "centUnitAmount": 20.6
+            }
+          },
+          {
+            "id": "OFFER_PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 7.9,
+              "centUnitAmount": 15.8
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 Kg",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 1883,
+          "name": "Café Grano",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13464127,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Ahora ",
+          "shortDescription": "Ahora más barato",
+          "longDescription": "Ahora más barato",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+          "promotionId": 443762381,
+          "promotionType": 1,
+          "inmediate": true,
+          "applicationTargetType": 1,
+          "applicationActionType": 2,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 7.9,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5297,
+      "productType": 1,
+      "code": "3434826",
+      "ean": "8410100002002",
+      "type": "product",
+      "productData": {
+        "name": "Leche Condensada Entera Sirvefácil",
+        "brand": {
+          "id": "LA LECHERA",
+          "name": "LA LECHERA",
+          "url": "la-lechera",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/leche-condensada-entera-sirvefacil/3434826",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/3434826.jpg?t=20260901075839",
+        "description": "Leche Condensada Entera Sirvefácil 450 Gr",
+        "seo": "leche-condensada-entera-sirvefacil",
+        "seoTitle": "",
+        "seoDescription": "leche-condensada-entera-sirvefacil",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/3434826_001.jpg?t=20261003041503",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/3434826_002.jpg?t=20261003041503",
+          "order": 2,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/3434826_003.jpg?t=20261003041503",
+          "order": 3,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 3.25,
+              "centUnitAmount": 7.22
+            }
+          },
+          {
+            "id": "OFFER_PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 2.75,
+              "centUnitAmount": 6.11
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 Kg",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 2073,
+          "name": "Condensada",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13410428,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Ahora ",
+          "shortDescription": "Ahora más barato",
+          "longDescription": "Ahora más barato",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+          "promotionId": 440325994,
+          "promotionType": 1,
+          "inmediate": true,
+          "applicationTargetType": 1,
+          "applicationActionType": 2,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 2.75,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5332,
+      "productType": 1,
+      "code": "4796793",
+      "ean": "8410740012324",
+      "type": "product",
+      "productData": {
+        "name": "Chocolate Extrafino Lacasitos",
+        "brand": {
+          "id": "LACASA",
+          "name": "LACASA",
+          "url": "lacasa",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/chocolate-extrafino-lacasitos/4796793",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/4796793.jpg?t=20260812080146",
+        "description": "Chocolate Extrafino Lacasitos 100 Gr",
+        "seo": "chocolate-extrafino-lacasitos",
+        "seoTitle": "",
+        "seoDescription": "chocolate-extrafino-lacasitos",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/4796793_001.jpg?t=20240819130004",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/4796793_002.jpg?t=20240819130004",
+          "order": 2,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/4796793_003.jpg?t=20240819130004",
+          "order": 3,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 1.99,
+              "centUnitAmount": 19.9
+            }
+          },
+          {
+            "id": "OFFER_PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 1.49,
+              "centUnitAmount": 14.9
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 Kg",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 5235,
+          "name": "Chocolate con Leche",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13393445,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Ahora ",
+          "shortDescription": "Ahora más barato",
+          "longDescription": "Ahora más barato",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+          "promotionId": 439915781,
+          "promotionType": 1,
+          "inmediate": true,
+          "applicationTargetType": 1,
+          "applicationActionType": 2,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 1.49,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5351,
+      "productType": 1,
+      "code": "5501978",
+      "ean": "8410180106034",
+      "type": "product",
+      "productData": {
+        "name": "Galletas Integrales Marie Lu",
+        "brand": {
+          "id": "FONTANEDA",
+          "name": "FONTANEDA",
+          "url": "fontaneda",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/galletas-integrales-marie-lu/5501978",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/5501978.jpg?t=20260827095805",
+        "description": "Galletas Integrales Marie Lu 520 Gr",
+        "seo": "galletas-integrales-marie-lu",
+        "seoTitle": "",
+        "seoDescription": "galletas-integrales-marie-lu",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/5501978_001.jpg?t=20250701091502",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/5501978_002.jpg?t=20250701091502",
+          "order": 2,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/5501978_003.jpg?t=20250701091502",
+          "order": 3,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 3.85,
+              "centUnitAmount": 7.4
+            }
+          },
+          {
+            "id": "OFFER_PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 3.25,
+              "centUnitAmount": 6.25
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 Kg",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 1917,
+          "name": "Desayuno y maría",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13262478,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Ahora ",
+          "shortDescription": "Ahora más barato",
+          "longDescription": "Ahora más barato",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+          "promotionId": 436535140,
+          "promotionType": 1,
+          "inmediate": true,
+          "applicationTargetType": 1,
+          "applicationActionType": 2,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 3.25,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5352,
+      "productType": 1,
+      "code": "5513478",
+      "ean": "5000127524026",
+      "type": "product",
+      "productData": {
+        "name": "Copos de Cereales con Frutas Rojas",
+        "brand": {
+          "id": "SPECIAL K",
+          "name": "SPECIAL K",
+          "url": "special-k",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/copos-de-cereales-con-frutas-rojas/5513478",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/5513478.jpg?t=20260827095806",
+        "description": "Copos de Cereales con Frutas Rojas 300 Gr",
+        "seo": "copos-de-cereales-con-frutas-rojas",
+        "seoTitle": "",
+        "seoDescription": "copos-de-cereales-con-frutas-rojas",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/5513478_001.jpg?t=20250828091506",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/5513478_002.jpg?t=20250828091506",
+          "order": 2,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/5513478_003.jpg?t=20250828091506",
+          "order": 3,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 4.49,
+              "centUnitAmount": 14.97
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 Kg",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 4052,
+          "name": "Cereales",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13410857,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Acumul",
+          "shortDescription": "Acumulas en tu cheque regalo",
+          "longDescription": "Acumulas en tu cheque regalo",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-diferido.png",
+          "promotionId": 440326423,
+          "promotionType": 2,
+          "inmediate": false,
+          "applicationTargetType": 1,
+          "applicationActionType": 1,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 0.7,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5364,
+      "productType": 1,
+      "code": "5743596",
+      "ean": "8410100002026",
+      "type": "product",
+      "productData": {
+        "name": "Leche Condensada Desnatada Sirvefácil",
+        "brand": {
+          "id": "LA LECHERA",
+          "name": "LA LECHERA",
+          "url": "la-lechera",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/leche-condensada-desnatada-sirvefacil/5743596",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/5743596.jpg?t=20260901075847",
+        "description": "Leche Condensada Desnatada Sirvefácil 450 Gr",
+        "seo": "leche-condensada-desnatada-sirvefacil",
+        "seoTitle": "",
+        "seoDescription": "leche-condensada-desnatada-sirvefacil",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/5743596_001.jpg?t=20261003041503",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/5743596_002.jpg?t=20261003041503",
+          "order": 2,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/5743596_003.jpg?t=20261003041503",
+          "order": 3,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 3.25,
+              "centUnitAmount": 7.22
+            }
+          },
+          {
+            "id": "OFFER_PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 2.75,
+              "centUnitAmount": 6.11
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 Kg",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 2073,
+          "name": "Condensada",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13464389,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Ahora ",
+          "shortDescription": "Ahora más barato",
+          "longDescription": "Ahora más barato",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+          "promotionId": 443762644,
+          "promotionType": 1,
+          "inmediate": true,
+          "applicationTargetType": 1,
+          "applicationActionType": 2,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 2.75,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5378,
+      "productType": 1,
+      "code": "6013155",
+      "ean": "8410376009392",
+      "type": "product",
+      "productData": {
+        "name": "Galletas Fibra sin Azúcares",
+        "brand": {
+          "id": "GULLON ZERO",
+          "name": "GULLON ZERO",
+          "url": "gullon-zero",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/galletas-fibra-sin-azucares/6013155",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/6013155.jpg?t=20260812080147",
+        "description": "Galletas Fibra sin Azúcares 170 Gr",
+        "seo": "galletas-fibra-sin-azucares",
+        "seoTitle": "",
+        "seoDescription": "galletas-fibra-sin-azucares",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/6013155_001.jpg?t=20250925130002",
+          "order": 1,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 2.05,
+              "centUnitAmount": 12.06
+            }
+          },
+          {
+            "id": "OFFER_PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 1.49,
+              "centUnitAmount": 8.77
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 Kg",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 1925,
+          "name": "Galletas saludables",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13263044,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Ahora ",
+          "shortDescription": "Ahora más barato",
+          "longDescription": "Ahora más barato",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+          "promotionId": 436535813,
+          "promotionType": 1,
+          "inmediate": true,
+          "applicationTargetType": 1,
+          "applicationActionType": 2,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 1.49,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5412,
+      "productType": 1,
+      "code": "7010135",
+      "ean": "8410748201003",
+      "type": "product",
+      "productData": {
+        "name": "Caldo Líquido de Pollo Brik",
+        "brand": {
+          "id": "ANETO",
+          "name": "ANETO",
+          "url": "aneto",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/caldo-liquido-de-pollo-brik/7010135",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7010135.jpg?t=20260812080148",
+        "description": "Caldo Líquido de Pollo Brik 1 L",
+        "seo": "caldo-liquido-de-pollo-brik",
+        "seoTitle": "",
+        "seoDescription": "caldo-liquido-de-pollo-brik",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7010135_001.jpg?t=20241015170002",
+          "order": 1,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7010135_002.jpg?t=20211008040003",
+          "order": 2,
+          "type": "P"
+        },
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7010135_003.jpg?t=20211008040003",
+          "order": 3,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 4.45,
+              "centUnitAmount": 4.45
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 L",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 2491,
+          "name": "Caldo liquido",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13411282,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Acumul",
+          "shortDescription": "Acumulas en tu cheque regalo",
+          "longDescription": "Acumulas en tu cheque regalo",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-diferido.png",
+          "promotionId": 440326848,
+          "promotionType": 2,
+          "inmediate": false,
+          "applicationTargetType": 1,
+          "applicationActionType": 1,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 0.9,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "id": 5453,
+      "productType": 1,
+      "code": "7022494",
+      "ean": "8410128796280",
+      "type": "product",
+      "productData": {
+        "name": "Bebida de Soja Chocolate",
+        "brand": {
+          "id": "VIVESOY",
+          "name": "VIVESOY",
+          "url": "vivesoy",
+          "landing": false
+        },
+        "url": "https://tienda.consum.es/es/p/bebida-de-soja-chocolate/7022494",
+        "imageURL": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7022494.jpg?t=20260827095843",
+        "description": "Bebida de Soja Chocolate 1 L",
+        "seo": "bebida-de-soja-chocolate",
+        "seoTitle": "",
+        "seoDescription": "bebida-de-soja-chocolate",
+        "attributeGroups": [
+          {
+            "code": "group.attribute.default",
+            "name": "Información del producto",
+            "tooltip": "",
+            "visibility": true,
+            "infoProduct": true,
+            "attributes": [
+              {
+                "code": "hidden.midiadia",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "1"
+                    ]
+                  }
+                ]
+              },
+              {
+                "code": "filter.id.brand.distributor",
+                "languages": [
+                  {
+                    "lang": "00",
+                    "values": [
+                      "0"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "code": "hidden.midiadia",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "1"
+                ]
+              }
+            ]
+          },
+          {
+            "code": "filter.id.brand.distributor",
+            "languages": [
+              {
+                "lang": "00",
+                "values": [
+                  "0"
+                ]
+              }
+            ]
+          }
+        ],
+        "format": "",
+        "novelty": false,
+        "featured": false,
+        "sponsored": false,
+        "actions": [],
+        "containAllergensIntolernacies": false,
+        "availability": "1",
+        "temporaryOutOfStock": false
+      },
+      "media": [
+        {
+          "url": "https://cdn-consum.aktiosdigitalservices.com/tol/consum/media/product/img/300x300/7022494_001.jpg?t=20240720170002",
+          "order": 1,
+          "type": "P"
+        }
+      ],
+      "priceData": {
+        "prices": [
+          {
+            "id": "PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 1.99,
+              "centUnitAmount": 1.99
+            }
+          },
+          {
+            "id": "OFFER_PRICE",
+            "toDate": "2099-12-31T22:59:59Z",
+            "value": {
+              "centAmount": 1.75,
+              "centUnitAmount": 1.75
+            }
+          }
+        ],
+        "taxPercentage": 10.0,
+        "priceUnitType": "",
+        "unitPriceUnitType": "1 L",
+        "minimumUnit": 1.0,
+        "maximumUnit": 49.0,
+        "intervalUnit": 1.0
+      },
+      "purchaseData": {
+        "allowComments": false
+      },
+      "categories": [
+        {
+          "id": 2056,
+          "name": "Batidos",
+          "type": 0
+        },
+        {
+          "id": 999992811,
+          "name": "Ofertas en despensa",
+          "type": 1
+        }
+      ],
+      "offers": [
+        {
+          "id": 13264100,
+          "from": "2026-09-23T22:00:00.000Z",
+          "to": "2026-10-21T21:59:00.000Z",
+          "minDescription": "Ahora ",
+          "shortDescription": "Ahora más barato",
+          "longDescription": "Ahora más barato",
+          "image": "https://cdn-consum.aktiosdigitalservices.com/assets/promotion/es/oferta-inmediato.png",
+          "promotionId": 436537116,
+          "promotionType": 1,
+          "inmediate": true,
+          "applicationTargetType": 1,
+          "applicationActionType": 2,
+          "visiblePromotionWidget": false,
+          "visibleValidate": false,
+          "visibleProductWidget": true,
+          "amount": 1.75,
+          "pictoType": "default"
+        }
+      ],
+      "coupons": []
+    }
+  ]
+}
